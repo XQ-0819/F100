@@ -1,0 +1,4 @@
+interface:
+  display_name: "嵌入式最终审查"
+  short_description: "独立只读审查嵌入式候选差异，并给出提交门禁结论与失效条件"
+  default_prompt: "Use $embedded-final-review to perform a read-only final review of the exact staged candidate diff."

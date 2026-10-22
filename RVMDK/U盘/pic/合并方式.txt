@@ -1,0 +1,15 @@
+把下面3个文件
+
+OLD_00
+Language1127
+FILL00
+
+合并00.bin
+
+16:04 2025/6/12
+OLD_00
+FILL00
+lang0516
+FILL01
+
+合并00.bin

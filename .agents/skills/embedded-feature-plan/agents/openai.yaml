@@ -1,0 +1,4 @@
+interface:
+  display_name: "嵌入式功能方案"
+  short_description: "编码前调查调用链、既有接口与影响范围，并输出最小修改方案"
+  default_prompt: "Use $embedded-feature-plan to investigate this feature and produce a read-only minimum-change implementation plan before coding."

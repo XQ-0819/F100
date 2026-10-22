@@ -1,2 +1,44 @@
-# Auto detect text files and perform LF normalization
+# 统一文本文件换行符，避免跨平台提交产生无意义差异
 * text=auto
+
+# 现有嵌入式源码和工程文件可能使用 ANSI/项目代码页及既有行尾，按原始字节保存
+*.c             -text
+*.h             -text
+*.s             -text
+*.asm           -text
+*.ld            -text
+*.sct           -text
+*.ioc           -text
+
+# 规则和通用配置文件统一使用 LF
+*.md            text eol=lf
+*.yml           text eol=lf
+*.yaml          text eol=lf
+*.json          text eol=lf
+*.gitignore     text eol=lf
+.gitattributes  text eol=lf
+.rules-version  text eol=lf
+
+# Windows 批处理文件使用 CRLF
+*.bat           text eol=crlf
+*.cmd           text eol=crlf
+
+# 常见二进制文件禁止换行转换
+*.bin           binary
+*.hex           binary
+*.elf           binary
+*.axf           binary
+*.chm           binary
+
+# 多语言 CSV 由生成工具维护，保留 UTF-8 BOM 和原始换行字节
+*.csv           -text
+
+*.xls           binary
+*.xlsx          binary
+*.xlsm          binary
+*.xlsb          binary
+*.ods           binary
+*.pdf           binary
+*.png           binary
+*.jpg           binary
+*.jpeg          binary

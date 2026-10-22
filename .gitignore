@@ -1,0 +1,114 @@
+# ==========================================
+# 编译中间产物与固件输出 (Build Outputs)
+# ==========================================
+*.d
+*.o
+*.ko
+*.obj
+*.ilk
+*.exp
+*.su
+*.idb
+*.pdb
+*.dep
+*.scvd
+*.orig
+*.bak
+*.env
+*.env.*
+!*.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.dmp
+*.dump
+*.elf
+*.axf
+*.map
+
+# 仅保留可烧录固件文件
+!*.bin
+!*.hex
+
+# Keil MDK 产出目录：忽略其他内容，保留固件、链接脚本和构建查看器
+/RVMDK/OutPut/*
+!/RVMDK/OutPut/**/
+!/RVMDK/OutPut/**/*.bin
+!/RVMDK/OutPut/**/*.hex
+!/RVMDK/OutPut/**/*.sct
+
+/Listings/*
+!/Listings/**/
+!/Listings/**/*.bin
+!/Listings/**/*.hex
+
+/Objects/*
+!/Objects/**/
+!/Objects/**/*.bin
+!/Objects/**/*.hex
+
+*.build_log.htm
+
+# Doxygen 生成目录及 CHM 构建产物
+/html/
+/readme.chm
+/readme.chm.tmp
+
+# ==========================================
+# Keil / IDE 个人界面与布局配置文件
+# ==========================================
+*.uvgui.*
+*.uvopt
+.vs/
+.vscode/
+.idea/
+.cache/
+*.swp
+*.launch
+
+# ==========================================
+# 预编译头、静态库与动态库
+# ==========================================
+*.gch
+*.pch
+*.a
+*.la
+*.lo
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# 可执行文件与系统诊断
+*.exe
+!/RVMDK/OutPut/keil-build-viewer.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.dSYM/
+
+# Linux 内核与模块编译产物
+*.mod*
+# Kbuild 生成的隐藏命令记录（如 .main.o.cmd），不忽略正常 Windows 脚本
+.*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# ==========================================
+# 硬件 PCB 工具临时文件 (Altium Designer 等)
+# ==========================================
+/History/
+/Project Logs*/
+/__History/
+*.PcbDoc.Preview
+*.SchDoc.Preview
+
+# 操作系统垃圾文件
+.DS_Store
+Thumbs.db

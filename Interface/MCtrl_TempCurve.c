@@ -1,0 +1,913 @@
+/*
+******************************************************************
+**                      uCGUIBuilder                            **
+**                  Version:   4.0.0.0                          **
+**                     2012 / 04                               **
+**                   CpoyRight to: wyl                          **
+**              Email:ucguibuilder@163.com                        **
+**          This text was Created by uCGUIBuilder               **
+******************************************************************/
+#include "menuinc.h"
+#include <stdio.h>
+#include <string.h>
+
+
+/*********************************************************************
+*
+*       static data
+*
+**********************************************************************
+*/
+#define GUI_ID_EDIT10  (GUI_ID_USER+1)
+#define GUI_ID_EDIT11  (GUI_ID_USER+2)
+#define GUI_ID_EDIT12  (GUI_ID_USER+3)
+#define GUI_ID_EDIT13  (GUI_ID_USER+4)
+#define GUI_ID_EDIT14  (GUI_ID_USER+5)
+#define GUI_ID_EDIT15  (GUI_ID_USER+6)
+#define GUI_ID_EDIT16  (GUI_ID_USER+7)
+#define GUI_ID_EDIT17  (GUI_ID_USER+8)
+#define GUI_ID_EDIT18  (GUI_ID_USER+9)
+#define GUI_ID_EDIT19  (GUI_ID_USER+10)
+#define GUI_ID_EDIT20  (GUI_ID_USER+11)
+#define GUI_ID_EDIT21  (GUI_ID_USER+12)
+#define GUI_ID_EDIT22  (GUI_ID_USER+13)
+#define GUI_ID_EDIT23  (GUI_ID_USER+14)
+#define GUI_ID_EDIT24  (GUI_ID_USER+15)
+#define GUI_ID_EDIT25  (GUI_ID_USER+16)
+#define GUI_ID_EDIT26  (GUI_ID_USER+17)
+#define GUI_ID_EDIT27  (GUI_ID_USER+18)
+#define GUI_ID_EDIT28  (GUI_ID_USER+19)
+#define GUI_ID_EDIT29  (GUI_ID_USER+20)
+#define GUI_ID_EDIT30  (GUI_ID_USER+21)
+#define GUI_ID_EDIT31  (GUI_ID_USER+22)
+#define GUI_ID_EDIT32  (GUI_ID_USER+23)
+
+#define GUI_ID_TEXT10  (GUI_ID_USER+42)
+#define GUI_ID_TEXT11  (GUI_ID_USER+43)
+#define GUI_ID_TEXT12  (GUI_ID_USER+44)
+#define GUI_ID_TEXT13  (GUI_ID_USER+45)
+#define GUI_ID_TEXT14  (GUI_ID_USER+46)
+#define GUI_ID_TEXT15  (GUI_ID_USER+47)
+#define GUI_ID_TEXT16  (GUI_ID_USER+48)
+#define GUI_ID_TEXT17  (GUI_ID_USER+49)
+
+
+static U8 select_id = 0;
+static TCHG_MENU Mchg_Menu[] = {
+
+    {MSHOW, TYPE_TEXT, GUI_ID_TEXT2,  "%s", 1, SNUM_FLAG},
+    {MSHOW, TYPE_TEXT, GUI_ID_TEXT3,  "%s", 1, SNUM_FLAG},
+    {MSHOW, TYPE_TEXT, GUI_ID_TEXT4,  "%s", 1, SNUM_FLAG},
+    {MSHOW, TYPE_TEXT, GUI_ID_TEXT5,  "%s", 1, SNUM_FLAG},
+    {MSHOW, TYPE_TEXT, GUI_ID_TEXT6,  "%s", 1, SNUM_FLAG},
+
+    {MSHOW, TYPE_EDIT, GUI_ID_EDIT0, "%d", 0, 1},
+    {MSHOW, TYPE_EDIT, GUI_ID_EDIT1, "%d", 0, 1},
+    {MSHOW, TYPE_EDIT, GUI_ID_EDIT2, "%d", 0, 1},
+    {MSHOW, TYPE_EDIT, GUI_ID_EDIT3, "%d", 0, 1},
+    {MSHOW, TYPE_EDIT, GUI_ID_EDIT4, "%d", 0, 1},
+
+    {MSHOW, TYPE_EDIT, GUI_ID_EDIT5, "%.1f", 0, TEMP_RATE},
+    {MSHOW, TYPE_EDIT, GUI_ID_EDIT6, "%.1f", 0, TEMP_RATE},
+    {MSHOW, TYPE_EDIT, GUI_ID_EDIT7, "%.1f", 0, TEMP_RATE},
+    {MSHOW, TYPE_EDIT, GUI_ID_EDIT8, "%.1f", 0, TEMP_RATE},
+    {MSHOW, TYPE_EDIT, GUI_ID_EDIT9, "%.1f", 0, TEMP_RATE},
+
+    {MSHOW, TYPE_EDIT, GUI_ID_EDIT10, "%.1f", 0, TEMP_RATE},
+    {MSHOW, TYPE_EDIT, GUI_ID_EDIT11, "%.1f", 0, TEMP_RATE},
+    {MSHOW, TYPE_EDIT, GUI_ID_EDIT12, "%.1f", 0, TEMP_RATE},
+    {MSHOW, TYPE_EDIT, GUI_ID_EDIT13, "%.1f", 0, TEMP_RATE},
+    {MSHOW, TYPE_EDIT, GUI_ID_EDIT14, "%.1f", 0, TEMP_RATE},
+
+    {MSHOW, TYPE_EDIT, GUI_ID_EDIT15, "%.1f", 0, TEMP_RATE},
+    {MSHOW, TYPE_EDIT, GUI_ID_EDIT16, "%.1f", 0, TEMP_RATE},
+    {MSHOW, TYPE_EDIT, GUI_ID_EDIT17, "%.1f", 0, TEMP_RATE},
+    {MSHOW, TYPE_EDIT, GUI_ID_EDIT18, "%.1f", 0, TEMP_RATE},
+    {MSHOW, TYPE_EDIT, GUI_ID_EDIT19, "%.1f", 0, TEMP_RATE},
+
+    {MSHOW, TYPE_EDIT, GUI_ID_EDIT20, "%.1f", 0, TEMP_RATE},
+    {MSHOW, TYPE_EDIT, GUI_ID_EDIT21, "%.1f", 0, TEMP_RATE},
+    {MSHOW, TYPE_EDIT, GUI_ID_EDIT22, "%.1f", 0, TEMP_RATE},
+    {MSHOW, TYPE_EDIT, GUI_ID_EDIT23, "%.1f", 0, TEMP_RATE},
+    {MSHOW, TYPE_EDIT, GUI_ID_EDIT24, "%.1f", 0, TEMP_RATE},
+
+    {MSHOW, TYPE_EDIT, GUI_ID_EDIT25, "%.1f", 0, TEMP_RATE},
+    {MSHOW, TYPE_EDIT, GUI_ID_EDIT26, "%.1f", 0, TEMP_RATE},
+    {MSHOW, TYPE_EDIT, GUI_ID_EDIT27, "%.1f", 0, TEMP_RATE},
+    {MSHOW, TYPE_EDIT, GUI_ID_EDIT28, "%.1f", 0, TEMP_RATE},
+    {MSHOW, TYPE_EDIT, GUI_ID_EDIT29, "%.1f", 0, TEMP_RATE},
+    {MEXIT, 0, 0, "", 0, 0},
+};
+
+static void Set_OptValue(WM_HWIN hWin, U8 sid)
+{
+    U8 i = 0;
+    //增加是否启用
+//    CHECKBOX_SetState(WM_GetDialogItem(hWin, GUI_ID_CHECK0 ), ctrl_inf.temp_en);
+
+    for (i = 0; i < 5; i++) {
+        if (sid == 0 && i == 0) {
+            continue;
+        }
+
+        CHECKBOX_SetState(WM_GetDialogItem(hWin, GUI_ID_CHECK1 + i ), ctrl_inf.temp[5 * sid + i].enable);
+    }
+
+    Button_CurShow(hWin, sid, 2);
+
+}
+
+static void Menu_Value_Init(WM_HWIN hWin, U8 sid)
+{
+    U8 id = 0, i = 0;
+
+    for (i = 0; i < 5; i++) {
+        Mchg_Menu[id++].value = 5 * sid + i + 1;
+    }
+
+    for (i = 0; i < 5; i++) {
+        Mchg_Menu[id++].value = ctrl_inf.temp[5 * sid + i].grow_day;
+    }
+
+    for (i = 0; i < 5; i++) {
+        Mchg_Menu[id++].value = ctrl_inf.temp[5 * sid + i].heat_temp;
+    }
+
+    for (i = 0; i < 5; i++) {
+        Mchg_Menu[id++].value = ctrl_inf.temp[5 * sid + i].target_temp;
+    }
+
+    for (i = 0; i < 5; i++) {
+        Mchg_Menu[id++].value = ctrl_inf.temp[5 * sid + i].vertical_temp;
+    }
+
+    for (i = 0; i < 5; i++) {
+        Mchg_Menu[id++].value = ctrl_inf.temp[5 * sid + i].min_temp;
+    }
+
+    for (i = 0; i < 5; i++) {
+        Mchg_Menu[id++].value = ctrl_inf.temp[5 * sid + i].max_temp;
+    }
+
+    if (ctrl_inf.extemp.temp_simple == STA_ON) {
+        for (i = 0; i < 5; i++) {
+            Mchg_Menu[20 + i].isshow = MHIDE;
+        }
+    } else {
+        for (i = 0; i < 5; i++) {
+            Mchg_Menu[20 + i].isshow = MSHOW;
+        }
+    }
+}
+
+
+/*********************************************************************
+*
+*       Dialog resource
+*
+* This table conatins the info required to create the dialog.
+* It has been created by ucGUIbuilder.
+*/
+#define XPos_Collec  10
+#define YPos_Collec  5
+#define Y_Space     40
+//#define XPos_Collec1 40
+#define Text_Width   36
+#define Category_Space  10
+
+static const GUI_WIDGET_CREATE_INFO _aDialogCreate[] = {
+    { WINDOW_CreateIndirect,    "",               0,                       0,  0,  800, 480, 0, 0},
+    { TEXT_CreateIndirect,      "控制管理-温度曲线",          GUI_ID_TEXT0,            250, 4, 300, 42, 0, 0},
+
+//    { TEXT_CreateIndirect,      "温度曲线",        GUI_ID_TEXT1,              30 + XPos_Collec, 60, 150, 30, 0, 0},
+//    { CHECKBOX_CreateIndirect,  "启用",        GUI_ID_CHECK0,                 190 + XPos_Collec, 60, 90, CHECK_SIZE, 0, 0},
+
+    { TEXT_CreateIndirect,       "序号",    GUI_ID_TEXT13,            0 + XPos_Collec, 100 + YPos_Collec + Y_Space * 0, 60, Text_Width, 0, 0},
+    { TEXT_CreateIndirect,       "1",    GUI_ID_TEXT2,               0 + XPos_Collec, 100 + YPos_Collec + Y_Space * 1 + Category_Space * 0, 60, Text_Width, 0, 0},
+    { TEXT_CreateIndirect,      "2",      GUI_ID_TEXT3,               0 + XPos_Collec, 100 + YPos_Collec + Y_Space * 2 + Category_Space * 1, 60, Text_Width, 0, 0},
+    { TEXT_CreateIndirect,     "3",       GUI_ID_TEXT4,               0 + XPos_Collec, 100 + YPos_Collec + Y_Space * 3 + Category_Space * 2, 60, Text_Width, 0, 0},
+    { TEXT_CreateIndirect,     "4",     GUI_ID_TEXT5,                0 + XPos_Collec, 100 + YPos_Collec + Y_Space * 4 + Category_Space * 3, 60, Text_Width, 0, 0},
+    { TEXT_CreateIndirect,     "5",      GUI_ID_TEXT6,               0 + XPos_Collec, 100 + YPos_Collec + Y_Space * 5 + Category_Space * 4, 60, Text_Width, 0, 0},
+
+    { TEXT_CreateIndirect,       "日龄",    GUI_ID_TEXT7,                65 + XPos_Collec, 100 + YPos_Collec + Y_Space * 0, 60, Text_Width, 0, 0},
+
+    { EDIT_CreateIndirect,     "8:00",      GUI_ID_EDIT0,                 60 + XPos_Collec, 100 + YPos_Collec + Y_Space * 1, 72, Text_Width, 0, 0},
+    { EDIT_CreateIndirect,    "10:00",     GUI_ID_EDIT1,                  60 + XPos_Collec, 100 + YPos_Collec + Y_Space * 2 + Category_Space * 1, 72, Text_Width, 0, 0},
+    { EDIT_CreateIndirect,    "14:00",        GUI_ID_EDIT2,               60 + XPos_Collec, 100 + YPos_Collec + Y_Space * 3 + Category_Space * 2, 72, Text_Width, 0, 0},
+    { EDIT_CreateIndirect,    "17:00",         GUI_ID_EDIT3,              60 + XPos_Collec, 100 + YPos_Collec + Y_Space * 4 + Category_Space * 3, 72, Text_Width, 0, 0},
+    { EDIT_CreateIndirect,    "00:00",        GUI_ID_EDIT4,                 60 + XPos_Collec, 100 + YPos_Collec + Y_Space * 5 + Category_Space * 4, 72, Text_Width, 0, 0},
+
+
+
+
+    { TEXT_CreateIndirect,        "加热温度",    GUI_ID_TEXT8,        160 + XPos_Collec, 100 + YPos_Collec + Y_Space * 0, 100, Text_Width, 0, 0},
+    { EDIT_CreateIndirect,      "10:00",   GUI_ID_EDIT5,              170 + XPos_Collec, 100 + YPos_Collec + Y_Space * 1, 72, Text_Width, 0, 0},
+    { EDIT_CreateIndirect,       "14:00",  GUI_ID_EDIT6,              170 + XPos_Collec, 100 + YPos_Collec + Y_Space * 2 + Category_Space * 1, 72, Text_Width, 0, 0},
+    { EDIT_CreateIndirect,     "17:00",    GUI_ID_EDIT7,              170 + XPos_Collec, 100 + YPos_Collec + Y_Space * 3 + Category_Space * 2, 72, Text_Width, 0, 0},
+    { EDIT_CreateIndirect,    "24:00",      GUI_ID_EDIT8,             170 + XPos_Collec, 100 + YPos_Collec + Y_Space * 4 + Category_Space * 3, 72, Text_Width, 0, 0},
+    { EDIT_CreateIndirect,     "8:00",       GUI_ID_EDIT9,           170 + XPos_Collec, 100 + YPos_Collec + Y_Space * 5 + Category_Space * 4, 72, Text_Width, 0, 0},
+
+
+
+    { TEXT_CreateIndirect,  "目标温度", GUI_ID_TEXT9,                         265 + XPos_Collec, 100 + YPos_Collec + Y_Space * 0, 100, Text_Width, 0, 0},
+    { EDIT_CreateIndirect,      "3%",      GUI_ID_EDIT10,                 275 + XPos_Collec, 100 + YPos_Collec + Y_Space * 1, 72, Text_Width, 0, 0},
+    { EDIT_CreateIndirect,      "33%",     GUI_ID_EDIT11,                 275 + XPos_Collec, 100 + YPos_Collec + Y_Space * 2 + Category_Space * 1, 72, Text_Width, 0, 0},
+    { EDIT_CreateIndirect,      "33%",      GUI_ID_EDIT12,                275 + XPos_Collec, 100 + YPos_Collec + Y_Space * 3 + Category_Space * 2, 72, Text_Width, 0, 0},
+    { EDIT_CreateIndirect,      "53%",       GUI_ID_EDIT13,               275 + XPos_Collec, 100 + YPos_Collec + Y_Space * 4 + Category_Space * 3, 72, Text_Width, 0, 0},
+    { EDIT_CreateIndirect,      "53%",      GUI_ID_EDIT14,                275 + XPos_Collec, 100 + YPos_Collec + Y_Space * 5 + Category_Space * 4, 72, Text_Width, 0, 0},
+
+    { TEXT_CreateIndirect,      "纵向温度",      GUI_ID_TEXT10,            370 + XPos_Collec, 100 + YPos_Collec + Y_Space * 0, 96, Text_Width, 0, 0},
+    { EDIT_CreateIndirect,      "13%",    GUI_ID_EDIT15,                   380 + XPos_Collec, 100 + YPos_Collec + Y_Space * 1, 72, Text_Width, 0, 0},
+    { EDIT_CreateIndirect,      "13%",    GUI_ID_EDIT16,                   380 + XPos_Collec, 100 + YPos_Collec + Y_Space * 2 + Category_Space * 1, 72, Text_Width, 0, 0},
+    { EDIT_CreateIndirect,      "13%",    GUI_ID_EDIT17,                   380 + XPos_Collec, 100 + YPos_Collec + Y_Space * 3 + Category_Space * 2, 72, Text_Width, 0, 0},
+    { EDIT_CreateIndirect,     "13%",      GUI_ID_EDIT18,                  380 + XPos_Collec, 100 + YPos_Collec + Y_Space * 4 + Category_Space * 3, 72, Text_Width, 0, 0},
+    { EDIT_CreateIndirect,     "13%",       GUI_ID_EDIT19,                 380 + XPos_Collec, 100 + YPos_Collec + Y_Space * 5 + Category_Space * 4, 72, Text_Width, 0, 0},
+
+    { TEXT_CreateIndirect,      "低温报警",      GUI_ID_TEXT11,         475 + XPos_Collec, 100 + YPos_Collec + Y_Space * 0, 96, Text_Width, 0, 0},
+    { EDIT_CreateIndirect,      "300",        GUI_ID_EDIT20,            485 + XPos_Collec, 100 + YPos_Collec + Y_Space * 1, 72, Text_Width, 0, 0},
+    { EDIT_CreateIndirect,      "300",        GUI_ID_EDIT21,            485 + XPos_Collec, 100 + YPos_Collec + Y_Space * 2 + Category_Space * 1, 72, Text_Width, 0, 0},
+    { EDIT_CreateIndirect,      "300",      GUI_ID_EDIT22,              485 + XPos_Collec, 100 + YPos_Collec + Y_Space * 3 + Category_Space * 2, 72, Text_Width, 0, 0},
+    { EDIT_CreateIndirect,     "300",        GUI_ID_EDIT23,             485 + XPos_Collec, 100 + YPos_Collec + Y_Space * 4 + Category_Space * 3, 72, Text_Width, 0, 0},
+    { EDIT_CreateIndirect,     "300",       GUI_ID_EDIT24,              485 + XPos_Collec, 100 + YPos_Collec + Y_Space * 5 + Category_Space * 4, 72, Text_Width, 0, 0},
+
+
+    { TEXT_CreateIndirect,      "高温报警",      GUI_ID_TEXT12,      580 + XPos_Collec, 100 + YPos_Collec + Y_Space * 0, 100, Text_Width, 0, 0},
+    { EDIT_CreateIndirect,      "1",    GUI_ID_EDIT25,               590 + XPos_Collec, 100 + YPos_Collec + Y_Space * 1, 72, Text_Width, 0, 0},
+    { EDIT_CreateIndirect,      "1",   GUI_ID_EDIT26,                590 + XPos_Collec, 100 + YPos_Collec + Y_Space * 2 + Category_Space * 1, 72, Text_Width, 0, 0},
+    { EDIT_CreateIndirect,      "1",    GUI_ID_EDIT27,               590 + XPos_Collec, 100 + YPos_Collec + Y_Space * 3 + Category_Space * 2, 72, Text_Width, 0, 0},
+    { EDIT_CreateIndirect,     "1",      GUI_ID_EDIT28,             590 + XPos_Collec, 100 + YPos_Collec + Y_Space * 4 + Category_Space * 3, 72, Text_Width, 0, 0},
+    { EDIT_CreateIndirect,     "1",     GUI_ID_EDIT29,              590 + XPos_Collec, 100 + YPos_Collec + Y_Space * 5 + Category_Space * 4, 72, Text_Width, 0, 0},
+
+    { CHECKBOX_CreateIndirect,  "启用",        GUI_ID_CHECK1,        695 + XPos_Collec, 100 + YPos_Collec + Y_Space * 1 + Category_Space * 0.5, 90, CHECK_SIZE, 0, 0},
+    { CHECKBOX_CreateIndirect,  "启用",        GUI_ID_CHECK2,        695 + XPos_Collec, 100 + YPos_Collec + Y_Space * 2 + Category_Space * 1.5, 90, CHECK_SIZE, 0, 0},
+    { CHECKBOX_CreateIndirect,  "启用",        GUI_ID_CHECK3,        695 + XPos_Collec, 100 + YPos_Collec + Y_Space * 3 + Category_Space * 2.5, 90, CHECK_SIZE, 0, 0},
+    { CHECKBOX_CreateIndirect,  "启用",        GUI_ID_CHECK4,        695 + XPos_Collec, 100 + YPos_Collec + Y_Space * 4 + Category_Space * 3.5, 90, CHECK_SIZE, 0, 0},
+    { CHECKBOX_CreateIndirect,  "启用",        GUI_ID_CHECK5,        695 + XPos_Collec, 100 + YPos_Collec + Y_Space * 5 + Category_Space * 4.5, 90, CHECK_SIZE, 0, 0},
+
+    { TEXT_CreateIndirect,      "温度修正:",      GUI_ID_TEXT14,      5 + XPos_Collec, 40 + YPos_Collec, 160, Text_Width, 0, 0},
+    { EDIT_CreateIndirect,     "1",     GUI_ID_EDIT30,               150 + XPos_Collec, 40 + YPos_Collec, 72, Text_Width, 0, 0},
+
+    { TEXT_CreateIndirect,      "开始日龄:",      GUI_ID_TEXT16,      245 + XPos_Collec, 40 + YPos_Collec + Y_Space * 0, 120, Text_Width, 0, 0},
+    { EDIT_CreateIndirect,     "1",     GUI_ID_EDIT31,               380 + XPos_Collec, 40 + YPos_Collec, 72, Text_Width, 0, 0},
+    { TEXT_CreateIndirect,      "结束日龄:",      GUI_ID_TEXT17,      465 + XPos_Collec, 40 + YPos_Collec + Y_Space * 0, 140, Text_Width, 0, 0},
+    { EDIT_CreateIndirect,     "1",     GUI_ID_EDIT32,               620 + XPos_Collec, 40 + YPos_Collec, 72, Text_Width, 0, 0},
+
+
+    { BUTTON_CreateIndirect,    "上一页",          GUI_ID_BUTTON0,          MENU_BACK_X1, MENU_BACK_Y, MENU_BACK_W, MENU_BACK_H, 0, 0},
+    { BUTTON_CreateIndirect,    "下一页",          GUI_ID_BUTTON1,          MENU_BACK_X2, MENU_BACK_Y, MENU_BACK_W, MENU_BACK_H, 0, 0},
+    { BUTTON_CreateIndirect,    "返回",             GUI_ID_BUTTON2,         MENU_BACK_X3, MENU_BACK_Y, MENU_BACK_W, MENU_BACK_H, 0, 0},
+
+    { BUTTON_CreateIndirect,    "",     GUI_ID_BUTTON5,           			720, 0, 80, 40, 0, 0},
+    { BUTTON_CreateIndirect,    "",     GUI_ID_BUTTON6,           			660, 0, 90, 60, 0, 0},
+	{ BUTTON_CreateIndirect,    "",     GUI_ID_BUTTON7,           			600, 0, 80, 40, 0, 0},		
+		
+
+};
+
+
+/*****************************************************************
+**      FunctionName:void PaintDialog(WM_MESSAGE * pMsg)
+**      Function: to initialize the Dialog items
+**
+**      call this function in _cbCallback --> WM_PAINT
+*****************************************************************/
+
+static void PaintDialog(WM_MESSAGE * pMsg)
+{
+//    WM_HWIN hWin = pMsg->hWin;
+    Show_MBackPic();
+    GUI_SetColor(GUI_LINE_COLOR);
+    GUI_DrawRoundedRect(6, 95, 794, 396, 10);
+    GUI_DrawRoundedRect(2, 92, 798, 399, 10);
+
+    //划横线1
+//    GUI_DrawLine(6, 95, 794, 95);
+
+//    GUI_DrawLine(6, 136, 794, 136);
+
+//    GUI_DrawLine(6, 184, 794, 184);
+//    GUI_DrawLine(6, 234, 794, 234);
+//    GUI_DrawLine(6, 284, 794, 284);
+//    GUI_DrawLine(6, 334, 794, 334);
+    //划竖线
+
+    //GUI_DrawLine(30, 95, 30, 396);
+    //GUI_DrawLine(217, 95, 217, 396);
+
+    //GUI_DrawLine(398, 95, 398, 396);
+    //GUI_DrawLine(588, 95, 588, 396);
+    //GUI_DrawLine(615, 95, 615, 396);
+}
+
+
+static int temp_id = 0;
+
+static void Grow_Day_Get(void)
+{
+    float ftemp = Get_Input_Value();
+    short stemp = (short)ftemp;
+
+//    if (stemp > TEMP_ADJMAX) {
+//        MWarning_Task(Current_HWIN, Get_Tips(TIPS_LIMIT_ER));
+//        stemp = TEMP_ADJMAX;
+//    }
+
+    if (stemp < 0) {
+        MWarning_Task(Current_HWIN, Get_Tips(TIPS_LIMIT_ER));
+        stemp = 0;
+    }
+
+    ctrl_inf.temp[5 * select_id + temp_id].grow_day = stemp;
+    MChange_Menu(Menu_Value_Init, Current_HWIN, (PCHG_MENU )Mchg_Menu, select_id);
+}
+
+static void Start_Day_Get(void)
+{
+    float ftemp = Get_Input_Value();
+    short stemp = (short)ftemp;
+
+//    if (stemp > TEMP_ADJMAX) {
+//        MWarning_Task(Current_HWIN, Get_Tips(TIPS_LIMIT_ER));
+//        stemp = TEMP_ADJMAX;
+//    }
+
+    if (stemp < 0) {
+        MWarning_Task(Current_HWIN, Get_Tips(TIPS_LIMIT_ER));
+        stemp = 0;
+    }
+
+    ctrl_inf.extemp.start_day = stemp;
+    sprintf(show_buf, "%d", ctrl_inf.extemp.start_day);
+    EDIT_SetText(WM_GetDialogItem(Current_HWIN, GUI_ID_EDIT31), show_buf);
+}
+
+static void Stop_Day_Get(void)
+{
+    float ftemp = Get_Input_Value();
+    short stemp = (short)ftemp;
+
+//    if (stemp > TEMP_ADJMAX) {
+//        MWarning_Task(Current_HWIN, Get_Tips(TIPS_LIMIT_ER));
+//        stemp = TEMP_ADJMAX;
+//    }
+
+    if (stemp < 0) {
+        MWarning_Task(Current_HWIN, Get_Tips(TIPS_LIMIT_ER));
+        stemp = 0;
+    }
+
+    ctrl_inf.extemp.stop_day = stemp;
+    sprintf(show_buf, "%d", ctrl_inf.extemp.stop_day);
+    EDIT_SetText(WM_GetDialogItem(Current_HWIN, GUI_ID_EDIT32), show_buf);
+}
+
+static void Heat_Temp_Get(void)
+{
+    float ftemp = Get_Input_Value() * TEMP_RATE;
+    short stemp = (short)ftemp;
+
+    if (stemp > TEMP_MAX) {
+        MWarning_Task(Current_HWIN, Get_Tips(TIPS_LIMIT_ER));
+        stemp = TEMP_MAX;
+    }
+
+    if (stemp < 0) {
+        MWarning_Task(Current_HWIN, Get_Tips(TIPS_LIMIT_ER));
+        stemp = 0;
+    }
+
+    if (ctrl_inf.temp[5 * select_id + temp_id].target_temp < stemp) {
+        ctrl_inf.temp[5 * select_id + temp_id].target_temp = stemp;
+
+        if (ctrl_inf.temp[5 * select_id + temp_id].vertical_temp < ctrl_inf.temp[5 * select_id + temp_id].target_temp) {
+            ctrl_inf.temp[5 * select_id + temp_id].vertical_temp = ctrl_inf.temp[5 * select_id + temp_id].target_temp;
+        }
+    }
+
+    ctrl_inf.temp[5 * select_id + temp_id].heat_temp = stemp;
+    MChange_Menu(Menu_Value_Init, Current_HWIN, (PCHG_MENU )Mchg_Menu, select_id);
+}
+static void Target_Temp_Get(void)
+{
+    float ftemp = Get_Input_Value() * TEMP_RATE;
+    short stemp = (short)ftemp;
+
+    if (stemp > TEMP_MAX) {
+        MWarning_Task(Current_HWIN, Get_Tips(TIPS_LIMIT_ER));
+        stemp = TEMP_MAX;
+    }
+
+    if (stemp < 0) {
+        MWarning_Task(Current_HWIN, Get_Tips(TIPS_LIMIT_ER));
+        stemp = 0;
+    }
+
+    if (ctrl_inf.temp[5 * select_id + temp_id].heat_temp > stemp) {
+        ctrl_inf.temp[5 * select_id + temp_id].heat_temp = stemp;
+    }
+
+    if (ctrl_inf.temp[5 * select_id + temp_id].vertical_temp < stemp) {
+        ctrl_inf.temp[5 * select_id + temp_id].vertical_temp = stemp;
+    }
+
+    ctrl_inf.temp[5 * select_id + temp_id].target_temp = stemp;
+    MChange_Menu(Menu_Value_Init, Current_HWIN, (PCHG_MENU )Mchg_Menu, select_id);
+}
+static void Vertiacal_Temp_Get(void)
+{
+    float ftemp = Get_Input_Value() * TEMP_RATE;
+    short stemp = (short)ftemp;
+
+    if (stemp > TEMP_MAX) {
+        MWarning_Task(Current_HWIN, Get_Tips(TIPS_LIMIT_ER));
+        stemp = TEMP_MAX;
+    }
+
+    if (stemp < 0) {
+        MWarning_Task(Current_HWIN, Get_Tips(TIPS_LIMIT_ER));
+        stemp = 0;
+    }
+
+    if (ctrl_inf.temp[5 * select_id + temp_id].target_temp > stemp) {
+        ctrl_inf.temp[5 * select_id + temp_id].target_temp = stemp;
+
+        if (ctrl_inf.temp[5 * select_id + temp_id].heat_temp > ctrl_inf.temp[5 * select_id + temp_id].target_temp) {
+            ctrl_inf.temp[5 * select_id + temp_id].heat_temp = ctrl_inf.temp[5 * select_id + temp_id].target_temp;
+        }
+    }
+
+    ctrl_inf.temp[5 * select_id + temp_id].vertical_temp = stemp;
+    MChange_Menu(Menu_Value_Init, Current_HWIN, (PCHG_MENU )Mchg_Menu, select_id);
+}
+static void Min_Temp_Get(void)
+{
+    float ftemp = Get_Input_Value() * TEMP_RATE;
+    short stemp = (short)ftemp;
+
+    if (stemp > TEMP_MAX) {
+        MWarning_Task(Current_HWIN, Get_Tips(TIPS_LIMIT_ER));
+        stemp = TEMP_MAX;
+    }
+
+    if (stemp < 0) {
+        MWarning_Task(Current_HWIN, Get_Tips(TIPS_LIMIT_ER));
+        stemp = 0;
+    }
+
+    ctrl_inf.temp[5 * select_id + temp_id].min_temp = stemp;
+    MChange_Menu(Menu_Value_Init, Current_HWIN, (PCHG_MENU )Mchg_Menu, select_id);
+}
+static void Max_Temp_Get(void)
+{
+    float ftemp = Get_Input_Value() * TEMP_RATE;
+    short stemp = (short)ftemp;
+
+    if (stemp > TEMP_MAX) {
+        MWarning_Task(Current_HWIN, Get_Tips(TIPS_LIMIT_ER));
+        stemp = TEMP_MAX;
+    }
+
+    if (stemp < 0) {
+        MWarning_Task(Current_HWIN, Get_Tips(TIPS_LIMIT_ER));
+        stemp = 0;
+    }
+
+    ctrl_inf.temp[5 * select_id + temp_id].max_temp = stemp;
+    MChange_Menu(Menu_Value_Init, Current_HWIN, (PCHG_MENU )Mchg_Menu, select_id);
+}
+
+static void Adj_Temp_Get(void)
+{
+    float ftemp = Get_Input_Value() * TEMP_RATE;
+    short stemp = (short)ftemp;
+
+    if (stemp > TEMP_ADJMAX) {
+        MWarning_Task(Current_HWIN, Get_Tips(TIPS_LIMIT_ER));
+        stemp = TEMP_ADJMAX;
+    }
+
+    if (stemp < TEMP_ADJMIN) {
+        MWarning_Task(Current_HWIN, Get_Tips(TIPS_LIMIT_ER));
+        stemp = TEMP_ADJMIN;
+    }
+
+    ctrl_inf.temp_adj = stemp;
+    sprintf(show_buf, "%.1f", (float)(ctrl_inf.temp_adj * 1.0f / TEMP_RATE));
+    EDIT_SetText(WM_GetDialogItem(Current_HWIN, GUI_ID_EDIT30), show_buf);
+}
+
+static void Get_OptValue(WM_HWIN hWin, U8 sid)
+{
+    U8 i = 0;
+
+//    ctrl_inf.temp_en = CHECKBOX_GetState(WM_GetDialogItem(hWin, GUI_ID_CHECK0));
+//    ctrl_inf.temp_en = 1;//必须启用
+    ctrl_inf.temp[0].enable = 1;
+
+    for (i = 0; i < 5; i++) {
+        if (sid == 0 && i == 0) {
+            continue;
+        }
+
+        ctrl_inf.temp[5 * sid + i].enable = CHECKBOX_GetState(WM_GetDialogItem(hWin, GUI_ID_CHECK1 + i ));
+    }
+}
+
+/*****************************************************************
+**      FunctionName:void InitDialog(WM_MESSAGE * pMsg)
+**      Function: to initialize the Dialog items
+**
+**      call this function in _cbCallback --> WM_INIT_DIALOG
+*****************************************************************/
+
+static void InitDialog(WM_MESSAGE * pMsg)
+{
+    WM_HWIN hWin = pMsg->hWin;
+    int MDev_ID = 0;
+    WM_HWIN hItem;
+
+
+    for (MDev_ID = GUI_ID_BUTTON0; MDev_ID <= GUI_ID_BUTTON2; MDev_ID++) {
+        hItem = WM_GetDialogItem(hWin, MDev_ID);
+        WM_SetHasTrans(hItem);
+        WM_SetCallback(hItem, Cut_cbButton);
+    }
+
+    for (MDev_ID = GUI_ID_BUTTON5; MDev_ID <= GUI_ID_BUTTON5; MDev_ID++) {
+        hItem = WM_GetDialogItem(hWin, MDev_ID);
+        WM_SetHasTrans(hItem);
+        WM_SetCallback(hItem, Detail_cbButton);
+    }
+
+    for (MDev_ID = GUI_ID_BUTTON6; MDev_ID <= GUI_ID_BUTTON6; MDev_ID++) {//set
+        hItem = WM_GetDialogItem(hWin, MDev_ID);
+        WM_SetHasTrans(hItem);
+        WM_SetCallback(hItem, set_cbButton);
+    }
+
+    for (MDev_ID = GUI_ID_BUTTON7; MDev_ID <= GUI_ID_BUTTON7; MDev_ID++) {//daynight
+        hItem = WM_GetDialogItem(hWin, MDev_ID);
+        WM_SetHasTrans(hItem);
+        WM_SetCallback(hItem, Curve_cbButton);
+    }
+	
+    for (MDev_ID = GUI_ID_EDIT0; MDev_ID <= GUI_ID_EDIT9; MDev_ID++) {
+        hItem = WM_GetDialogItem(hWin, MDev_ID);
+        Edit_SetHZ24(hItem);
+    }
+
+    for (MDev_ID = GUI_ID_EDIT10; MDev_ID <= GUI_ID_EDIT32; MDev_ID++) {
+
+        hItem = WM_GetDialogItem(hWin, MDev_ID);
+        Edit_SetHZ24(hItem);
+//		if(MDev_ID == GUI_ID_EDIT30) {
+//			EDIT_SetTextColor(hItem, EDIT_CI_ENABLED, GUI_BROWN);
+//		}
+    }
+
+
+    for (MDev_ID = GUI_ID_CHECK1; MDev_ID <= GUI_ID_CHECK5; MDev_ID++) {
+        hItem = WM_GetDialogItem(hWin, MDev_ID);
+        CHECKBOX_SetText(hItem, GUI_LANG_GetTextEx(Lang_Enable, Language_Bit));
+        Check_SetHZ24(hItem);
+        Login_Show(hItem, LOGIN_ADMIN);
+    }
+
+
+    for (MDev_ID = GUI_ID_TEXT0; MDev_ID <= GUI_ID_TEXT9; MDev_ID++) {
+        hItem = WM_GetDialogItem(hWin, MDev_ID);
+        Text_SetHZ24(hItem);
+
+        if (MDev_ID == GUI_ID_TEXT0) {
+            TEXT_SetTextAlign(hItem,  GUI_TA_HCENTER | GUI_TA_VCENTER);
+            TEXT_SetTextColor(hItem, GUI_WHITE);
+        }
+    }
+
+    for (MDev_ID = GUI_ID_TEXT10; MDev_ID <= GUI_ID_TEXT17; MDev_ID++) {
+        hItem = WM_GetDialogItem(hWin, MDev_ID);
+        Text_SetHZ24(hItem);
+    }
+
+    sprintf(show_buf, "%.1f", (float)(ctrl_inf.temp_adj * 1.0f / TEMP_RATE));
+    EDIT_SetText(WM_GetDialogItem(hWin, GUI_ID_EDIT30), show_buf);
+
+    sprintf(show_buf, "%d", ctrl_inf.extemp.start_day);
+    EDIT_SetText(WM_GetDialogItem(hWin, GUI_ID_EDIT31), show_buf);
+
+    sprintf(show_buf, "%d", ctrl_inf.extemp.stop_day);
+    EDIT_SetText(WM_GetDialogItem(hWin, GUI_ID_EDIT32), show_buf);
+
+    sprintf(show_buf, "%s-%s", GUI_LANG_GetTextEx(Lang_Control, Language_Bit), GUI_LANG_GetTextEx(Lang_T_Curve, Language_Bit));
+    TEXT_SetText(WM_GetDialogItem(hWin, GUI_ID_TEXT0), show_buf);                                           // 控制管理-温度曲线
+    TEXT_SetText(WM_GetDialogItem(hWin, GUI_ID_TEXT13), GUI_LANG_GetTextEx(Lang_Number_No, Language_Bit));  // 序号
+    TEXT_SetText(WM_GetDialogItem(hWin, GUI_ID_TEXT7), GUI_LANG_GetTextEx(Lang_Day, Language_Bit));         // 日龄
+    TEXT_SetText(WM_GetDialogItem(hWin, GUI_ID_TEXT8), GUI_LANG_GetTextEx(Lang_HeatT, Language_Bit));       // 加热温度
+    TEXT_SetText(WM_GetDialogItem(hWin, GUI_ID_TEXT9), GUI_LANG_GetTextEx(Lang_TarT, Language_Bit));        // 目标温度
+    TEXT_SetText(WM_GetDialogItem(hWin, GUI_ID_TEXT10), GUI_LANG_GetTextEx(Lang_TunnelT, Language_Bit));    // 纵向温度
+    TEXT_SetText(WM_GetDialogItem(hWin, GUI_ID_TEXT11), GUI_LANG_GetTextEx(Lang_T_LA, Language_Bit));       // 低温报警
+    TEXT_SetText(WM_GetDialogItem(hWin, GUI_ID_TEXT12), GUI_LANG_GetTextEx(Lang_T_HA, Language_Bit));       // 高温报警
+    TEXT_SetText(WM_GetDialogItem(hWin, GUI_ID_TEXT14), GUI_LANG_GetTextEx(Lang_TAMD, Language_Bit));       // 温度修正:
+    TEXT_SetText(WM_GetDialogItem(hWin, GUI_ID_TEXT16), GUI_LANG_GetTextEx(Lang_Begin_Day, Language_Bit));  // 开始日龄:
+    TEXT_SetText(WM_GetDialogItem(hWin, GUI_ID_TEXT17), GUI_LANG_GetTextEx(Lang_Finish_Day, Language_Bit)); // 结束日龄:
+    TEXT_SetText(WM_GetDialogItem(hWin, GUI_ID_TEXT15), GUI_LANG_GetTextEx(Lang_oC, Language_Bit)); // 摄氏度
+    if (ctrl_inf.extemp.ala_diff_en == STA_ON) {
+        TEXT_SetText(WM_GetDialogItem(hWin, GUI_ID_TEXT11), GUI_LANG_GetTextEx(Lang_LowT_Diff, Language_Bit)); // 低温偏差
+        TEXT_SetText(WM_GetDialogItem(hWin, GUI_ID_TEXT12), GUI_LANG_GetTextEx(Lang_HT_Diff, Language_Bit));   // 高温偏差
+    }
+
+    Set_OptValue(hWin, select_id);
+    MChange_Menu(Menu_Value_Init, hWin, (PCHG_MENU )Mchg_Menu, select_id);
+
+    WM_HideWindow(WM_GetDialogItem(hWin, GUI_ID_CHECK1));
+
+    if (ctrl_inf.extemp.temp_simple == STA_ON) {
+        WM_HideWindow(WM_GetDialogItem(hWin, GUI_ID_TEXT10));
+
+        for (MDev_ID = GUI_ID_EDIT15; MDev_ID <= GUI_ID_EDIT19; MDev_ID++) {
+            WM_HideWindow(WM_GetDialogItem(hWin, MDev_ID));
+        }
+
+        for (MDev_ID = GUI_ID_EDIT20; MDev_ID <= GUI_ID_EDIT29; MDev_ID++) {
+            WM_MoveWindow(WM_GetDialogItem(hWin, MDev_ID), -80 , 0);
+        }
+
+        for (MDev_ID = GUI_ID_TEXT11; MDev_ID <= GUI_ID_TEXT12; MDev_ID++) {
+            WM_MoveWindow(WM_GetDialogItem(hWin, MDev_ID), -80 , 0);
+        }
+
+        for (MDev_ID = GUI_ID_CHECK1; MDev_ID <= GUI_ID_CHECK5; MDev_ID++) {
+            WM_MoveWindow(WM_GetDialogItem(hWin, MDev_ID), -80 , 0);
+        }
+    }
+}
+
+
+
+
+/*********************************************************************
+*
+*       Dialog callback routine
+*/
+static void _cbCallback(WM_MESSAGE * pMsg)
+{
+    int NCode, Id;
+    WM_HWIN hWin = pMsg->hWin;
+
+    switch (pMsg->MsgId) {
+    case WM_PAINT:
+        PaintDialog(pMsg);
+        break;
+
+    case WM_INIT_DIALOG:
+        InitDialog(pMsg);
+        break;
+
+    case WM_KEY:
+        switch (((WM_KEY_INFO*)(pMsg->Data.p))->Key) {
+        case GUI_KEY_ESCAPE:
+            GUI_EndDialog(hWin, 1);
+            break;
+
+        case GUI_KEY_ENTER:
+            GUI_EndDialog(hWin, 0);
+            break;
+        }
+
+        break;
+
+    case WM_NOTIFY_PARENT:
+        Id = WM_GetId(pMsg->hWinSrc);
+        NCode = pMsg->Data.v;
+
+        if (NCode == WM_NOTIFICATION_CLICKED) {
+            beep_on();
+        }
+
+        if (Id >= GUI_ID_EDIT0 && Id <= GUI_ID_EDIT9 && NCode == WM_NOTIFICATION_RELEASED
+                && get_login_permiss(LOGIN_ADMIN) < 0) {
+            MWarning_Task(WM_GetParent(hWin), Get_Tips(TIPS_NO_LOGIN));
+            break;
+        }
+
+        if (Id >= GUI_ID_EDIT10 && Id <= GUI_ID_EDIT32 && NCode == WM_NOTIFICATION_RELEASED
+                && get_login_permiss(LOGIN_ADMIN) < 0) {
+            MWarning_Task(WM_GetParent(hWin), Get_Tips(TIPS_NO_LOGIN));
+            break;
+        }
+
+        switch (Id) {
+        case GUI_ID_OK:
+            if (NCode == WM_NOTIFICATION_RELEASED)
+                GUI_EndDialog(hWin, 0);
+
+            break;
+
+        case GUI_ID_CANCEL:
+            if (NCode == WM_NOTIFICATION_RELEASED)
+                GUI_EndDialog(hWin, 0);
+
+            break;
+
+        case GUI_ID_BUTTON5:
+            if (NCode == WM_NOTIFICATION_RELEASED) {
+                Get_OptValue(hWin, select_id);
+                Temp_View_Task(hWin);
+            }
+
+            break;
+
+        case GUI_ID_BUTTON7:
+            if (NCode == WM_NOTIFICATION_RELEASED) {
+                Get_OptValue(hWin, select_id);
+                MCtrl_DayTemp_Task(hWin);
+            }
+
+            break;
+			
+
+        case GUI_ID_BUTTON2:
+            if (NCode == WM_NOTIFICATION_RELEASED) {
+                Get_OptValue(hWin, select_id);
+
+                if (Config_Save(STEMP_ID) < 0) {
+                    MWarning_Task(WM_GetParent(hWin), Get_Tips(TIPS_SAVE_ER));
+                }
+
+                Current_HWIN = WM_GetParent(hWin);
+                GUI_EndDialog(hWin, 0);
+            }
+
+            break;
+
+        case GUI_ID_BUTTON0:
+            if (NCode == WM_NOTIFICATION_RELEASED) {
+                if (select_id == 1) {
+                    Get_OptValue(hWin, select_id);
+                    select_id --;
+                    Set_OptValue(hWin, select_id);
+                    MChange_Menu(Menu_Value_Init, hWin, (PCHG_MENU )Mchg_Menu, select_id);
+                    WM_HideWindow(WM_GetDialogItem(hWin, GUI_ID_CHECK1));
+                }
+            }
+
+            break;
+
+        case GUI_ID_BUTTON1:
+            if (NCode == WM_NOTIFICATION_RELEASED) {
+                if (select_id == 0) {
+                    Get_OptValue(hWin, select_id);
+                    select_id ++;
+                    Set_OptValue(hWin, select_id);
+                    MChange_Menu(Menu_Value_Init, hWin, (PCHG_MENU )Mchg_Menu, select_id);
+                    WM_ShowWindow(WM_GetDialogItem(hWin, GUI_ID_CHECK1));
+                }
+            }
+
+            break;
+
+        case GUI_ID_BUTTON6:
+            if (NCode == WM_NOTIFICATION_RELEASED) {
+                Get_OptValue(hWin, select_id);
+                GUI_EndDialog(hWin, 0);
+                MCtrl_TempCurve_Set_Task(WM_GetParent(hWin));
+            }
+
+            break;
+
+        case GUI_ID_EDIT0:
+        case GUI_ID_EDIT1:
+        case GUI_ID_EDIT2:
+        case GUI_ID_EDIT3:
+        case GUI_ID_EDIT4:
+            if (NCode == WM_NOTIFICATION_RELEASED) {
+                temp_id = (Id - GUI_ID_EDIT0);
+                Set_Output_Callback(Grow_Day_Get);
+                Set_Input_Len(3);
+                Input_Task(hWin);
+            }
+
+            break;
+
+        case GUI_ID_EDIT5:
+        case GUI_ID_EDIT6:
+        case GUI_ID_EDIT7:
+        case GUI_ID_EDIT8:
+        case GUI_ID_EDIT9:
+            if (NCode == WM_NOTIFICATION_RELEASED) {
+                temp_id = (Id - GUI_ID_EDIT5);
+                Set_Output_Callback(Heat_Temp_Get);
+                Set_Input_Len(4);
+                Input_Task(hWin);
+            }
+
+            break;
+
+        case GUI_ID_EDIT10:
+        case GUI_ID_EDIT11:
+        case GUI_ID_EDIT12:
+        case GUI_ID_EDIT13:
+        case GUI_ID_EDIT14:
+            if (NCode == WM_NOTIFICATION_RELEASED) {
+                temp_id = (Id - GUI_ID_EDIT10);
+                Set_Output_Callback(Target_Temp_Get);
+                Set_Input_Len(4);
+                Input_Task(hWin);
+            }
+
+            break;
+
+        case GUI_ID_EDIT15:
+        case GUI_ID_EDIT16:
+        case GUI_ID_EDIT17:
+        case GUI_ID_EDIT18:
+        case GUI_ID_EDIT19:
+            if (NCode == WM_NOTIFICATION_RELEASED) {
+                temp_id = (Id - GUI_ID_EDIT15);
+                Set_Output_Callback(Vertiacal_Temp_Get);
+                Set_Input_Len(4);
+                Input_Task(hWin);
+            }
+
+            break;
+
+        case GUI_ID_EDIT20:
+        case GUI_ID_EDIT21:
+        case GUI_ID_EDIT22:
+        case GUI_ID_EDIT23:
+        case GUI_ID_EDIT24:
+            if (NCode == WM_NOTIFICATION_RELEASED) {
+                temp_id = (Id - GUI_ID_EDIT20);
+                Set_Output_Callback(Min_Temp_Get);
+                Set_Input_Len(4);
+                Input_Task(hWin);
+            }
+
+            break;
+
+        case GUI_ID_EDIT25:
+        case GUI_ID_EDIT26:
+        case GUI_ID_EDIT27:
+        case GUI_ID_EDIT28:
+        case GUI_ID_EDIT29:
+            if (NCode == WM_NOTIFICATION_RELEASED) {
+                temp_id = (Id - GUI_ID_EDIT25);
+                Set_Output_Callback(Max_Temp_Get);
+                Set_Input_Len(4);
+                Input_Task(hWin);
+            }
+
+            break;
+
+        case GUI_ID_EDIT30:
+            if (NCode == WM_NOTIFICATION_RELEASED) {
+                Set_Output_Callback(Adj_Temp_Get);
+                Set_Input_Len(4);
+                Input_Task(hWin);
+            }
+
+            break;
+
+
+        case GUI_ID_EDIT31:
+            if (NCode == WM_NOTIFICATION_RELEASED) {
+                Set_Output_Callback(Start_Day_Get);
+                Set_Input_Len(3);
+                Input_Task(hWin);
+            }
+
+            break;
+
+        case GUI_ID_EDIT32:
+            if (NCode == WM_NOTIFICATION_RELEASED) {
+                Set_Output_Callback(Stop_Day_Get);
+                Set_Input_Len(3);
+                Input_Task(hWin);
+            }
+
+            break;
+        }
+
+        break;
+
+    default:
+        WM_DefaultProc(pMsg);
+    }
+}
+
+
+/*********************************************************************
+*
+*       MainTask
+*
+**********************************************************************
+*/
+WM_HWIN MCtrl_TempCurve;
+void MCtrl_TempCurve_Task(WM_HWIN hParent)
+{
+    select_id = 0;
+    MCtrl_TempCurve = GUI_CreateDialogBox(_aDialogCreate, GUI_COUNTOF(_aDialogCreate), &_cbCallback, hParent, 0, 0);
+    Current_HWIN = MCtrl_TempCurve;
+
+}
+

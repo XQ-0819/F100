@@ -1,0 +1,1005 @@
+﻿Lang_English,中文,English,Русский,Việt,Français,Español,العربية
+Lang_T_HA,高温报警,T HA,Жара,Nhiệt cao,T HA,Alta temp,تحذير عالٍ
+Lang_T_LA,低温报警,T LA,Холодно.,Nhiệt Thấp,T BA,Baja temp,تنبيه منخفض
+Lang_Hum_HA,高湿报警,Hum HA,высок мокр,ẩm cao,Hum HA,Alta hum,تنبيه رطوبة ع.
+Lang_Hum_LA,低湿报警,Hum LA,низк мокр,ẩm Thấp,Hum BA,Baja hum,تنبيه رطوبة م.
+Lang_CO2_HA,高CO2报警,CO2 HA,высок CO2,CO2 cao,CO2 HA,Alto CO2,تنبيه CO2 ع.
+Lang_CO2_LA,低CO2报警,CO2 LA,низк CO2,CO2 Thấp,CO2 BA,Bajo CO2,تنبيه CO2 م.
+Lang_NH3_HA,高NH3报警,NH3 HA,высок NH3,NH3 cao,NH3 HA,Alto NH3,تنبيه NH3 ع.
+Lang_NH3_LA,低NH3报警,NH3 LA,низк NH3,NH3 Thấp,NH3 BA,Bajo NH3,تنبيه NH3 م.
+Lang_VAC_HA,高静压报警,SP HA,высок SP,SP cao,SP HA,Alta SP,ضغط مرتفع
+Lang_VAC_LA,低静压报警,SP LA,низк SP,SP Thấp,SP BA,Baja SP,ضغط منخفض
+Lang_H2S_HA,高H2S报警,H2S HA,высок H2S,H2S cao,H2S HA,Alto H2S,إنذار ارتفاع نسبة H2S
+Lang_H2S_LA,低H2S报警,H2S LA,низк H2S,H2S Thấp,H2S BA,Bajo H2S,إنذار انخفاض نسبة H2S
+Lang_Lux_HA,光照强度高,Lux HA,высок Lux,Ánh cao,Lux HA,Alta lum.,شدة الضوء العالية
+Lang_Lux_LA,光照强度低,Lux LA,низк Lux,Ánh Thấp,Lux BA,Baja lum.,شدة الضوء منخفضة
+Lang_Wind_HA,高风速报警,Wind HA,высок ветер,Gió cao,Débit HA,Alta viento,إنذار سرعة الرياح العالية
+Lang_Wind_LA,低风速报警,Wind LA,низк ветер,Gió Thấp,Débit BA,Baja viento,إنذار انخفاض سرعة الرياح
+Lang_PM2_5_HA,PM2.5高报警,PM2.5 HA,высок PM2.5,PM2.5 cao,PM2.5 HA,Alto PM2.5,إنذار عالي PM2.5
+Lang_PM2_5_LA,PM2.5低报警,PM2.5 LA,низк PM2.5,PM2.5 Thấp,PM2.5 BA,Bajo PM2.5,إنذار منخفض PM2.5
+Lang_PM10_HA,PM10高报警,PM10 HA,высок PM10,PM10 cao,PM10 HA,Alto PM10,PM10 عالية
+Lang_PM10_LA,PM10低报警,PM10 LA,низк PM10,PM10 Thấp,PM10 BA,Bajo PM10,PM10 منخفضة
+Lang_ST_HA,体感高温报警,ST HA,Выс. чувст. Темп.,Nhiệt cơ thể cao,ST HA,Alta perc.T ,تنبيه حرارة ش.
+Lang_ST_LA,体感低温报警,ST LA,Низк.чувст.Темп.,Nhiệt cơ thể Thấp,ST BA,Baja perc.T,تنبيه حرارة م.
+Lang_ZoneTempAla,区域温差报警,Zone Temp Alarm,Региональная тревога ,Báo động khu vực,Ala zone,ÁreaΔT Ala,إنذار اختلاف درجات الحرارة الإقليمية
+Lang_Temp_ERR,温度故障,Temp ERR,тепл Сбой,Nhiệt Lỗi,Temp ERR,Falla temp.,خلل في درجة الحرارة
+Lang_Temp_EBN,温度异常,Temp EBN,тепл вин,Nhiệt Bất,Temp EBN,Temp.anormal,درجة الحرارة غير طبيعية
+Lang_Hum_ERR,湿度故障,Hum ERR,мокр Сбой,ẩm Lỗi,Hum ERR,Falla hum.,عطل رطوبة
+Lang_CO2_ERR,CO2故障,CO2 ERR,CO2 Сбой,CO2 Lỗi,CO2 ERR,Falla CO2,عطل CO2
+Lang_NH3_ERR,NH3故障,NH3 ERR,NH3 Сбой,NH3 Lỗi,NH3 ERR,Falla NH3,خلل NH3
+Lang_NP_ERR,静压故障,SP ERR,SP Сбой,SP Lỗi,SP ERR,Falla SP,عطل الضغط الثابت
+Lang_H2S_ERR,H2S故障,H2S ERR,H2S Сбой,H2S Lỗi,H2S ERR,Falla H2S,خلل H2S
+Lang_Light_ERR,光照故障,Light ERR,свет Сбой,Ánh Lỗi,Light ERR,Falla lum.,عطل إضاءة
+Lang_Wind_ERR,风速故障,Wind ERR,ветер Сбой,Gió Lỗi,Débit ERR,Falla viento,عطل سرعة الرياح
+Lang_PM2_5_ERR,PM2.5故障,PM2.5 ERR,PM2.5 Сбой,PM2.5 Lỗi,PM2.5 ERR,Falla PM2.5,PM2.5 خطأ
+Lang_Electric_Comm,电表通讯故障,Electric Comm.,счетчик связ,Điện,Électric Comm.,Falla eléct.,عطل اتصال عداد الكهرباء
+Lang_Water_Comm,水表通讯故障,Water Comm.,водомер связ,Nước,Eau Comm.,Falla agua,عطل عداد مياه
+Lang_Weighing_Comm,称重通讯故障,Weighing Comm.,взвешива связ,Cân nặng,Pesage Comm.,Falla balanza,عطل ميزان
+Lang_ECU_Offline,环控离线,ECU Offline,ECU отключ,ECU Ngoại tuyến,ECU Hors ligne,ECU offline,وحدة تحكم البيئة غير متصل
+Lang_Fan_Current,风机电流超限,Fan Current,высокий тока,Quạt Cao hiện tại,Cour.Vent.Exc.,Corr.vent.,تجاوز التيار الكهربائي للمروحة للحد المسموح به
+Lang_Current_Imbal,风机电流不平衡,Current Imbal,Дисбаланс тока,Độ lệch hiện tại,Déséq.Cour.Vent.,Desbal.corr.,عدم توازن تيار محرك المروحة
+Lang_Extend_Comm,扩展板通讯故障,Extend Comm.,Расширенная связь,Bản tin Extender,Panne Carte Ext,Falla placa exp.,فشل الاتصال في لوحة التوسعة
+Lang_Curtain_POT,进风窗反馈报警,Curtain POT,Прит. Сбой,Cửa sổ Phản hồi,Ala Ret. Air,Retroal.POT,إنذار نافذة
+Lang_Level_ERR,级别设置错误,Level ERR,уровня Сбой,Cài đặt cấp sai,Err.Config.Niv.,Error nivel,خطأ مستوى
+Lang_Electric_Box,环控电箱报警,Electric Box,Шкаф управления,Hộp điện,Ala Boît.Contr.Env.,Caja ctrl.amb.,إنذار صندوق
+Lang_Feeding,喂料系统报警,Feeding,кормления,Hộp điện,Ala Syst.Alim.,Sist.aliment.,إنذار تغذية 
+Lang_Nightsoil,清粪系统报警,Nightsoil,удаления помёта,Mảnh vỡ,Ala Net.Fientes,Sist. lim.excret.,إنذار إزالة
+Lang_Freq_Ala,变频器报警,Freq Ala,Инвертор,Biến tần,Ala Ondul.,Inversor freq.,إنذار محول التردد
+Lang_Fan_Alarm,风机报警,Fan Ala,Вентилятор,Quạt Báo động,Ala Vent.,Ala vent.,إنذار المروحة
+Lang_ECU_Ala,环控报警,ECU Ala,ECU давления,ECU Báo động,Ala Contr.Env.,ECU Ala,إنذار التحكم البيئي
+Lang_Outage_Ala,断电报警,Outage Ala,Откл. Питания,Tắt Điện,Ala Coup.Cour.,Outage Ala,إنذار انقطاع
+Lang_Phase_Err,相序错误,Phase Err,Фаза Сбой,Lỗi thứ tự pha,Err.Seq.Ph.,Error Fase,خطأ في تسلسل المرحلة
+Lang_Phase_A_HV,A相超压,Phase A HV,Фаза A-HV,A.pha-Quá áp,Surpr.A,Sobretens.A,A الجهد الزائد
+Lang_Phase_B_HV,B相超压,Phase B HV,Фаза B-HV,B.pha-Quá áp,Surpr.B,Sobretens.B,B الجهد الزائد
+Lang_Phase_C_HV,C相超压,Phase C HV,Фаза C-HV,C.pha-Quá áp,Surpr.C,Sobretens.C,C الجهد الزائد
+Lang_Phase_A_LV,A相欠压,Phase A LV,Фаза A-LV,A.pha--Thiếu áp,Sous-pr.A,Bajatens.A,A انخفاض الجهد
+Lang_Phase_B_LV,B相欠压,Phase B LV,Фаза A-LV,B.pha--Thiếu áp,Sous-pr.B,Bajatens.B,B انخفاض الجهد
+Lang_Phase_C_LV,C相欠压,Phase C LV,Фаза A-LV,C.pha--Thiếu áp,Sous-pr.C,Bajatens.C,C انخفاض الجهد
+Lang_Phase_A_Open_Phase,A相缺相,Phase A Open-Phase,Дефицит A,A.pha-Thiếu,Manq. Ph.A,Falta faseA,المرحلةA - مرحلة مفتوحة
+Lang_Phase_B_Open_Phase,B相缺相,Phase B Open-Phase,Дефицит B,B.pha-Thiếu,Manq. Ph.B,Falta faseB,المرحلة B - مرحلة مفتوحة
+Lang_Phase_C_Open_Phase,C相缺相,Phase C Open-Phase,Дефицит C,C.pha-Thiếu,Manq. Ph.C,Falta faseC,المرحلة C -مرحلة مفتوحة
+Lang_W_line_LW,水线缺水报警,W.line LW,Водопровод Без,Nước Dòng-Thiếu nước,Ala Manq.Eau,Falta agua línea,إنذار نقص المياه 
+Lang_W_line_ATP_Comm,水线采集通讯,W.line ATP Comm.,Водопровод Сбор,Nước Dòng Thu,Com.Coll.Eau,Recolec.línea agua,اتصالات جمع خط الماء
+Lang_W_line_Ctrl_Comm,水线控制通讯,W.line Ctrl Comm.,Водопровод Контроль,Nước Dòng-Kiểm soát,Com.Contr.Eau,Ctrl.línea agua,اتصالات التحكم في خط الماء
+Lang_BATT_LV,电池电压低,BATT LV,Батарея LV,Hết pin rồi.,BATT LV,Volt.bat.bajo,انخفاض الجهد البطارية
+Lang_Scale_Comm,鸡秤通讯故障,Scale Comm.,Весы Сбор,Gà cân offline,Panne Bal.Poulets,Falla bal.pollos,خلل في اتصال ميزان الدجاج
+Lang_WTank_LW,饮水槽缺水报警,W-Tank LW,Мойка Без,Bồn rửa thiếu nước,Ala Manq.Eau,Falta agua bebed.,نقص المياه إنذار
+Lang_Drink_C_Comm,饮水控制器通讯故障,Drink_C Comm.,Мойка Контроллер,Nước uống offline,Panne Contr.Eau,Falla ctrl.agua,فشل الاتصال
+Lang_Boiler_HT,锅炉水温高,Boiler HT,Котлы жар,Nồi hơi nhiệt độ cao,Chaud.HT,Alta.T agua cald.,ارتفاع درجة حرارة االغلاية
+Lang_Boiler_LT,锅炉水温低,Boiler LT,Котлы криоген,Nồi hơi nhiệt độ thấp,Chaud.BT,Baja.T agua cald.,انخفاض درجة حرارة الغلايه
+Lang_EGAS,燃气通讯故障,Gas Meter Comm.,Газ связ,Khí đốt offline,Panne Com.Gaz,Falla com.gas,فشل أتصالات الغاز
+Lang_EWPRESS,水压通讯故障,W.Press Meter Comm.,Давление воды связ,Áp lực nước offline,Panne Pres.Eau,Falla pres. agua,فشل الاتصالات ضغط المياه
+Lang_OutHum_ERR,室外湿度故障,OutHum ERR,улице мокр Сбой,Độ ẩm ngoài,Panne Hum.Ext.,Falla hum.ext.,فشل الرطوبة في الهواء الطلق
+Lang_AlaIn,外部报警,Input Ala,Внешний вход,Báo động bên ngoài,Ala Entr. Ext.,Ala entr.,إنذار خارجي
+Lang_Other_Ala,其它报警,Other Ala,Другие Авария,Báo động khác,Autre Ala,Otras Ala,إنذارات أخرى
+Lang_Device,设备管理,Device,Вещи,Thiết bị,Équip.,Equipo,إدارة الأجهزة
+Lang_Control,控制管理,Control,Конт.,Kiểm,Control,Control,إدارة التحكم
+Lang_System,系统管理,System,Системы,Hệ thống,System,Sistema,إدارة النظام
+Lang_History,历史数据,History,История,Lịch sử,Histor,Historia,تاريخي
+Lang_ALA_Record,报警记录,Alarm,аварии,Báo động,Alarmes,Alarm,الإنذارات
+Lang_User,用户管理,User,Логин,Người,Util.,Usuarios,المستخدمون
+Lang_Broiler,肉鸡,Broiler,Бройлер,Gà thịt,Chair,Broiler,دجاج اللحم
+Lang_Day,日龄,Day,Дни,Ngày,Âge,Días,العمر بالأيام
+Lang_Temp_Hum,温湿度,T&H,T&H,T&H,T&H,T&H,درجة الحرارة والرطوبة
+Lang_Water_E,水电料,W&E&F,W&E&F,W&E&F,W&E&F,W&E&F,المياه والكهرباء والأعلاف
+Lang_Dev,设备,Dev,Вещи,Thiết bị,Équip.,Equ,معدات
+Lang_Average_T,平均温度,Average T,Пин Темп.,Bình Nhiệt ,Temp.Moy.,Temp. media,درجة الحرارة المتوسطة
+Lang_Drink_Num,饮水量,Drink,Пей.,uống,Eau,Beber,كمية الماء المستهلكة
+Lang_Food_Num,采食量,Food,Ешь.,Ăn,Alim.,Comer,كمية الغذاء المستهلكة
+Lang_Area,区域,Area,Регион,vực,Zone,Área,منطقة
+Lang_NP,静压,SP,SP,SP,SP,SP,ضغط ساكن
+Lang_HUM,湿度,HUM,Мокрый,Độ ẩm,HUM,HUM,الرطوبة
+Lang_Vent_Lv,通风级别,Vent Lv,Уров. вент.,Quạt Cấp,Niv.Vent.,Niv.Vent.,مستوى التهوية
+Lang_Fan_EN,风机启动,Fan EN,Вент. EN,Quạt Bật,Vent.En,Vent.En,تشغيل المروحة
+Lang_Volume,风量,CFM,CFM,CFM,CFM,CFM,حجم الهواء
+Lang_Wind_S,过道风速:,Wind_S:,Скорость ветра:,Hành lang Gió:,Coul.Débit:,viento pasillo:,سرعة الرياح في الممر
+Lang_L_voltage_Ala,欠压报警(V):,L-voltage Ala(V):,LV_Ошибка(V):,Thiếu áp Báo.(V):,Ala Sous-tens.(V):,Ala bajatens.(V):,تنبيه انخفاض الجهد (V)
+Lang_H_voltage_Ala,超压报警(V):,H-voltage Ala(V):,HV_Ошибка(V):,Quá áp Báo.(V):,Ala Surtens.(V):,Ala sobretens.(V):,تنبيه الضغط الزائد (V)
+Lang_Fan_I_Ala,报警阈值:,Ala threshold:,Авариячастота:,Ngưỡng báo động:,Seuil Ala :,Umbral Ala corr.:,عتبة الإنذار:
+Lang_Fan_err,误差电流:,Err current:,Вент.ошибка:,Lỗi hiện tại:,Cour. Err.:,Corr.error:,الخطأ الحالي:
+Lang_Max_diff_Fan_I,三相电偏差报警:,3Ph deviation alarm:,3Ph Отклон. аварии:,Báo động lệch pha:,Ala Dév. Triphasé:,Ala desv.trifás.:,إنذار انحراف التيار ثلاثي الطور:
+Lang_Emfodder_Ala,空料报警:,Em-fodder Ala:,Нет Корм аварии:,Báo động rỗng:,Ala Manq. Mat.,Ala falta alim.:,إنذار المواد الفارغة:
+Lang_Full_fodder_Ala,满料报警:,Full-fodder Ala:,Мань Корм аварии:,Báo động đầy đủ:,Ala Mat. Plein,Ala exceso alim.:,إنذار المواد الكاملة:
+Lang_Overflow_W_Ala,水溢出报警(L/h):,Overflow-W Ala(L/h):,Мань Вода аварии(L/h):,Báo động tràn nước(L/h):,Ala Débord. Eau(L/h):,Ala desbord.agua(L/h):,إنذار تسرب المياه ( ل / ح ) :
+Lang_Shortage_W_Ala,缺水报警:,Shortage-W Ala:,Нет Вода аварии:,Báo động thiếu nước:,Ala Manq. Eau:,Ala falta agua:,إنذار نقص المياه :
+Lang_Shortage_W_Start,缺水报警开始时间:,Shortage-W Start:,Нет Вода Начинаем.:,Thiếu nước bắt đầu:,Déb. Ala Manq. Eau:,Inicio Ala falta agua:,إنذار نقص المياه وقت البدء :
+Lang_Shortage_W_End,缺水报警结束时间:,Shortage-W End:,Нет Вода Конец:,Hết báo động thiếu nước:,Fin Ala Manq. Eau:,Fin Ala falta agua:,إنذار نقص المياه نهاية الوقت :
+Lang_Sensor_Ala,传感器报警,Sensor Ala,Датчик аварии,Báo cảm biến,Ala Capteur,Ala sensor,استشعار إنذار
+Lang_Production_D_Ala,生产数据报警,Consumption Ala,Произво. Данные,Dữ liệu sản xuất,Ala Donn.Prod.,Ala datos prod.,إنذار بيانات الإنتاج
+Lang_Ala_Set,报警设置,Ala Set,аварии,Báo động,Config. Ala,Config.Alas,إعدادات التنبيه
+Lang_Alarm_delay_time,报警延迟时间(S):,Alarm delay time(S):,aвария задержки(S):,Báo động chờ(S):,Délai Ala(S):,Retardo Ala(S):,زمن التأخير( ق ) :
+Lang_Sensor_Alarm_LowT,传感器低温偏差(℃):,Sensor Ala-Low T(℃):,Датчик Холодно. Отклон.(℃):,Nhiệt Thấp lệch(℃):,Dév. BT Capteur(℃):,Desv.bajaT sensor(℃):,مستشعر انحراف درجة الحرارة المنخفضة (°C):
+Lang_Sensor_Alarm_HighT,传感器高温偏差(℃):,Sensor Ala-High T(℃):,Датчик Жара Отклон.(℃):,Nhiệt cao lệch(℃):,Dév. HT Capteur(℃):,Desv.altaT sensor(℃):,مستشعر انحراف درجة الحرارة العالية (°C):
+Lang_LowST_Alarm_DEVN,体感低温偏差(℃):,Low ST Ala DEVN (℃):,Откл. низк. ощ. темп.(℃):,Nhiệt thể Thấp Độ lệch/℃:,Dév. BT Ressentie(℃):,Desv.bajaT perc.(℃):,انحراف حرارة منخفضة(℃):
+Lang_HighST_Alarm_DEVN,体感高温偏差(℃):,High ST Ala DEVN(℃):,Откл. выс. ощ. темп.(℃):,Nhiệt thể cao Độ lệch/℃:,Dév. HT Ressentie(℃):,Desv.altaT perc.(℃):,انحراف حرارة عالية(℃):
+Lang_MaxT_Difference_Ala,最大温差报警(℃):,Max T Diff Ala(℃):,Макс. темп. aварии(℃):,Chênh Nhiệt Báo động(℃):,Ala ΔT max(℃):,Ala máx.dif.T(℃):,تنبيه الفرق(°C):
+Lang_MaxT_Difference_Fault,最大温差故障(℃):,Max T Diff Fault(℃):,Макс. темп. Отказ(℃):,Chênh Nhiệt Lỗi(℃):,Défaut ΔT max(℃):,Falla máx.dif.T(℃):,خطأ الفرق (°C):
+Lang_NP_Ala_DelayTime,静压报警延迟时间(S):,SP Ala Delay Time(S):,SP Авария задержки(S):,SP Báo động chờ(S):,Délai Ala SP(S):,SP Retardo Ala(S):,وقت تأخير إنذار الضغط الثابت (S):
+Lang_LA_SP_Min_Lv,低压报警最小级别:,LA SP Min Lv:,Авария Мин. Уров.:,Mức báo động tối thiểu:,Niv. Min-B.SP Ala:,mín.Nivel Ala Baja SP:,إنذار ض.م الحد الأدنى:
+Lang_Min_Vent_LPressure_Ala,最小通风低压报警:,Min Vent L-Pressure Ala:,Мин. вент. Низкий SP:,Thông gió thiểu SP Thấp:,Ala B.SP Vent. Min:,Ala mín.vent.Baja SP:,الحد الأدنى من التهوية المنخفضة الجهد التنبيه :
+Lang_Min_Vent_HPressure_Ala,最小通风高压报警:,Min Vent H-Pressure Ala:,Мин. вент. высокий SP:,Thông gió thiểu SP cao:,Ala H.SP Vent. min:,Ala mín.vent.Alta SP:,الحد الأدنى من إنذار الضغط العالي للتهوية:
+Lang_Tunnel_Vent_L_Pressure_Ala,纵向通风低压报警:,Tunnel Vent L-Pressure Ala:,Прямой вент. Низкий SP:,Thông gió dọc SP Thấp:,Ala B.SP Vent. long:,Ala vent.long.Baja SP:,إنذار الضغط المنخفض للتهوية الطولية:
+Lang_Tunnel_Vent_H_Pressure_Ala,纵向通风高压报警:,Tunnel Vent H-Pressure Ala:,Прямой вент. высокий SP:,Thông gió dọc SP cao:,Ala H.SP Vent. long:,Ala vent.long.Alta SP:,إنذار الضغط العالي للتهوية الطولية:
+Lang_High_CO2_alarm,高CO2报警:,High CO2 Alarm:,высок CO2:,CO2 cao:,Ala HCO2:,Alto CO2 Alarm:,إنذار ارتفاع ثاني أكسيد الكربون:
+Lang_High_NH3_alarm,高NH3报警:,High NH3 Alarm:,высок NH3:,NH3 cao:,Ala HNH3:,Alto NH3 Alarm:,إنذار ارتفاع NH3:
+Lang_Economic_model,节能模式:,Economic model:,EC Режим:,EC Chế độ:,Mode Éco:,Ahorro energ.:,وضع توفير الطاقة:
+Lang_Starting_Temp,启动温度,Starting Temp,Начинаем. Темп.,Nhiệt khởi động,Temp. Démarr.,Temp. inicio,بدء درجة الحرارة
+Lang_Stopping_Temp,停止温度,Stopping Temp,Конец Темп.,Dừng nhiệt,Temp. Arrêt,Temp. parada,وقف درجة الحرارة
+Lang_T_LA_Val,低温报警,T LA Val,Холодно. ,Nhiệt cao,T BA Val,Alta.T Val,إنذار لدرجة الحرارة المنخفضة
+Lang_T_HA_Val,高温报警,T HA Val,Жара.,Nhiệt Thấp,T HA Val,Baja.T Val,إنذار لارتفاع درجة الحرارة
+Lang_Forced_cooling,强制散热温度/℃:,Forced cooling/℃:,Сила Теплоотвод/℃:,Buộc tản nhiệt/℃:,Temp. Refroid. Forc./℃:,Refrig.forz.T/℃:,التبريد القسري/℃:
+Lang_Start_Heat_TIndoor,舍内加热启动温度(℃):,Start Heat T-Indoor(℃):,Внутри Нагрев. Открыть(℃):,Bật sưởi ấm trong nhà(℃):,Démarr. Chauff. Int.(℃):,Inicio calef.int.T(℃):,درجة حرارة بدء التدفئة الداخلية (°C):
+Lang_Max_HeatT,最大加热温度(℃):,Max Heat T(℃):,Нагрев.Макс. Темп.(℃):,Nhiệt tối đa(℃):,Temp. Max Chauff.(℃):,Máx.T calef.(℃):,درجة حرارة التسخين القصوى (°C):
+Lang_Min_output,最小输出,Min out(%),Мин.Вн.(%),Đầu ra tối thiểu(%):,Sortie Min(%),Salida mín.(%),الحد الأدنى من الانتاج
+Lang_Max_output,最大输出,Max out(%),Макс.Вн.(%),Đầu ra tối đa(%):,Sortie Max(%),Salida máx.(%),الطاقة الانتاجية القصوى
+Lang_More_Settings,更多设置,More Set,Больше.,Thêm,Plus Param.,Más config.,إعدادات أخرى
+Lang_Boiler_Setup,锅炉设置,Boiler Setup,Котлы,Cài Nồi hơi,Chaudière,Config.caldera,إعدادات الغلاية
+Lang_T_Curve,温度曲线,T Curve,График темп.,Đường nhiệt,Courbe Temp.,Curva T,منحنى ح
+Lang_Diurnal_Adj,昼夜调整,Diurnal Adj,День&ночь,Ngày và đêm,Ajust. J/N,Adj noche,تعديل يومي
+Lang_RH_Compensation,湿热补偿,RH Comp,Компен.  влаж.,Nóng ẩm Vẽ bù,Comp. H/C,Comp.RH,تعويض ر ح
+Lang_Related_page,相关页面,Related,Связанные,Liên quan,Connexe,Related,الصفحات ذات الصلة
+Lang_Start_time,开始时间,Start time,начала,Thời bắt đầu,H.Début,Hora inicio,وقت البدء
+Lang_End_time,结束时间,End time,окончания,Thời kết thúc,H.Fin,Hora fin,نهاية الوقت
+Lang_Comp_Num,补偿系数,Comp Num,Коэфф.,Hệ số bù,Coeff. Comp.,Coef.comp.,معامل
+Lang_Number_of_Adj,调节次数,Num of Adj,Регу. Коли.,Số điều chỉnh,Nom Réglages,Núm.ajustes,ضبط التردد
+Lang_Feed,喂料,Feed,Ешь.,Thức ăn,Alim.,Aliment.,تغذية
+Lang_Feed_Set,喂料设置,Feed Set,Ешь.,Thức ăn,Param. Alim.,Aliment.Set,وضع التغذية
+Lang_Heat_Setting,加热设置,Heat Set,Нагрев.,Sưởi ấm,Chauff.,Calef.Set,إعدادات التدفئة
+Lang_Start_Tempdiff,启动温差,On diff,Откр Разн.,Δ-nhiệt Chạy,ΔT Dém.,Dif.T inicio,فرق تشغيل
+Lang_Stop_Tempdiff,停止温差,Off Diff.,Гуань Разн.,D. Δ-nhiệt,ΔT Arrêt,Dif.T parada,فرق توقف
+Lang_Max_Heat_Tempdiff,最大加热温差,Max Heat diff,Макс. Нагрев.,Chênh lnhiệt sưởi ấm đa,ΔT Max Chauff.,Máx. dif.T calef.,أقصى درجة حرارة التدفئة
+Lang_RH_Curve,湿度曲线,RH Curve,влаж. Кривая,Đường độ ẩm,Courbe Hum.,Curva RH,منحنى الرطوبة
+Lang_Tar_RH,目标湿度,Tar RH,Цел. влаж.,Độ ẩm mục tiêu,Hum. Cible,RH objetivo,رطوبة هدف
+Lang_Min_RH,最低湿度,Min RH,Мин. влаж.,Độ ẩm thấp nhất,Hum. Min,Mín.RH,رطوبة أدنى
+Lang_Max_RH,最高湿度,Max RH,Макс. влаж.,Độ ẩm tối đa,Hum. Max,Máx.RH,رطوبة قصوى
+Lang_Hum_Set,湿度设置,Hum Set,влаж.,Cài độ ẩm,Config. Hum.,Hum Set,أعدادات الرطوبه 
+Lang_LComp_RH,湿度补偿下限(%):,L Comp RH(%):,Мин. Компен.(%):,Độ ẩm Bồi thường thiểu(%):,B.Comp. Hum.(%):,Lím.inf.RH(%):,حد أدنى للرطوبة/%:
+Lang_HComp_RH,湿度补偿上限(%):,H Comp RH(%):,Макс. Компен.(%):,Độ ẩm Bồi thường tối đa(%):,H.Comp. Hum.(%):,Lím.sup.RH(%):,حد أقصى للرطوبة/%:
+Lang_Max_CompT,最大补偿温度(℃):,Max Comp T(℃):,Мак. темп. компе.(℃):,Nhiệt độ bù tối đa(℃):,Temp.Max Comp.(℃):,Máx.T comp.(℃):,حرارة تعويض عظمى/℃:
+Lang_Min_Comp_RH,最小调节湿度(%):,Min Comp RH(%):,Мин. регу. влажн.(%):,Điều chỉnh độ ẩm tối thiểu(%):,Hum. Min Régl.(%):,Mín.ajuste hum.(%):,رطوبة تعويض أدنى/%:
+Lang_Light_Control,灯光设置,Light Set,Свет,Cài Đèn,Config. Éclair.,Ilum.Set,إعدادات الإضاءة
+Lang_Light,灯光,Light,Свет,Đèn,Éclair.,Ilumin.,الإضاءة
+Lang_Add_Delay,增加延时(S):,Add Delay(S):,Чжэн Ожидание(S):,Tăng độ trễ(S):,Délai Augm.(S):,Retardo incr.(S):,زيادة التأخير ( ق ) :
+Lang_Sub_Delay,降低延时(S):,Sub Delay(S):,Минус Ожидание(S):,Giảm độ trễ(S):,Délai Réduc.(S):,Retardo decr.(S):,الحد من التأخير ( ق ) :
+Lang_Light_Parameter,灯光参数,Light Parameter,Свет Параметр,Thông số đèn,Param. Éclair.,Parám.ilum.,معلمات الإضاءة
+Lang_Level_Limit,级别限定,Level Limit,Уров.Ограни,Giới hạn cấp,Lim. Niveau,Lím.nivel,قيود المستوى
+Lang_Curve_State,曲线状态:,Curve State:,График Статус:,Trạng đường cong:,État Courbe:,Est.curva,حالة المنحنى
+Lang_Weight_Min_Vent,体重最小通风:,Weight Min Vent:,Вес Мин. вент.,Cân nặng Thông gió tối thiểu:,Vent. Min Poids:,Vent.mín.por peso:,الوزن الحد الأدنى التهوية :
+Lang_Dynamic_Vent,动态最%s通风:,Dynamic %s Vent:,Б. %s вент.,Động.%s Thông gió:,Vent. Dyn. Max %s:,Vent.dinám.%s:,أفضل تهوية ديناميكية:
+Lang_Dynamic_OutT,动态最%s室外温度(%s):,%s Comp RH(%s):,Б. %s RH(%s):,Động.%s RH(%s):,Dyn.%s Temp. Ext.(%s):,T.ext.dinám.%s (%s):,دينامية أقصى درجة حرارة الهواء الطلق %s ( %s ) :
+Lang_Min,小,Min,Мин.,Tối thiểu,Min,Peq.,صغير
+Lang_Max,大,Max,Макс.,Tối đa,Max,Gde.,كبير .
+Lang_Cold,冷,Cold,Холодно.,Lạnh,Froid,Frío,برد .
+Lang_Warm,暖,Warm,Теплый,Ấm áp,Chaud,Cálido,دفئا
+Lang_Addlevel_delay,增加级别延时(S):,Increment level delay(S):,Чжэн Уров. Ожидание(S):,Tăng độ trễ cấp(S):,Délai Augm. Niveau(S):,Retardo incr.nivel(S):,زيادة مستوى التأخير ( ق ) :
+Lang_Sublevel_delay,降低级别延时(S):,Lower level delay(S):,Минус Уров. Ожидание(S):,Giảm độ trễ cấp(S):,Délai Réduc. Niveau(S):,Retardo decr.nivel(S):,انخفاض مستوى التأخير ( ق ) :
+Lang_Unified_cycle,统一循环周期:,Unified cycle:,Вместе.Цикл:,Thống nhất lặp:,Cycle Circ. Unif.:,Ciclo unif.:,دورة موحدة
+Lang_Timing_cycle,时控循环周期(S):,Timing cycle(S):,Период цикла(S):,Kiểm soát thời lặp(S):,Cycle Temps Contr.(S):,Ciclo T.contr.(S):,دورة الزمن ( ق ) :
+Lang_Return_DiffT,回差温度(℃):,Return Diff T(℃):,Темп. Сниж.(℃):,Nhiệt trở lại(℃):,Temp. Diff.(℃):,Dif.T retorno(℃):,عودة درجة الحرارة التفاضلية ( ℃ ) :
+Lang_SmallWindow_F,小窗联动:,Inlet Follow:,Прит. Связь:,Liên kết Cửa:,Liaison Pet. Fen.:,Vinc.Inlet:,ربط النافذة الصغيرة:
+Lang_SmallWindow_F_StopLevel,小窗联动停止级别:,Inlet Follow Stop Lv:,Прит. Связь Уров. Ост.:,Liên kết Cửa Mức dừng:,Niv. Arrêt Liaison Pet. Fen.:,Nivel parada vinc.peq.:,مستوى توقف مدخل:
+Lang_InitialLevel_TunnelVent,纵向通风开始级别:,Initial Level of Tunnel Vent:,Прямой вент. Уров. Начинаем.:,Thông gió dọc Bắt đầu Cấp:,Niv. Déb. Vent. Long.:,Nivel inicio vent. long.:,مستوى بدء التهوية الطولية :
+Lang_InitialLevel_TunnelVentDelay,纵向退出级别延时(S):,Initial Level of Tunnel Vent Delay(S):,Прямой вент. Остановки Ожидание(S):,Thời gian trễ cấp thoát dọc(S):,Délai Sort. Long.(S):,Retardo nivel salida vent. long.(S):,تأخير مستوى الخروج العمودي (S):
+Lang_IndoorT_Diff_TunnelVent,纵向退出室内温差(℃):,Indoor T Diff of Tunnel Ven(℃):,Прямой Выход Внутри Темп.(℃):,Thoát khỏi Nội thất Chênh nhiệt(℃):,ΔT-Int. Long.Quit(℃):,Dif. temp. int. salida vent. long.(℃):,فرق درجة الحرارة الداخلية للخروج الطولي (°C):
+Lang_OutdoorT_Diff_TunnelVent,纵向退出室外温差(℃):,Outdoor T Diff of Tunnel Ven(℃):,Прямой Выход Внешний Темп.(℃):,Thoát khỏi Ngoài trời Chênh nhiệt(℃):,ΔT-Ext. Long.Quit(℃):,Dif. temp. ext. salida vent. long.(℃):,فرق درجة الحرارة الخارجية للخروج الطولي (°C):
+Lang_Temp_Set,温度设置,Temp Set,Темп.,Cài nhiệt,Config.Temp.,Temp.Set,تحديد درجة الحرارة
+Lang_Vent,通风,Vent,Вент.,Thông gió,Vent.,Vent.,تهوية
+Lang_Wet_curtain,湿帘设置,Cooling Set,Вод. Сте.,Cài rèm ướt,Cooling Set,Húmedo Set,إعدادات الستارة الرطبة
+Lang_Spray_Cumidification,喷淋设置,Spray Set,Расп.,Cài phun,Humidifier,Aspers.Set,إعدادات الرش
+Lang_Drink,饮水,Drink,Пить,uống,Boire,Bebida,مياه الشرب
+Lang_Timer,定时器,Timer,Таймер,Hẹn giờ,Minut.,Tempor.,موقت
+Lang_Circulating_Fan,环流风机,Circ.Fan,Цир.вен.,Hoàn lưu,Vent.Circ.,Vent.circul.,مروحة د
+Lang_Alarm,报警管理,Alarm,аварии,Báo động,Alarmes,Gest.Alas,إدارة الإنذار
+Lang_Delay_time,延迟时间(S):,Delay time(S):,задержки(S):,Thời gian trễ(S):,Délai(S):,Retardo(S):,تأخير الوقت ( ق ) :
+Lang_Duration,持续时间(S):,Duration(S):,упорный(S):,Thời lượng(S):,Durée(S):,Durac.(S):,المدة ( ق ) :
+Lang_Cooling_Range,降温幅度:,Cooling Range:,Макс. Охлажд.:,Biên độ hạ nhiệt:,Amp. Réduc.Temp.:,Amplit.refrig.:,مدى التبريد :
+Lang_Below_heating,低于加热:,Below heating:,Мин. Нагрев.:,Dưới nhiệt:,Inf. Chauff.:,Inf.calef.:,تحت التدفئة :
+Lang_Hum_return_diff,湿度回差(%):,Hum return diff(%):,влаж. Сниж.(%):,Độ ẩm trở lại(%):,Hyst. Hum.(%):,Dif.hum. retorno(%):,فرق عودة الرطوبة (٪):
+Lang_CO2_return_diff,CO2回差(ppm):,CO2 return diff(ppm):,CO2 Сниж.(ppm):,CO2 trở lại(ppm):,Hyst. CO2(ppm):,Dif.CO2 retorno(ppm):,فرق عودة ثاني أكسيد الكربون ( جزء في المليون ) :
+Lang_NH3_return_diff,NH3回差(ppm):,NH3 return diff(ppm):,NH3 Сниж.(ppm):,NH3 trở lại(ppm):,Hyst. NH3(ppm):,Dif.NH3 retorno(ppm):,عوده فرق NH3 (جزء في المليون):
+Lang_Air_quality,空气质量,Air quality,Воздух Чисто.,Khí Chất lượng,Qual. Air,Calid.aire,جودة الهواء
+Lang_Spray,喷淋,Spray,Стена,phun,Pulv.,Aspers.,رش
+Lang_Opening_period,开始时段,ON ZT,ON Пер.,ON Thời,Période Début,Inicio período,بداية الفترة
+Lang_End_period,结束时段,End ZT,OFF Пер.,OFF Thời,Période Fin,Fin período,نهاية الفترة
+Lang_Hum_deviation,湿度偏差,Hum Diff,Б.Влаж.,Lệch độ ẩm,Écart Hum.,Desv. hum.,انحراف الرطوبة
+Lang_Min_TDiff,最低温差:,Min T Diff:,Мин. темп.,Chênh nhiệt thấp:,ΔT Min:,Mín. dif.T:,الحد الأدنى لفرق درجة الحرارة:
+Lang_Save,保存,Save,Хране.,Lưu,Sauv.,Guardar,حفظ .
+Lang_Cancel,取消,C L,Нет,Hủy bỏ,Annul.,C L,ألغى
+Lang_TarT,目标温度,Tar T,Задание,N. mục,T.Cible,T.obj.,درجة م
+Lang_HeatT,加热温度,Heat T,Нагрев.Т,Nhiệt sưởi,T.Chauff.,T.calef.,تسخين
+Lang_None,无,None,Нет,Không,Aucun,Ning.,لا
+Lang_Avg,平均,Avg,средний,Bình,Moy.,Prom.,متوسط
+Lang_MinVent,最小通风,Min Vent,Мин. вент.,Thông gió thiểu,Vent. Min,Mín.vent.,أدنى ت
+Lang_TAMD,温度修正(℃):,T AMD(℃):,Корр. темп.(℃):,Sửa nhiệt(℃):,Corr. Temp.(℃):,Correc.T(℃):,تصحيح حرارة
+Lang_TunnelT,纵向温度,Tunnel T,Туннель,Nhiệt dọc,Temp. Long.:,T.long.,حرارة ط.
+Lang_Alarm_bias,报警偏差化:,Alarm bias:,аварии Отклонение:,Thông gió thiểu cưỡng:,Div. Alarmes:,Ala desv.:,إنذار تحيز :
+Lang_Force_Min_Vent,强制最小通风:,Force Min Vent ,Сила Мин. вент.:,Cưỡng Thông gió thiểu:,Vent. Min Forc.:,Mín. vent. forz.:,الحد الأدنى من التهوية القسرية :
+Lang_Comfortable_T_range,舒适温度区间(℃):,Comfortable T range(℃):,Удобно.Темп. Интервал(℃):,Khoảng nhiệt thoải mái(℃):,Plage Temp. Confort.(℃):,Rango.T confort(℃):,درجة حرارة مريحة المدى ( ℃ ) :
+Lang_Rapid_cooling_limit,快速降温限制(℃):,Rapid cooling limit(℃):,Охлаждение Скорость(℃):,Giới hạn làm mát nhanh(℃):,Lim. Refroid. Rap.(℃):,Límite refrig. ráp.(℃):,الحد من التبريد السريع ( ℃ ) :
+Lang_Cooling_factor,降温系数(%):,Cooling factor(%):,Охлаждение Доля(%):,Hệ số làm mát(%):,Coeff. Refroid.,Coef.refrig.(%):,معامل التبريد ( % ) :
+Lang_T_change_interval,温度变化间隔时间(h):,T change interval(h):,Интервал изменения темп.(h):,Khoảng thời gian thay đổi nhiệt(h):,Int.Temps Chang.Temp.(h):,Intervalo cambio.T(h):,فترة التغير في درجة الحرارة ( ح ) :
+Lang_Adjust_Times,每日温度变化次数:,Adjust Times:,Коли. перепадов темп.:,Số lần thay đổi nhiệt hàng ngày:,Chang.T Jour:,Cambios temp. diarios:,عدد التغيرات :
+Lang_T_change_after_lightsout,熄灯后温度变化(℃):,T change after lights out(℃):,Ночь Темп.Изменения(℃):,Thay đổi nhiệt sau khi tắt đèn(℃):,Chang.T Post-Ext.(℃):,Cambio T.post-apagado(℃):,تغير درجة الحرارة بعد إطفاء الأنوار
+Lang_Min_Vent_LowT_SP,最小通风低温静压(Pa):,Min Vent Low T SP(Pa):,Мин. вент. Холодно.SP(Pa):,Thông gió thiểu Nhiệt Thấp SP(Pa):,SP Min Vent. BT(Pa):,Mín. vent. pres. estát. baja temp.(Pa):,الحد الأدنى من الضغط الثابت لدرجة الحرارة المنخفضة للتهوية (Pa):
+Lang_Min_Vent_HighT_SP,最小通风高温静压(Pa):,Min Vent High T SP(Pa):,Мин. вент. Жара SP(Pa):,Thông gió thiểu Nhiệt cao SP(Pa):,SP Min Vent. HT(Pa):,Mín. vent. pres. estát. alta temp.(Pa):,الحد الأدنى من الضغط الثابت لدرجة الحرارة العالية للتهوية (Pa):
+Lang_Min_Vent_LowT_SP_Offset,最小通风低温静压偏差(℃):,Min Vent Low T SP Offset(℃):,Мин. вент. Холодно.Макс. SP(℃):,Thông gió thiểu Nhiệt Thấp SP Lệch(℃):,Écart SP Min Vent. BT(℃):,Desv.mín.vent.pres.estát.baja T(℃):,الحد الأدنى من التهوية انخفاض درجة الحرارة ضغط ثابت الانحراف ( ℃ ) :
+Lang_Min_Vent_HighT_SP_Offset,最小通风高温静压偏差(℃):,Min Vent High T SP Offset(℃):,Мин. вент. Жара Макс. SP(℃):,Thông gió thiểu Nhiệt cao SP Lệch(℃):,Écart SP Min Vent. HT(℃):,Desv.mín.vent.pres.estát.alta T(℃):,الحد الأدنى للتهوية ارتفاع درجة الحرارة انحراف الضغط الثابت (°C):
+Lang_Min_Vent_Transition,最小通风过渡区(Pa):,Min Vent Transition(Pa):,Мин. вент.Переход(Pa):,Thông gió thiểu Độ lệch(Pa):,Zone Trans. Vent. Min(Pa):,Zona trans. mín. vent.(Pa):,التهوية الطولية المستهدفة الضغط الثابت (Pa):
+Lang_Tunnel_Vent_NP,纵向通风目标静压(Pa):,Tunnel Vent SP(Pa):,Прямой вент. SP(Pa):,Thông gió dọc Mục tiêu SP(Pa):,SP Cible Vent. Long.(Pa):,Objet.vent.long.SP(Pa):,التهوية الطولية المستهدفة الضغط الثابت (Pa):
+Lang_Tunnel_Vent_Transition,纵向通风过渡区(Pa):,Tunnel Vent Transition(Pa):,Прямой вент. Переход(Pa):,Thông gió dọc Độ lệch(Pa):,Zone Trans. Vent. Long.(Pa):,Zona trans.vent.long.(Pa):,منطقة انتقال التهوية الطولية (Pa):
+Lang_Gust_Delay_Time,阵风延迟时间(S):,Gust Delay Time(S):,Ветер задержки(S):,Thời gian trễ gió(S):,Délai Rafale(S):,Retardo ráfaga(S):,وقت تأخير العاصفة (S):
+Lang_Emergency_NP_Min_Lv,静压控制最小级别:,S.Press Ctrl Min Lv.:,SP Мин. Уров.:,Cấp.thiểu-SP Kiểm:,Niv.min Contr.SP:,Nivel mín.ctrl.SP:,تحكم ض الحد الأدنى:
+Lang_Emergency_NP_Max_Lv,静压控制最大级别:,S.Press Ctrl Max Lv.:,SP Макс. Уров.:,Cấp.đa-SP Kiểm:,Niv.max Contr.SP:,Nivel máx.ctrl.SP:,تحكم ض الحد الأقصى:
+Lang_Emergency_NP_delay,紧急静压延迟时间(S):,Emergency SP delay(S):,Срочно-SP задержки(S):,Khẩn cấp SP Trì hoãn(S):,Délai Urg. SP(S):,Retardo emerg.SP(S):,وقت تأخير الضغط الثابت في حالات الطوارئ (S):
+Lang_Emergency_NP_Window_Angle,紧急静压进风窗开度(%):,Emergency SP Window Angle(%):,Срочно SP Доля(%):,Khẩn cấp SP Độ mở(%):,Ouvert. Urg. SP(%):,Apert.emerg.vent.entrada SP(%):,فتح نافذة مدخل الهواء ذات الضغط الثابت في حالات الطوارئ (%):
+Lang_NP_Control,静压控制,SP Control,SP Конт.,SP Kiểm,Contr. SP,Ctrl.SP,تحكم ض
+Lang_Timing_ALA,定时报警,Timing Ala,Сроки трев.,Báo Thời,Ala Prog.,Ala temporiz.,توقيت التنبيه
+Lang_ALA_Time,报警时间,Alarm Time,Время аварии,Thời gian báo,Heure Ala,Hora Ala,وقت التنبيه
+Lang_Drinking_Set,饮水设置,Drinke Set,Пить,Cài uống,Régl. Abreuve,Config.bebida,إعدادات مياه الشرب
+Lang_Wet_Curtain,湿帘,Cool,Мокр,Rèướt,Cool,Hum.,ستارة ر
+Lang_TDeviation,温差,Diff.,Разн.,Chênh nhiệt,Diff.,Dif.,فرق حرارة
+Lang_Max_Hum,最大湿度,Max Hum,Макс. Сниж.,Độ ẩm tối đa,Hum. Max,Máx. hum.,رطوبة
+Lang_Calibration_times,校准次数:,Calibration times:,Коли. кали.:,Số hiệu chuẩn:,Nom Calib.:,Núm.calib.:,أوقات المعايرة:
+Lang_Calibration_ontime,校准开时刻:,Cal For Time:,Калиб. время откр.:,Hiệu chuẩn Trong:,Moment Ouvrir Calib.:,Inicio calib.:,معايرة وقت الفتح:
+Lang_Calibration_offtime,校准关时刻:,Cal To Time:,Время откл. калиб.:,Hiệu chuẩn Tắt:,Moment Ferm. Calib.:,Fin calib.:,معايرة خارج الوقت:
+Lang_Critical_opening,临界开度:,Critical opening:,Критическая Доля:,Độ mở tới hạn:,Ouvert. Crit.:,Apert.crít.:,الأفتتاح الحرج
+Lang_Equipment_calibration,设备校准,Device Adj,Калибровка,Hiệu thiết bị,Calib. Équip.,Calib.equipo,معايرة المعدات
+Lang_Temp_def,温度定义,Temp Def,Темп.Опре.,Nghĩa nhiệt ,Déf. Temp.,Def.temp.,تعريف درجة الحرارة
+Lang_Device_def,设备定义,Device def,Вещи Опре.,Nghĩa thiết bị,Déf. Équip.,Def.equipo,تعريف الجهاز
+Lang_Proto_manage,协议管理,Protocol,Соглашение,Giao thức,Gest. Protoc.,Gest.protocolo,إدارة البروتوكول
+Lang_Dev_Protection,设备保护,Dev Protect,Защита,Vệ thiết bị,Prot. Équip.,Prot.equipo,حماية الجهاز
+Lang_Current_DayAge,当前日龄:,Current Day-Age:,Ныне Возраст:,Tuổi hiện tại:,Âge Jours Act.:,Edad días act.:,العمر الحالي :
+Lang_Current_batch,当前批次:,Current batch:,Ныне Партии:,Lô hiện tại:,Lot Act.:,Lote act.:,الدفعة الحالية :
+Lang_Species,动物品种:,Species:,Виды:,Đa dạng:,Esp. Anim.:,Especie anim.:,الأنواع الحيوانية
+Lang_Stock,存栏量,Stock,итог,sống sót,Stock,Stock,عدد م
+Lang_Number_deaths,日死亡量,TD deaths,Ныне.смерть,Chết hôm nay,Mort. Quot.,Hoy.Muertes,حجم الوفيات اليومية
+Lang_Population,种群设置,Population,Виды,Cài Dân số,Config. Groupe Anim.,Poblac.,التسكين 
+Lang_Time_Set,时间设置,Time Set,Время Сбор,Cài Thời,Régl. Heure,Hora Set,إعداد الوقت
+Lang_Configuration,配置管理,Config,Настройка,Cấu hình,Gest. Config.,Config.,إدارة التكوين
+Lang_DevTest,设备测试,Dev Test,Вещи тесты,Thử nghiệm,Test Équip.,Prueba,معدات الاختبار
+Lang_System_Info,系统信息,System Info,Системы Ин,Hệ thống,Infos Syst.,Info.sistema,معلومات ن
+Lang_Farmhouse_Info,房间设置,Room Setting,Наст. Комнаты,Trang trại,Infos Ferme,Info.granja,إعدادات غ
+Lang_Log_Query,日志查询,Log Query,Журнал,Đăng nhập,Logs,Diario,سجل الاستعلام
+Lang_Data_Export,数据导出,Data Export,Вн. данных,Xuất dữ liệu,Ex. Données,Ex.datos,تصدير ب
+Lang_Data_Clear,数据清除,Data Clear,Очист.Инф,Xóa dữ liệu,Eff. Données,Eli.datos,مسح البيانات
+Lang_WARNING,警告,WARNING,предупре,Cảnh báo,Avert.,Advert.,تحذير
+Lang_REMIND,提示,REMIND,одсказка,Nhắc nhở,Indic.,Aviso,تذكير
+Lang_WARNING0,新建群组将会删除数据记录!,"Creating a group 
+owner will delete records!","Новая группа удалит 
+записанные данные!","Tạo chủ sở hữu nhóm 
+sẽ xóa bản ghi!","La création d'un nouveau groupe 
+supprimera les enregistrements de données!",Crear grupo nuevo elim. reg.,سيؤدي إنشاء مجموعة جديدة إلى حذف سجلات البيانات!
+Lang_WARNING1,"清除只是将群号设置为1
+并不清除记录!",Clearing simply sets the group to 1!,"Очистка устанавливает количество равным 1, 
+не очищает записанные данные!",Đặt nhóm thành 1!,L'effacement définit le numéro de groupe sur 1!,Limpieza solo asigna grupo 1 sin borrar reg.," مسح فقط تعيين رقم المجموعة إلى 1
+لا مسح السجل ! س
+"
+Lang_WARNING2,配置信息将恢复出厂设置!,"The information will be 
+restored to factory Settings!","Конфигурации будет сброшена 
+до заводских настроек!",Thông tin cấu hình sẽ trở lại cài đặt gốc!,Les informations de configuration seront réinitialisées!,Info. config. se restablecerá a config. fábrica,معلومات التكوين سيتم استعادة إعدادات المصنع !
+Lang_WARNING3,测试将会擦除所有数据!,The test will erase all data!,"Тестирование приведет 
+к удалению всех данных!",Thử nghiệm sẽ xóa tất cả dữ liệu!,Le test effacera toutes les données!,Prueba borrará todos los datos,الاختبار سوف تمحو جميع البيانات !
+Lang_WARNING4,正在校准是否退出!,Is the calibration Sure to quit!,"Калибровка, Необходимо выйти!",Đang hiệu chỉnh xem có thoát hay không!,"Calibration en cours, quitter!","Calibrando, salir!",معايرة الخروج !
+Lang_REMIND1,正在添加动物死亡量!,Animal death is being added!,Указать количество голов падежа!,Thêm số lượng động vật chết!,Ajout Mortalité animaux!,Añadiendo cant. muertes anim.!,يتم إضافة وفيات الحيوانات!
+Lang_REMIND2,正在添加动物入栏量!,Adding animals to pens!,Добавить количество голов в птичнике!,Đang thêm số lượng động vật vào cột!,Ajout Entrée animaux!,Añadiendo cant. anim. ingresados!,إضافة كمية من الحيوانات في العمود !
+Lang_REMIND3,复制参数到下一级!,Copies the parameters to the next level!,"Скопируйте параметры 
+на следующий уровень!","Sao chép các thông số 
+đến cấp độ tiếp theo!",Copier les paramètres au niveau suivant!,Copiar parám. a siguiente nivel!,نسخ المعلمات إلى المستوى التالي !
+Lang_REMIND4,重启后主页风格将修改!,"The style of the home page
+will change after the restart!","Вид главного экрана будет 
+изменен после перезапуска!","Phong cách trang chủ sẽ được 
+thay đổi sau khi khởi động lại!","Le style de la page d'accueil sera
+modifié après le redémarrage!",Estilo pág. inicio cambiará tras reinicio!,سيتم تعديل نمط الصفحة الرئيسية بعد إعادة التشغيل!
+Lang_REMIND5,此操作将重启设备!,This operation will restart the device!,"Эта операция приведет 
+к перезагрузке устройства!",Thao tác này khởi động lại thiết bị!,Cette opération redémarrera l'appareil!,Esta oper. reiniciará el dispositivo!,ستعمل هذه العملية على إعادة تشغيل الجهاز!
+Lang_REMIND6,确认是否新建群组!,Confirm whether to create a new group!,"Подтвердите, следует ли 
+создавать новую группу!",Kiểm tra xem bạn có tạo nhóm mới không!,Confirmer la création d'un nouveau groupe!,Confir. si crear nuevo grupo!,تأكد من إنشاء مجموعة جديدة !
+Lang_REMIND7,确认是否标定料塔!,Confirm whether to calibrate the feed bin!,Подтвердите калибровку!,Xác nhận xem có đánh dấu tháp không!,Confirmer l'étalonnage du silo!,Confir. si calibrar silo!,تأكد من معايرة برج التغذية!
+Lang_REMIND8,确认是否保存参数!,Confirm whether to save parameter!,Подтвердите сохранение параметров!,"Kiểm tra xem bạn có 
+lưu các tham số không!",Confirmer la sauvegarde des paramètres!,Confir. si guardar parám.!,تأكيد ما إذا كنت تريد حفظ المعلمات!
+Lang_WARNING5,确认是否导入参数!,Confirm whether to import parameter!,Подтвердите импорт параметров!,"Kiểm tra xem bạn có nhập 
+các thông số hay không!",Confirmer l'importation des paramètres!,Confir. si importar parám.!,تأكد من استيراد المعلمات !
+Lang_REMIND9,确认是否智能调节!,Confirm whether to auto set parameter!,Проверьте правильность регулировки!,Xác nhận có thông minh hay không!,Confirmer si le réglage intelligent est activé!,Confir. si ajuste intelig.!,تأكيد ما إذا كان تم تعديله بذكاء!
+Lang_REMIND10,请输入密码!,Please input password!,Введите пароль!,Vui lòng nhập mật khẩu!,Veuillez entrer le mot de passe!,Ingrese contras.!,الرجاء إدخال كلمة السر !
+Lang_Done,确定,OK,ЭН,định,Conf.,OK,أكّد
+Lang_Language,语言设置,Language,Язык,Ngôn ngữ,Langue,idioma,إعدادات اللغة
+Lang_Boar,公猪,Boar,Кабан,Lợn đực,Verrat,Boar,خنازير
+Lang_Reserve,后备,Gilt,Резе. ,Hậu bị,Réserve,Gilt,دعم
+Lang_Pregnancy,妊娠,Gestation,Берем.,Chửa,Gestation,Gestation,الحمل .
+Lang_Childbirth,分娩,Farrowing,Роды,Đẻ,Mise.bas,Farrowing,تسليم
+Lang_Child_care,保育,Weaning,Уход,Cai sữa,Sevrage,Weaning,حفظ
+Lang_Fatten,育肥,Fattening,Питание,Thịt,Engraisse,Fattening,تسمين
+Lang_Sow,母猪,Sow,Свинья.,Nái mẹ,Truie,Sow,صو
+Lang_Breeding_hen,种鸡,Breeder,Курица,Gà giống,Reprod.,Breeder,دجاج ت
+Lang_Layer,蛋鸡,Layer,Яйцо,Gà trứng,Pondeuse,Layer,طبقة
+Lang_Room,舍,Room,Дом,Phòng,Logement,Sala,غرفه
+Lang_Brood,育雏,Brooder,Рост,Hậu bị,Poussins,Brooder,الحضنة
+Lang_Breed,育成,Growing,Взросл,Phát triển.,Élevage,Growing,تربى
+Lang_Adult_chicken,成鸡,Chicken,Зрел.,Gà trưởng.,Poulet,Chicken,دجاج
+Lang_Meat_duck,肉鸭,Meatduck,Мясо.утк,Vịt thịt,Can.Chair,Meatduck,لحم البط
+Lang_Laying_duck,蛋鸭,Layingduck,Яйцо.утк,Vịt đàn,Can. Pondeur,Layingduck,بطة ب
+Lang_Farmhouse_Type,房间类型,Room Type:,Тип номера:,Trạng thái,Type Bâtim. Agric.,Tipo granja,نوع الغرفة
+Lang_Breeding_status,养殖状态:,Breeding status:,Работа Тип:,Phòng Loại:,État Élev.,Estado cría:,حاله التكاثر 
+Lang_Culture,养殖中,Growing,Работа,Chạy,En.Cours,En cría,تربية
+Lang_Empty,空舍中,Empty,Пустой,Chờ,Veille,Vacía,بيت فارغ
+Lang_Farmhouse_Number,房间编号:,Room No:,Номер комнаты:,Phòng ID:,Num. Bâtim. Agric.:,Núm. granja:,رقم الغرفة :
+Lang_Farmhouse_side_height,农舍侧高(m):,Side height(m):,Бок.Высота(m):,bên.cao(m):,Hauteur Lat.(m):,Alt. lateral granja(m):,ارتفاع جانب المزرعة (م):
+Lang_Middle_height_farmhouse,农舍中高(m):,Middle height(m):,серед.Высота(m):,bình.cao(m):,Haut. Cent.(m):,Alt. central granja(m):,مزرعة متوسطة الارتفاع (م):
+Lang_Farmhouse_width,农舍宽(m):,width(m):,Ширина(m):,rộng(m):,Large,Anch. granja(m):,عرض المزرعة (م):
+Lang_Uart_num,串口号,Uart No.,Uart Номер,Tốc độ,Uart N°,Uart No.,رقم UART
+Lang_Baud_rate,波特率,Baud rate,скорость,bit dữ liệu,Baud rate,Baud.,ب.م
+Lang_System_language,系统语言:,Language:,Язык:,Ngôn ngữ:,Langue Syst.:,idioma:,لغة النظام
+Lang_Pause_time,屏保时间:,Pause time:,Заставка Время:,Tắt màn hình:,Délai Veille:,Salvapant.:,شاشة التوقف الوقت :
+Lang_Upload_mode,上传模式:,Upload mode:,Режим загрузки:,Chế độ tải lên:,Mode Téléch.:,Modo subida:,طريقة التحميل :
+Lang_Active_upload,主动上传,Upload,Проактивный,Hoạt động,Téléch. Actif,Activa,تحميل
+Lang_Passive_acquisition,被动采集,Waiting,Пассивный,Bị động,Collecte Passive,Pasiva,منتظر 
+Lang_Time_interval,上传间隔(min):,Upload Time (min):,Время загрузки(min):,Khoảng(min):,Interv. Téléch.(min):,Interv.subida(min):,وقت التحميل(دقيقة):
+Lang_Device_ID,设备ID:,Device ID:,Вещи ID:,Thiết bị ID:,ID Équip.:,ID Equipo:,رقم الجهاز
+Lang_Automatic_timing,自动对时:,Automatic timing:,Авто.Сроки:,Đúng giờ:,Sync. Heure Auto.:,Hora autom.:,التوقيت التلقائي
+Lang_Time_Zone,时区:,Time Zone:,Часовой пояс:,Múi giờ:,Fuseau Horaire:,Zona horaria:,المنطقة الزمنية
+Lang_Age_update_time,日龄更新时间:,Day Update Time:,Время обнов. Возраст:,Cập nhật tuổi:,MàJ Âge Jours:,Actualiz. edad días:,تاريخ التجديد :
+Lang_Data_update_time,数据更新时间:,Data Update Time:,данных Обновление:,Cập nhật dữ liệu:,MàJ Données:,Actualiz. datos:,تحديث البيانات:
+Lang_Know,知道了,Know,Понял.,Biết,Compris,Entendido,فهمت
+Lang_NH3_Control,氨气控制,NH3 Control,NH3 Конт.,Kiểm NH3,Contr. NH3,Ctrl.NH3,السيطرة على الأمونيا 
+Lang_Open_below_heat,低于加热开启:,Open below heat:,Ниже отопле. Темпе.:,Dưới nhiệt Bật:,Act. Sous Chauff.:,Act. calef. bajo,التدفئة أدناه على:
+Lang_Heating_Temp,加热温度(℃):,Heating Temp(℃):,Нагрев(℃):,Nhiệt sưởi ấm(℃):,Temp. Chauff.(℃):,Temp. calef.(℃):,درجة حرارة التسخين ( ℃ ) :
+Lang_Tips0,数据存储错误!,Data storage error!,Ошибки хранения данных!,Lỗi lưu trữ dữ liệu!,Err. Stock. Données!,Error alm. datos!,تخزين البيانات خطأ !
+Lang_Tips1,数据超出限制!,Data out of limit!,"Данные, превышающие лимиты!",Dữ liệu vượt quá giới hạn!,Données Limite Dép.!,Datos exced. límite!,البيانات خارج الحدود !
+Lang_Tips2,时间设置成功!,Set successfully!,Время установлено успешно!,Thời gian cài đặt thành công!,Régl. Heure Réussi!,Config. hora exitosa!,تعيين الوقت بنجاح !
+Lang_Tips3,密码错误!,Password Error!,Ошибка пароля!,Mật khẩu sai!,MDP Incorrect!,Contras. incorrecta!,كلمة السر خطأ !
+Lang_Tips4,登陆成功!,Logged in!,Вход в систему успешный!,Hạ cánh thành công!,Connex. Réussie!,Inicio sesión exitoso!,هبطت بنجاح!
+Lang_Tips5,退出登陆!,Logged out!,Выйти из системы!,Ra khỏi đất liền!,Déconnex.!,Cerrar sesión!,خروج!
+Lang_Tips6,请登陆后操作!,Please login first!,Работа после входа в систему!,Hoạt động sau khi hạ cánh!,Connex. Avant Opér.!,Opere post inicio sesión!,الرجاء تسجيل الدخول بعد العملية !
+Lang_Tips7,参数不能修改!,From modification!,Параметры не могут быть изменены!,Các thông số không thể thay đổi!,Param. Non Modif.!,Parám. no Cambios!,المعلمة لا يمكن تعديلها !
+Lang_Tips8,智能调节成功!,Operate successfully!,Успех интеллектуальной настройки!,Điều tiết thông minh thành công!,Régl. Intell. Réussi!,Ajuste intelig. exitoso!,ذكي التكيف بنجاح !
+Lang_Tips9,校准成功!,Good Calibration!,Успешная калибровка!,Hiệu chỉnh thành công!,Calib. Réussie!,Calib. exitosa!,معايرة ناجحة !
+Lang_Tips10,校准失败!,Error Calibration!,Сбой калибровки!,Hiệu chuẩn thất bại!,Échec Calib.!,Fallo calib.!,فشلت المعايرة!
+Lang_Tips11,数据保存成功!,Data storage successfully!,Успех хранения данных!,Lưu dữ liệu thành công!,Données Sauv. Réuss !,Datos guardados exitos.!,حفظ البيانات بنجاح !
+Lang_Tips12,密码修改成功!,Password changed successfully!,Успех пароля изменены!,Thay đổi mật khẩu thành công!,MDP Modif. Réussi!,Contras. cambiada exitos.!,تعديل كلمة السر بنجاح !
+Lang_Radius,范围,Radius,Регион,Phạm,Gamme,Rango,نطاق
+Lang_Fan,风机,Fan,Вент.,Quạt,Vent.,Ventil.,مروحة
+Lang_Heat,加热,Heat,Нагрев.,Làm ấm,Chauff.,Calef.,تدفئة
+Lang_Inlet,小窗,Inlet,Прит.,Cửa,Inlet,Inlet,نافذة ص
+Lang_Tunnel,导流,Tunnel,Тунне.,Hướng,Tunnel,Dir.flujo,تحويل
+Lang_Boiler,锅炉,Boiler,Котлы,Nồi hơi,Chaudi.,Caldera,الغلايات
+Lang_Temp,温度,Temp,Темп.,Nhiệt,Temp.,Temp.,حرارة
+Lang_illumination,光照,Light,Свет,Ánh,Éclair.,Ilum.,الإضاءة
+Lang_Wind,风速,Wind,Ско. вет.,Tốc gió,Vent,Vento,سرعة الرياح
+Lang_Out_HUM,室外湿度,Hum OUT,Вне.Влаж.,Độ. ngoài,Hum.Ext.,Hum.ext.,رطوبة خ
+Lang_Pot,电位计,Pot,Потенцио,Kháng,Potentio.,Potencióm.,مقياس
+Lang_oC,℃,℃,℃,℃,°C,℃,℃
+Lang_Pa,Pa,Pa,Pa,Pa,Pa,Pa,Pa
+Lang_percent,%,%,%,%,%,%,%
+Lang_ppm,ppm,ppm,ppm,ppm,ppm,ppm,ppm
+Lang_lux,lux,lux,lux,lux,lux,lux,lux
+Lang_m3,m³,m³,m³,m³,m³,m³,m³
+Lang_kwh,kwh,kwh,kwh,kwh,kwh,kWh,kWh
+Lang_CO2,CO2,CO2,CO2,CO2,CO2,CO2,CO2
+Lang_NH3,NH3,NH3,NH3,NH3,NH3,NH3,NH3
+Lang_Average_H,平均湿度,Average H,средний Влаж.,Độ ẩm bình,Hum. Moy.,Hum.media,متوسط الرطوبة
+Lang_Electro,用电量,Electro,Электр.,Sử điện,Cons. Élec.,Cons.eléct.,كھرباء
+Lang_RoomTemp,室内温度,Room Temp,Внутри Темп.,Nhiệt nhà,Temp. Int.,Temp.int.,درجة حرارة الغرفة
+Lang_Outdoor_Temp,室外温度,Temp OUT,Вне.Темп.,Nhiệt Ngoài,Temp. Ext.,Temp.ext.,حرارة خارجي
+Lang_Current_Air,当前风量,Cur Air,Воздух,Lượng gió hiện,Vol. Air Act.,Aire act.,حجم الهواء الحالي
+Lang_Current_Fan,当前风机,Current Fan,Ныне Вент.,Quạt hiện,Vent. Act.,Vent.act.,المروحة الحالية
+Lang_Number_No,序号,No.,No.,Số,No.,Núm.,الرقم المتسلسل
+Lang_ALA_content,报警内容,Alarm content,Тип аварии,Nội dung cảnh báo,Cont. Alarme,Cont. Ala,محتوى التنبيه
+Lang_Level,级别,Lv.,Слой,Lớp.,Lv.,Nivel,مستوى
+Lang_Disable,停用,Disable,Выкл,Tắt,Désact.,Desact.,إيقاف
+Lang_Continuous,持续运行,Continuous,Непр.,Liên,Fonct.Cont.,Func.cont.,التشغيل المستمر
+Lang_TimeCycle,时控启停,Cycle,Цикл.,Lặp,Cycle,Temporiz.,تشغيل وإيقاف مؤقت
+Lang_TimeRotate,时控轮转,Rotate,Ротация,Xoay,Rotate,Rotate,تحكم دوار زمني
+Lang_RunMode,运行模式:,Run Mode:,Режим:,Chế độ:,Mode Fonct.:,Modo:,وضع :
+Lang_Percent,运行开度:,Percent:,Открытость:,Độ mở:,Ouvert. Fonct.:,Apert.:,نسبة مئوية
+Lang_Return,返回,Return,Назад,Quay lại,Retour,Volver,عودة
+Lang_Cont,持续,Cont.,Непр.,Liên,Cont.,Cont.,مستمر
+Lang_Cycle,时控,Cycle,Цикл.,Lặp,Prog.,Temporiz.,دورة
+Lang_Rotate,轮转,Rotate,Ротация,Xoay,Rotation,Rotac.,دوران
+Lang_Sta,状态,Sta.,Ста.,Trạ.,État,Est.,حالة
+Lang_Air,风量,CFM,CFM,CFM,CFM,CFM,هواء
+Lang_Diff,偏差,Diff.,Разн.,Chên.,Diff.,Diff.,انح
+Lang_On,开,On,Отк.,Mở,On,Abrir,فتح
+Lang_Off,关,Off,Гуа.,Tắt,Off,Cerrar,إغلا
+Lang_Sec,时间,Sec,Сек.,giây,Sec,Sec,ثوان
+Lang_Curt,导流板,Curt,Тунне.,Hướng,Tunnel,Dir.flujo,منحرف
+Lang_Dev_Install,设备安装,Dev.Install,Монтаж,Cài đặt,Instal. Équip.,Instal.equ,تركيب المعدات
+Lang_ALA_Input,报警输入,Ala Input,аварии Ввод,Nhập Báo.,Entrée Ala,Entrada Ala,إدخال التنبيه
+Lang_Wline_ALA,水线报警,W.line Ala,Сигна. по вате.,Nước Dòng,Ala Ligne Eau,Ala línea agua,إنذار المياه
+Lang_Ammeter,电表,Electricity,электроэ.,Điện,Compt. Élec.,Med.eléct.,عداد كھرباء
+Lang_Wmeter,水表,W.meter,Водомер,Nước,Compt. Eau,Med.agua,عداد مياھ
+Lang_Mmeter,料表,M.meter,Таблицы,Thức,Compt. Mat.,Med.alim.,عداد مواد
+Lang_Gas_meter,燃气表,Gas meter,Газометр,Khí đốt,Compt. Gaz,Med.gas,الغاز/  متر
+Lang_Water_Pre_meter,水压表,W. Press Meter,Манометр,Áp nước,Mano. Eau,Med.pres.,ضغط المياه/ متر
+Lang_Rated_Air,额定风量(km³/h):,Rated Air(km³/h):,Номин. Воздух(km³/h):,lượng khí(km³/h):,Débit Air(km³/h):,Aire nom.(km³/h):,تدفق الهواء (كم³/س):
+Lang_Rated_I,额定电流(A):,Rated I(A):,Номин. ток(A):,Hiện tại(A):,Cour. Nom.(A):,Corr.Nom.(A):,التيار المصنف (أمبير):
+Lang_Num_fans,风机个数:,Num fans:,Вент.Коли.,Số.Quạt,Nom Vent.:,Núm.vent.:,عدد المشجعين :
+Lang_Adj_Val,校准值/%s:,Adj Val/%s:,Кали.Числе./%s:,Hiệu chuẩn/%s,Val. Calib./%s:,Valor calib./%s:,قيمة المعايرة : / %s
+Lang_sensor,传感器,Sensor,Датчики,Cảm biến,Capteur,Sensor,حساس 
+Lang_other,其他,other,Другие,Khác,Autre,Otros,أخرى .
+Lang_Change_Pwd,修改密码,Change,Изм. Пароль,Sửa đổi,Modif. MDP,Cambiar MDP,تغيير م
+Lang_Old_Password,请输入原密码,Input Old Password,Старый пароль,Nhập mật khẩu gốc,Entrer MDP Act.,Ingrese MDP original,الرجاء إدخال كلمة السر الأصلية
+Lang_New_Password,新密码,Input New Password,Новый пароль,Mật khẩu mới,Nouv. MDP,Nueva MDP,كلمة السر الجديدة
+Lang_Ack_Password,确认密码,Ack Password,Подтверждение пароля,Xác nhận mật khẩu,Conf. MDP,Confir. MDP,تأكيد كلمة المرور
+Lang_Super_Admin,超级管理员,Super Admin,Супер Управление,Siêu quyền,Super Admin,Sup.Admin.,سوبر مدير
+Lang_Admin,管理员,Admin,Управление,Quyền hạn,Admin,Admin.,مدير
+Lang_Quit,退出,Quit,выйти,Đi đi,Quitter,Quit,سحب
+Lang_Login,登录,Login,логин,Nhập,Connex.,Login,سجل
+Lang_Users_Login,用户管理,Users Login,Поль.,Đăng nhập,Gest.Util.,Usuarios,إدارة المستخدم
+Lang_Input_Password,请输入密码,Input Password,Ввод пароль,Nhập mật khẩu,Entrer MDP,Ingrese contras.,الرجاء إدخال كلمة السر
+Lang_Temper_Def,温度分区设置,Temperature Definition,Темп.Разделы,Vùng nhiệt,Config. Zones Temp.,Zonas temp.,إعدادات منطقة درجة الحرارة
+Lang_Heat_Area,加热区%d,Heat %d,Обог.%d,Sưởi.%d,Chauff. %d,Zona calef.%d,منطقة ت%d
+Lang_Vent_Set,通风设置,Vent Set,Вент.,Thông gió,Config. Vent.,Config.vent.,وضع التهوية
+Lang_Detail_Set,详细设置,Details,Подробно,Chi tiết,Param. Dét.,Detall.,إعدادات م
+Lang_Min_Lv,最小级别,Min Lv,Мин.Уров.,Cấp.thiểu,Niv. Min,Nivel mín.,الحد الأدنى
+Lang_Max_Lv,最大级别,Max Lv,Макс.Уров.,Cấp.đa,Niv. Max,Nivel máx.,الحد الأقصى
+Lang_Fix_Temp,补偿温度,Comp Temp,Комп. Темп.,Bổ.Nhiệt,Temp. Comp.,Temp.comp.,حرارة تعويض
+Lang_TD,今日,TD.,Ныне.,Hôm.nay,Auj.,Hoy,اليوم .
+Lang_YDA,昨日,YDA.,Вчера.,Hôm.qua,Hier,Ayer,الأمس
+Lang_Min_Temp,最小温度,Min Temp,Мин.Темп.,Nhiệt.thiểu,Temp. Min,Mín.temp.,أدنى ح
+Lang_Max_Temp,最大温度,Max Temp,Макс.Темп.,Nhiệt.đa,Temp. Max,Máx.temp.,أقصى ح
+Lang_Zoon_stock,动物存量,Zoon stock,Запасы животных,Động vật Stock,Stock Anim.,Anim. exist.,مخزون الحيوانات
+Lang_CMP,较前日相比,Comp.,Сравнение,Sánh trước,Comp. à Hier,Compar.Ayer,مقارنة مع قبل يوم
+Lang_Analogy_Test,模拟测试,Mock Test,Модели. тесты,Thử mô,Test Simul.,Prueba simul.,اختبار ت
+Lang_Hardware_Test,硬件测试,Hardware Test,Обор.тесты,Kiểm phần,Test Mat.,Prueba hardware,اختبار أ
+Lang_Cfg_I,配置导入,Config Im,Наст.Импорт,CFG Nhập,Import Config.,Im.config.,استيراد ك
+Lang_Cfg_E,配置导出,Config Ex,Наст.Вн.,CFG Xuất,Export Config.,Ex.config.,تصدير ت
+Lang_Config_Template,配置模板,Config Template,Наст.Шаблоны,Cấu hình mẫu,Modèle Config.,Plant.config.,تكوين قالب
+Lang_Restore_Factory,恢复出厂,Restore,Сброс,Đặt lại,Réinit. Usine,Restablec.,استعادة م
+Lang_Cur_Lv,当前级别,Curr Level,Текущий Уров.,Tại.Cấp,Niv. Actuel,Nivel act.,المستوى الحالي
+Lang_Lv_Simulate,级别模拟,Level Simulation,Уров.Модели.,Cấp Giả sử,Simul. Niveau,Simul.nivel,محاكاة المستوى
+Lang_Temp_Simulate,温度模拟,Temp Simulation,темп. Модели.,Nhiệt Giả sử,Simul. Temp.,Simul.temp.,محاكاة درجة الحرارة
+Lang_Simulate_C,模拟启用,Simulation Enabled,Вкл Модели.,Giả sử Bật,Act. Simul.,Act. simul.,محاكاة المستوى
+Lang_Analogy,模拟量,Analog,Аналог,Mô phỏng,Simulation,Simulac.,إشارة ت
+Lang_Relay,继电器,Relay,Реле,Rơ le,Relais,Relé,مرحّل
+Lang_ALA,报警,Alarm,высок,Báo động,Alarme,Alarma,انذار
+Lang_Fan_Def,风机定义,Fan_Def,Вент.Опре.,Quạt.nghĩa,Déf. Vent.,Def. vent.,تعريف مروحة
+Lang_Fan_DefTips0,提示:,Tip:,Подсказка:,Mẹo:,Astuce:,Nota:,نصيحة
+Lang_Fan_DefTips1,"从左到右,从下到上按照实际接线定义风机.",Define the fan according to the actual wiring from right to bottom to top.,"Слева направо, сверху вниз, в соответствии с фактическим определением","Từ trái sang phải, từ dưới lên",Définir les ventilateurs de gauche à droite et de bas en haut selon le câblage réel.,De izq. a der. y de abajo arriba según cableado real def. vent,"من اليسار إلى اليمين ، من أسفل إلى أعلى ، مروحة محددة حسب الأسلاك الفعلية ."
+Lang_Fan_DefTips2,"单击空白处定义下一个风机,长按空白处定义同一风机,长按风机处取消定义.","Click on the blank space to define the next fan, long press on the blank space to define the same fan, and long press on the fan to cancel the definition.","Нажмите для определения следующего, длинного по пустому определению того же, длинного по определению отмены","Nhấp vào Define Next, Long by Blank Definition, Long by Cancel.","Cliquez sur définir suivant, long appuyez sur vide pour définir la même chose, long appuyez sur ventilateur pour annuler.","Clic en blanco para def. sig. vent., pulsac. larga en blanco para def. mismo vent., pulsac. larga en vent. para cancelar def.","انقر على المساحة الفارغة لتحديد المروحة التالية، ثم اضغط لفترة طويلة على المساحة الفارغة لتحديد نفس المروحة، ثم اضغط لفترة طويلة على المروحة لإلغاء التعريف."
+Lang_Temp_In,温度输入,Temp In,Темп.Ввод,Nhập Nhiệt,Entrée Temp.,Entrada temp.,إدخال درجة الحرارة
+Lang_Analog_Out,模拟量输出,Analog Out,Модели. Вн.,Xuất Mô phỏng,Sortie Analog.,Salida simulac.,التناظرية الناتج
+Lang_RS485_In,RS485,RS485,RS485,RS485,RS485,RS485,RS485
+Lang_Jdq_Out,继电器输出,Relay Out,Реле Вн.,Xuất Rơ le,Sortie Relais,Salida relé,تتابع الانتاج
+Lang_Analog_In,模拟量输入,Analog In,Модели. Вход,Nhập Mô phỏng,Entrée Analog.,Entrada simulac.,المدخلات التناظرية
+Lang_Digital_In,开关量输入,Digital In,Перек. Вход,Số Nhập,Entrée Commut.,Entrada digital,تبديل الإدخال
+Lang_Analog_In_Abbr,模拟量输入,AI,AI,AI,AI,AI,المدخلات التناظرية
+Lang_Digital_In_Abbr,开关量输入,DI,DI,DI,DI,DI,تبديل الإدخال
+Lang_Time,时间,Time,Время,Thời,Tps,Tiempo,الوقت .
+Lang_OpenAll_T,全开时间:,Full Open time:,Все включено.Время:,Mở tất cả:,Tps Ouvert.Tot.:,Tiempo apert.:,مدة الفتح:
+Lang_CloseAll_T,全关时间:,Full Close time:,Все Гуань.Время:,Tất cả:,Tps Fermet.Tot.:,Tiempo cierre:,وقت الإغلاق الكامل :
+Lang_VolMin,最小电压:,Min Vol:,Мин. Напряжение:,Điện áp-đa:,Tens. Min:,Mín. volt.:,أدنى ج :
+Lang_VolMax,最大电压:,Max Vol:,Макс. Напряжение:,Điện áp-thiểu:,Tens. Max:,Máx. volt.:,أقصى الجهد
+Lang_Advance_Open,提前开时间:,Advance Open Time:,Досрочно Отк.:,Mở sớm:,Tps Ouvert. Ant.:,Tiempo apert. anticip.:,وقت الافتتاح المبكر :
+Lang_Delay_Off,延时关时间:,Delay Off Time:,Отсрочка Гуа.:,Tắt trễ:,Tps Fermet. Diff. :,Tiempo cierre retard.:,تأخير الوقت
+Lang_Action_T,动作时间:,Action Time:,Действие Время:,Thời Chờ chút.:,Tps Action:,Tiempo acc.:,وقت العمل
+Lang_Wait_T,等待时间:,Wait Time:,ОжиданиеВремя:,Thời gian chờ:,Tps Attente:,Tiempo espera:,وقت الانتظار
+Lang_Auto_calibration,自动校准:,Auto calibration:,Авто.Кали.:,Chuẩn tự động:,Calib. Auto.:,Calib. autom.:,المعايرة التلقائية :
+Lang_Open_calibration,上电校准:,Power on calibration:,Включай.Кали.:,Chuẩn Chạy:,Calib. Mise Sous Tens.:,Calib. encend.:,معايرة التشغيل:
+Lang_Pot_number,电位计序号:,Pot Number:,Потенцио ID:,Kháng ID:,No Potentiomètre:,Núm. potencióm.:,الرقم التسلسلي لمقياس الجهد:
+Lang_CTRL_mode,控制模式:,CTRL Mode:,Режим,Chế độ Kiểm,Mode Contrôle:,Modo ctrl.:,وضع التحكم:
+Lang_Defrost_Time,除霜时间(S):,Defrost Time(S):,оттаивание Время(S):,Thời gian rã đông(S):,Tps Dégivrage(S):,Tiempo desesc.(S):,وقت إزالة الجليد(ث):
+Lang_Lv_C,级别开度控制,Lv. Degree Ctrl,Кон. отк. уровня,Mức độ mở,Contr. Ouvert. Niv.,Ctrl. apert. por nivel,تحكم فتح
+Lang_Lv_NP_C,级别静压控制,Lv. SP Ctrl,Кон. Стат. дав.,Mức áp suất tĩnh,Contr. SP Niv.,Ctrl. SP. por nivel,تحكم ض
+Lang_Lv_Only_NP_C,纯静压控制,Only SP Ctrl,Конт. стат. дав.,Áp suất tĩnh,Contr. SP Pur,Ctrl. SP. puro,فقط تحكم ض
+Lang_OpenAll_Vol,全开电压:,Full Open Vol:,Вкл. Напряжение:,Điện áp Mở:,Tens. Ouvert. Tot.:,Volt. apert. total:,الجهد المفتوح بالكامل:
+Lang_CloseAll_Vol,全关电压:,Full Close Vol:,Вык. Напряжение:,Điện áp Tắt:,Tens. Fermet. Tot.:,Volt. cierre total:,الجهد المغلق بالكامل:
+Lang_Air_intake_cal,进风窗校准,Air Cal,Тунне.кали.,Chuẩn,Calib. ,Calib.entrada,معايرة نافذة مدخل الهواء
+Lang_Inlet_Cal,小窗校准,Inlet Cal,Прит.Кали.,Cửa chuẩn,Calib. Pet. Fen.,Calib.Inlet,معايرة النافذة الصغيرة
+Lang_Curt_Cal,导流板校准,Curt Cal,Грубый.Кали.,Hướng chuẩn,Calib. Tunnel,Calib.Dir.flujo,دليل لوحة المعايرة
+Lang_Preset_meter,预设表,Preset meter,Предустановка Таблицы,Đặt trước,Table Prédéf.,Med.predet.,الجدول الافتراضي
+Lang_Custom_meter,自定义表,Custom meter,Настройка Таблицы,Tùy chỉnh,Table Perso.,Med.personaliz.,جدول مخصص
+Lang_Data_bits,数据位,Data bits,биты данных,dữ liệu,Bits Données,Bits datos,بت
+Lang_Stop_bit,停止位,Stop bit,стоп-бит,Dừng dài,Bits Stop,Bits Stop.,بت توقف
+Lang_CRC_bit,校验位,CRC bit,проверять,Kiểm trabit,Bits Parité,Bits verif.,بت سريع
+Lang_Serial_port_inf,串口信息,UART Inf,UART,Kết Số.,Infos Port Série,Info.UART,منفذ اتصالات
+Lang_Meter_inf,表具信息,Meter Inf,внешность,Đồng hồ đo,Infos Compteur,Info.Med.,معلومات الجدول
+Lang_Data_inf,数据信息,Data Inf,Данные,Kiểm trabit,Infos Données,Info.datos,البيانات والمعلومات
+Lang_Format,存储格式,Format,Бао.Формат,Lưu trữ,Fmt. Stock.,Form. Alm., تخزين
+Lang_Format_Encode,编码格式,Encoding,Код.Формат,Mã hóa,Fmt. Codage,Form. Cod.,ترميز
+Lang_Register_address,寄存器地址,Register Add,Адресс,Đăng ký,Adr. Registre,Dir.registro,سجل العنوان
+Lang_Data_Len,数据长度,Data Length,Числа Длина,Độ dài,Long. Données,Long.datos,طول بيانات
+Lang_Decimal,小数位,Decimal places,десятичные,Thập phâ,Décimales,Decimales,عشري
+Lang_Magnification,放大倍数,Magnification,Увеличить,Nhiều,Facteur Multipl.,Factor ampl.,التكبير
+Lang_Odd_check,奇校验,Odd,Да,Số lẻ,Parité Impaire,Impar,عدد فردي
+Lang_Even_check,偶校验,Even,ровный,Chẵn,Parité Paire,Par,حتى عدد
+Lang_NO_check,无校验,None,не,Không,Sans Parité,Ninguno,لا تحقق
+Lang_LowT_Diff,低温偏差,LowT dIff,Холодно. Сниж.,Chênh Nhiệt Thấp,Écart BT,Desv.bajaT,انخفاض درجة الحرارة الانحراف
+Lang_HT_Diff,高温偏差,HightT diff,Жара Сниж.,Chênh Nhiệt cao,Écart HT,Desv.altaT,ارتفاع درجة الحرارة الانحراف
+Lang_Consumption_data,消耗数据,Consume.D,Расходы,Tiêu dữ liệu,Cons.D,Consum.D,بيانات الاستهلاك
+Lang_Enable_sta,启用状态,Enable Status,Запуск Статус,Bật.Trạng,État Act.,Estado act.,تمكين الدولة
+Lang_Interface_type,接口类型,Interface type,Порт Вид,Loại cổng,Type Interface,Tipo interfaz,نوع واجهة
+Lang_Interface_num,接口序号,Interface num,Порт ID,Số.cổng,No Interface,Núm. interfaz,الرقم التسلسلي للواجهة
+Lang_measure,计量,Measure,Измерение,Đo,Mesure,Medición,قياس
+Lang_use_water,用水类型,Type of water used,Вид воды,Loại nước,Type Util. Eau,Tipo agua,أنواع المياه
+Lang_Input_Mode,输入模式,Input Mode,Тип ввода,Chế nhập,Mode Entrée,Modo entrada,وضع الإدخال
+Lang_Unit,单位,Unit,единица,Đơn.vị,Unité,Unid.,وحدة
+Lang_Water_meter_model,水表型号,Water meter model,Тип водомера,Nước.Loại,Modèle Compt. Eau,Modelo med. agua,نوع المياه /متر
+Lang_Addr,地址,Addr,Адрес,Địa chỉ,Adresse,Direcc.,عنوان
+Lang_Digital,数字量,Digital,Числа,Số.,Qté Numérique,Digital,الكمية الرقمية
+Lang_Pluse,脉冲,Pluse,пульс,Xung,Impulsion,Pulso,نبضات
+Lang_Power_meter_model,电表型号,Electricity meter model,Тип электроэне.,Điện.Loại,Modèle Compt. Élec.,Med. eléct.,متر نوع
+Lang_Food_meter_model,料表型号,Food meter model,Тип таблицы,Thức.Loại,Modèle Compt. Mat.,Med. alim.,نوع الجدول
+Lang_timing,计时,Timing,Время,Thời gian,Chrono.,Temporizac.,توقيت
+Lang_T_Low_Ala,低温报警温度/℃:,Low temp Ala/℃:,Мин. темп. трев./℃:,Nhiệt cao/℃:,Temp. Ala. BT/℃:,Ala bajatens.T/℃:,تنبيه انخفاض/℃:
+Lang_T_High_Ala,高温报警温度/℃:,High temp Ala/℃:,Мак. темп. трев./℃:,Nhiệt Thấp/℃:,Temp. Ala.HT/℃:,Ala sobretens.T/℃:,تنبيه ارتفاع/℃:
+Lang_Start_up_Time,启动时间,Start,Откр.:,Bắt đầu:,Tps Démarr.,Tiempo inicio,وقت البدء
+Lang_Stop_Time,停止时间,Stop,Гуань,Dừng lại.,Tps Arrêt,Tiempo parada,توقف الزمن
+Lang_Farmhouse_area,农舍面积,Farmhouse area,Дом Площадь,Khu vực,Surf. Ferme,Área granja,منطقة المزرعة
+Lang_Local_Man,本地管理,Local Man,Местные,Máy gốc,Gestion Loc.,Gest. local,الإدارة المحلية
+Lang_Ala_Duration,持续时间,Alarm Duration,упорный,Thời lượng,Durée,Durac.,مدة
+Lang_Mortality,死淘率,Mortality,Мертвый,Tỷ loại bỏ,Taux Mort.,Tasa mort.,معدل الوفيات
+Lang_Num_Deaths,死亡总量,Death,Смерть,Chết,Décès,Muertes,إجمالي و
+Lang_Current_inventory,当前存栏量,Curr inventory,теперь итог,Tại.Sống sót,Anim. Stock,Act.granja,المخزون الحالي
+Lang_Vent_Quantity,通风量,Vent val,вент.,Thông,Vent.,Vent.,كمية التهوية
+Lang_Min_Lv_Time,最小级别时间,Min Lv Time,Мин.Уров.Сек.,thiểu Cấp.Thời,Tps Niv. Min,Tiempo mín.nivel,الحد الأدنى من الوقت
+Lang_Max_Lv_Time,最大级别时间,Max Lv Time,Макс.Уров.Сек.,đa Cấp.Thời,Tps Niv. Max,Tiempo máx.nivel,أقصى مستوى الوقت
+Lang_Minimum_Time,最小时间,Min Time,Мин. Время,Tối thiểu Thời,Tps Min,Mín.tiempo,الحد الأدنى من الوقت
+Lang_Maximum_Time,最大时间,Max Time,Макс. Время,Tối đa Thời,Tps Max,Máx.tiempo,الحد الأقصى للوقت
+Lang_Minimum,最小,Min.,Мин.,Tối thiểu,Min,Mín.,أدنى
+Lang_Maximum,最大,Max.,Макс.,Tối đa,Max,Máx.,أقصى
+Lang_Livestock,存栏,Livestock,Запасы,Sống sót,En Stock,En granja,سجل
+Lang_Gas_meter_model,燃气表型号,Gas meter model,Тип Манометр,Khí đốt.Loại,Modèle Compt. Gaz,Med. gas,نوع الغاز متر
+Lang_NotFound,U盘未插好!,The USB was not found!,U-диск не вставлен,USB không cắm xong!,USB Non Insérée!,Pendrive no insert. corr.!,لم يتم إدخال قرص USB بشكل صحيح!
+Lang_ExconfigF,导出配置失败!,Export config failed!,Не удалось экспортировать конфигурацию,Cấu hình xuất thất bại!,Échec exp. config.!,Falla export. config.!,تصدير التكوين فشلت !
+Lang_ExconfigS,导出配置成功!,Export config succeeded!,Успешный экспорт конфигурации,Cấu hình xuất thành công!,Exp. config. Réussie!,Export. config. exitosa!,تصدير التكوين بنجاح !
+Lang_ImconfigF,导入配置失败!,Import config failed!,Сбой конфигурации импорта,Cấu hình nhập thất bại!,Échec imp. config.!,Falla import. config.!,استيراد التكوين فشلت !
+Lang_ImconfigS,导入配置成功!,Import config succeeded!,Конфигурация импортирована успешно,Nhập cấu hình thành công!,Imp. config. Réussie!,Import. config. exitosa!,استيراد التكوين بنجاح !
+Lang_EXwait,"正在导出,请稍后!","Exporting, please wait!",Экспорт...Позже!,"Xuất khẩu, xin vui lòng sau!","Exp. en cours,patientez!","Exportando, espere!","تصدير ، يرجى الانتظار !"
+Lang_IMwait,"正在导入,请稍后!","Importing, please wait!",Импорт...Позже!,"Nhập khẩu, xin vui lòng để lại sau!","Imp. en cours,patientez!","Importando, espere!","استيراد ، يرجى الانتظار !"
+Lang_ExDataF,导出数据失败!,Export data failed!,Не удалось экспортировать данные,Xuất dữ liệu thất bại!,Échec exp. données,Falla export. datos!,تصدير البيانات فشلت !
+Lang_ExDataS,导出数据成功!,Export data succeeded!,Успешный экспорт данных,Xuất dữ liệu thành công!,Exp. données réussie,Export. datos exitosa!,تصدير البيانات بنجاح !
+Lang_Protocol,协议,Protocol,Соглашение,Giao thức,Prot.,Protocolo,اتفاق
+Lang_Fan_Sta,风机状态,Fan Status,Вент.Статус,Trạng Quạt,État vent.,Est.vent.,فان الدولة
+Lang_detction_fan_curr,风机故障诊断,Fan diagnosis,Вент.Диагнос,Chẩn quạt,Diag. vent.,Diag.vent.,تشخيص خطأ المروحة
+Lang_Cage_type,笼具类型,Cage Type,Тип клетки,Loại lồng,Type cage,Tipo jaula,نوع القفص
+Lang_Cage_Layer_Num,笼具层数,Num of cage layers,Клетка Слой,Số tầng,Nom étages cage,Capas jaula,عدد طبقات القفص
+Lang_Cage_Col_Num,笼具列数,Num of cage row,Клетка кол.,Số cột,Nom col. cage,Columnas jaula,عدد صفوف القفص
+Lang_Num_Collecters,采集器数量,Num of collectors,Коллектор Числа,Số bộ sưu tập,Nom coll.,Cant. recolect.,جامع عدد
+Lang_Num_Wline,水线数量,W.L. Num,ватер. Числа,Số N. Dòng,N.L. eau,C. L. agua,كمية المياه
+Lang_Monomer_cage,单体笼,Monomer cage,Одиночка,Độc thân,Cage indiv.,Jaula individual,قفص واحد
+Lang_Back_to_back,背靠背,Back-to-back,Спина к спине,Trở lại,D-à-d,Esp.con.esp,العودة إلى الوراء
+Lang_Step,阶梯,Step,Шаги,Cầu thang,Esc.,Esc.,سلم
+Lang_Num_ELE,电表序号,Serial number of Electricity meter,Номер электроэне.,Số sê-ri điện,N° compt. élect.,Núm. med. eléct.,عداد الكهرباء الرقم المسلسل
+Lang_Num_of_conn_sensors,接入传感器数量,Number of connected sensors,Номер Датчик,Số cảm biến truy cập,Nb capteurs conn.,Cant. sensores conect.,عدد أجهزة الاستشعار المتصلة
+Lang_Enable,启用,Enable,Вкл.,Bật,Act.,Act.,تفعيل
+Lang_Fan_layout,风机排布,Fan Layout,Вент.азимут,Phân phối,Disp. vent.,Distrib.vent.,ترتيب المروحة
+Lang_About_machine,关于本机,About,Актуальнос,Về Native,À prop. app.,Acerca disp.,عن هذا الجهاز
+Lang_Time_style,时间格式:年月日时分秒,"Time format: year, mon, day, hour, min, sec","Формат времени: дата, месяц, минута, секунда",Định dạng:Năm Tháng Ngày Khi phút giây,Format temps:Année Mois Jour Heures Min Sec,Hora: año mes día hora min seg,"الوقت شكل:س، ش، ي، س، د، ث"
+Lang_Gas_Using,用气量,Gas Using,газ Количество,Sử dụng gas,Cons. gaz,Consumo gas,استخدام الغاز
+Lang_Food_Adding,打料量,Food Adding,Объем подачи,Thực phẩm tăng,Qté mat. dist.,Cant. alim. sumin.,أضافه الطعام
+Lang_More,更多,More,Больше.,Thêm,Plus,Más,أكثر .
+Lang_Total,总量,Total,Итог,Tổng cộng,Total,Total,إجمالي
+Lang_AreaSpl,区,Area,Регион,vực,Zone,Zona,منطقة
+Lang_Simulated_Run,模拟运行,Simulated Run,Модели. Запуск,Chạy mô phỏng,Fonct. sim.,Simul. oper.,محاكاة تشغيل
+Lang_Apparent_Temp,体感温度,Apparent T,Тела.T,Cơ thể Nhiệt ,Temp. ress.,Temp. percib.,حرارة محسوسة
+Lang_Manual_Comp,手动补偿,Manual Comp,Ручной Комп.,Bù đắp Nhân tạo,Comp. man.,Comp. manual,دليل التعويض
+Lang_Diurnal_Comp,昼夜补偿,Diurnal Comp,День&ночь Компен.,Bù đắp Ngày và đêm,Comp. J/N,Comp. D/N,تعويض يومي
+Lang_Air_quality_On,空气质量补偿开启,Air quality Comp,Воздух Чисто. Комп.,Bù đắp không khí,Act. comp. air,Act. comp. air,نوعية الهواء تعويض فتح
+Lang_NC_Ala,常闭点报警,NC Ala,NC аварии,NC Báo động,NC Ala,NC Ala,نذار نقطة مغلقة عادة
+Lang_Online,联网,Online,Сеть,Mạng lưới,En.ligne,En.línea,الشبكات
+Lang_Software_Version,软件版本,Version,Версия,Phiên bản,Vers.log.,Vers.softw.,إصدار
+Lang_Chg_System_Time,修改系统时间:,Modify system time:,Изменения Время:,Thời gian sửa đổi:,Modifier l'heure système:,Cambiar hora sistema:,تعديل وقت النظام :
+Lang_Open,开启,Open,Отк.,Mở,Ouv.,Abrir,فتح
+Lang_Close,关闭,Close,Гуа.,Đóng,Ferm.,Cerrar,غلق
+Lang_BEEP,蜂鸣器,BEEP,Звонок,BEEP,BEEP,BEEP,صفارة
+Lang_Clear_data,"是否清除数据
+此操作需要一些时间,请耐心等待!","Clear data or not
+This operation will take some time!","Чтобы очистить данные
+эта операция занимает некоторое время, будьте терпеливы!","Xoá dữ liệu,Thao tác này sẽ 
+mất một thời gian, hãy kiên nhẫn!","Effacer les données ou non,
+Op. prend tps, veuillez pat.!","Limpiar datos,
+Esta oper. requiere tiempo, espere.!"," مسح البيانات
+هذه العملية تستغرق بعض الوقت ، يرجى التحلى بالصبر"
+Lang_Enter_return,"请输入密码恢复出厂
+此操作需要一些时间,请耐心等待!","Enter the password to return
+This operation will take some time!","Введите пароль для восстановления завода
+эта операция занимает некоторое время, будьте терпеливы!","Vui lòng nhập mật khẩu khôi phục nhà máy,
+Thao tác này sẽ mất một thời gian, hãy kiên nhẫn!","Entrez mdp pour réinit. Usine,
+Op. prend tps, veuillez pat.!","Ingrese contras. para restablec.
+Fábrica, oper. requiere tiempo, espere.!"," الرجاء إدخال كلمة السر لاستعادة المصنع
+هذه العملية تستغرق بعض الوقت ، يرجى التحلى بالصبر ! س
+"
+Lang_EN_Exdata,"是否进行数据导出
+此操作需要一些时间,请耐心等待!","Whether to Ex data
+This operation will take some time!","Проводится ли экспорт данных
+эта операция занимает некоторое время, будьте терпеливы!","Có nên xuất dữ liệu hay không,
+Thao tác này sẽ mất một thời gian, hãy kiên nhẫn!","Procéder à exp. Données,
+Op. prend tps, veuillez pat.!","Exportar datos?
+Esta oper. requiere tiempo, espere.!"," تصدير البيانات
+هذه العملية تستغرق بعض الوقت ، يرجى التحلى بالصبر ! س
+"
+Lang_EN_Exconfig,"是否进行配置导出
+此操作需要一些时间,请耐心等待!","Whether to Ex the config
+This operation will take some time!","Экспорт конфигурации
+эта операция занимает некоторое время, будьте терпеливы!","Cấu hình xuất khẩu,
+Thao tác này sẽ mất một thời gian, hãy kiên nhẫn!","Procéder à exp. config,
+Op. prend tps, veuillez pat.!","Exportar config.
+Esta oper. requiere tiempo, espere.!"," تكوين الصادرات
+هذه العملية تستغرق بعض الوقت ، يرجى التحلى بالصب  ! س
+"
+Lang_EN_Imconfig,"是否进行配置导入
+此操作需要一些时间,请耐心等待!","Whether to Im config
+This operation will take some time!","Импорт конфигурации
+эта операция занимает некоторое время, будьте терпеливы!","Cấu hình nhập khẩu,
+Thao tác này sẽ mất một thời gian, hãy kiên nhẫn!","Procéder à imp. config,
+Op. prend tps, veuillez pat.!","Importar config.
+Esta oper. requiere tiempo, espere.!"," تكوين استيراد
+هذه العملية تستغرق بعض الوقت ، يرجى التحلى بالصبر ! س
+"
+Lang_Clear_S,清除成功,Clear successfully,Удалить Успех,Xóa thành công,Effac. Réussi,Limpieza exitosa,مسح بنجاح
+Lang_Fan_Interval,风机间隔延时(S):,Fan Interval Time(S):,Вент. Интервал(S):,Khoảng thời gian trễ(S):,Délai Interv. Vent.(S):,Retardo entre ventiladores(S):,وقت فاصل (ث):
+Lang_Target,目标,Target,Цель,Mục tiêu,Cible,Objetivo,الهدف
+Lang_Actual_value,实际值(%s):,Actual value(%s):,Настоящий.(%s),Giá trị thực(%s),Val. Réelle (%s):,Valor real(%s):,القيمة الفعلية ( %s ) :
+Lang_Opening,开度:,Opening:,Доля:,Độ mở,Ouvert.:,Apertura,درجة الافتتاح
+Lang_Open_T,开时间(S):,Open time(S):,Открой.(S):,Thời mở(S):,Tps Ouvert.(S):,Tiempo apert.(S):,زمن ف( ق ) :
+Lang_Close_T,关时间(S):,Close time(S):,Гуань(S):,Thời Tắt(S):,Tps Ferm.(S):,Tiempo cierre(S):,زمن غ ( ق ) :
+Lang_Network_Set,联网设置,Network Set,Сеть Сбор,Mạng lưới,Config. Réseau,Config. red,إعدادات الشبكة
+Lang_ALA_Shield,报警屏蔽,Ala Shield,Ошибка Защ.,Che chắn Báo,Masq. Alarme,Bloq. Ala,إنذار الدرع
+Lang_ALA_Shield10Min,屏蔽10M,Shield 10M,Нет. 10M,Che chắn10M,Masq. 10 Min,Bloq. 10M,درع 10 م
+Lang_Egg_Count,计蛋器,Egg Count,Яйцо Количество,Máy đếm trứng,Compt. Œufs,Cont. huevos,جهاز توقيت البيض
+Lang_BoilerT,锅炉温度,Boiler T,Котлы.T,Nhiệt nồi hơi,Temp. Chaudière,Temp. caldera,درجة حرارة المرجل
+Lang_Factory_succeed,恢复出厂成功!,Factory restore succeeded!,Заводское восстановление успешно!,Khôi phục xuất xưởng thành công!,Réinit. Usine Réussie!,Restablec. fábrica exitoso!,استعادة المصنع بنجاح !
+Lang_Log_record,日志记录,Log record,Лесозаготовка,Đăng nhập,Enreg. Journaux,Reg. bitác.,عداد البيض
+Lang_Log_content,日志内容,Log content,Содержимое журнала,Nội dung nhật ký,Cont. Journal,Cont. bitác.,محتوى السجل
+Lang_Time_point,时间,Time,Время,Thời,Tps,Tiempo,الوقت .
+Lang_Power_on,系统上电,Power on,Включение питания,Điện trên hệ thống,Mise Sous Tens. Syst.,Encend. sistema,تشغيل النظام
+Lang_Task_timed_out,任务超时,Task timed out,Истекло время ожидания задачи,Hết giờ tác vụ,Tâche Expirée,Tarea exced. tiempo,أنتهت المهله 
+Lang_Watchdog_reboot,看门狗重启,Watchdog reboot,Перезагрузка сторожевого таймера,Watchdog khởi động lại,Redém. Watchdog,Reinicio watchdog,إعادة تشغيل جهاز المراقبة
+Lang_Temp_failure,温度故障,Temp. failure,Темп. сбой,Lỗi nhiệt độ,Défaut Temp.,Falla temp.,درجة الحرارة خطأ
+Lang_Min_Vent_Weight,最小风量/体重,Min Vent/Weight,Мин. Вент./вес,thiểu Gió/Cân,Débit Min/Poids,Mín. caudal aire/peso,الحد الأدنى من حجم الهواء / الوزن
+Lang_Weight_Curve,体重曲线,Weight Curve,Кривая веса,Cân Đường,Courbe Poids,Curva peso,منحنى الوزن
+Lang_Weight,体重(g),Weight(g),Вес(g),Cân(g),Poids(g),Peso (g),الوزن ( جرام)
+Lang_TH_SW,温控高温,T.SW High Temp,высокий Регу.,Nhiệt Công tắc C.,HT Contr. Temp.,Ctrl. temp. alta,تحكم ح ع
+Lang_TL_SW,温控低温,T.SW Low Temp,низкий Регу.,Nhiệt Công tắc T.,BT Contr. Temp.,Ctrl. temp. baja,تحكم ح م
+Lang_ALA_Res,报警恢复,Alarm Restore,Повторная авария,Phục hồi báo động,Récup. Alarme,Recup. Ala,استعادة التنبيه
+Lang_BreedDuck,种鸭,Breed-duck,Выра. yток,Vịt chuẩn,Can. Reprod.,Pato reprod.,بطة ت
+Lang_Laying,产蛋,Laying,Яйцо.,đẻ trứng,Ponte,P. huevos,إنتاج ب
+Lang_Quail,鹌鹑,Quail,Перепел,Chim cút,Caille,Codorniz,السمان
+Lang_TargetNP,目标静压,Target SP,Уст. давление:,Mục tiêu SP,PS Cible,Objet. pres. estát.,هدف ثابت
+Lang_ECUnormal,设备正常,ECU normal,ECU исправно,ECU Bình thường,Équip. Normal,Equipo normal,المعدات العادية
+Lang_TrialEnds,试用结束,The trial ends,Испытание закончено,Kết thúc thử nghiệm,Fin Essai,Fin período prueba,نهايه التجربة
+Lang_DAYTrialEnds,%d天后试用结束,The trial ends in %d days,%d Испытание закончено,%d Sau khi dùng thử kết thúc,Fin Essai %d Jours,Fin prueba en %d días,%dبعد أيام من انتهاء التجربة
+Lang_Expire,"试用已到期,请联系厂家!","The trial has expired, 
+please contact the manufacturer!","Пробный период закончился, 
+пожалуйста свяжитесь с производителем!","Đã hết hạn dùng thử, 
+xin liên hệ với nhà sản xuất!","Essai expiré, veuillez contacter le fabricant!","Prueba expirada, contacte fabric.!","التجربه انتهت ، يرجى الاتصال بالشركة المصنعة !"
+Lang_WaterDaily,今日饮水量,Water Daily,Питьевая вода,Hôm nay uống,Cons. Eau Auj.,Consumo agua hoy,كمية مياه الشرب اليوم
+Lang_FeedDaily,今日采食量,Feed Daily,Потребление корма,Hôm nay hái thức ăn,Cons. Alim. Auj.,Consumo alim. hoy,استهلاك اليوم
+Lang_EggDaily,今日产蛋量,Egg Daily,Откладывание яиц,Hôm nay đẻ trứng,Prod. Œufs Auj.,Prod. huevos hoy,وضع البيض اليوم
+Lang_Formal_Version,"密码正确,请使用",Formal Version!,Пароль верный. Добро пожаловать!,"Mật khẩu chính xác, vui lòng sử dụng","MDP Correct, Utilisez","Contras. correcta, use","كلمة المرور صحيحة، يرجى استخدام"
+Lang_Trial_for_Day,"密码正确,试用%d天!",Trial for %d Day!,"Пароль верный.,Используйте%dДень!","Mật khẩu chính xác, dùng thử%d ngày!","MDP Correct, Essai %d Jours!","Contras. correcta, prueba %d días!","كلمة السر صحيحة ، حاول د أيام !"
+Lang_Clock_inD,打卡记录,Clock_in Data,Ввод и вывод часов,Ghi âm,Enreg. Pointage,Reg. fichaje,بيانات الساعه 
+Lang_Clock_inN,打卡次数,Clock_in,Коли. перф.,Số lần gõ thẻ,Nb Pointages,Núm. fichajes,عدد التسجيلات
+Lang_Clock_inT,打卡时间,Time,Время,Thời gian đếm,Heure Pointage,Hora fichaje,الوقت
+Lang_Day_Adjunct,日龄辅助,Day Adjunct,Помощь Дни,Hỗ trợ ngày,Assist. Âge Jours,Asist. edad días,مساعد ع
+Lang_Time_Adjunct,时段辅助,Time Adjunct,Помощь Пер.,Hỗ trợ TG,Assist. Période,Asist. período,مساعد ز
+Lang_OutdoorLV,室外级别辅助,Outdoor level Control,Помощь наружней,Cấp Ngoài trời Hỗ trợ,Assist. Niv. Ext.,Asist. nivel ext.,التحكم في المستوى الخارجي
+Lang_OuAdjunct,室外辅助,Out Adjunct,Помощь Вне. ,Ngoài Hỗ trợ,Assist. Ext.,Asist. exterior,مساعد خارج
+Lang_CurtWinDow,风窗,Curt,Зан.,Cửa.S,Baffle,Curt,ناف
+Lang_Inlet_Defrost,小窗防冻,Inlet Defrost,Прит. Антифр.,Cửa tan băng,Prot. Gel Pet. Fen.,Anti-cong.Inlet,إزالة الجليد
+Lang_Interval_Time,间隔时间:,Interval Time:,Интервал:,Khoảng Thời:,Interv. Temps:,Interv. Tiempo:,الفاصل الزمني
+Lang_LVDiff,级别温差,Level Diff.,Разн. в клас.,Cấp Lệch,Diff. Niv.,Dif.T nivel,ف.ح.م
+Lang_BreatRate,呼吸率,Breath Rate,Частота дыхания,Nhịp thở,Taux Resp.,Tasa Resp.,معدل التنفس
+Lang_Leve_Holding,级别保持时间(S):,Level Holding(S):,Уров. Сохранит(S):,Thời gian giữ(S):,Durée Maint. Niv.(S):,Durac. nivel(S):,تثبيت (ث):
+Lang_Level_Start_Level_NP,静压辅助开始级别:,Start Level of SP Ctrl:,SP Помощь Уров. Начинаем.:,SP Bắt đầu Cấp:,Niv. Déb. Assist. SP:,Nivel inicio asist.SP:,مستوى البدء بمساعدة الضغط الثابت:
+Lang_Min_leve_NPAla,静压报警最小级别:,Min level of SP Ala:,SP аварии Мин. Уров.:,SP Báo động Cấp:,Niv. Min Ala. SP:,Nivel mín. Ala SP:,الحد الأدنى لمستوى إنذار الضغط الثابت:
+Lang_Inlet_Follow_Fan,小窗联动(时控):,Inlet Follow Fan:,Прит. Связь Вент.:,Liên kết Cửa:,Liaison Pet. Fen.:,Vinc.Inlet:,ربط نافذة :
+Lang_Fandelay,风机开启延时(S):,Fan delay(S):,Вент. Ожидание(S):,Quạt Mở delay(S):,Délai Act. Vent.(S):,Retardo inicio vent.(S):,تأخير بدء تشغيل المروحة (S):
+Lang_Inlet_advance,小窗提前开时间(S):,Inlet advance(S):,Прит.  Заране(S):,Cửa Mở sớm(S):,Ouvert. Ant. Pet. Fen.(S):,Apert.anticip.Inlet(S):, تقدم مدخل (ث):
+Lang_Devic_Aut_Sort,设备自动排序:,Device Auto Sorting:,Автоматическая сортировка:,Tự động Sắp xếp,Tri Auto. Équip.,Ordenac. auto. equipo:,ترتيب تلقائي:
+Lang_FanCyc_Time,时控循环周期(S):,Timing cycle(S):,Период цикла(S):,Kiểm soát thời lặp(S):,Cycle Prog.(S):,Ciclo temp. contr.(S):,دورة التوقيت (ث):
+Lang_Same_Back_Temp,固定回差温度:,Same Back Temp:,Фикс. темп. дифф.:,Cố định Nhiệt Lệch:,Diff. Temp. Fixe:,Dif.temp. fija:,درجة حرارة الفارق:
+Lang_AVGWeight,均重(kg),Weight(kg),вес(kg),Cân nặng(kg),Poids Moy.(kg),P. medio(kg),الوزن (كجم)
+Lang_Breathe,呼吸系数,Breathe,Част. Дыши.,Hô hấp,Coeff. Resp.,Coef. Resp.,تنفس
+Lang_MinAIR,最小风量(km³/h),Min AIR(km³/h),Мин.вент.(km³/h),Tối thiểu Gió(km³/h),Vol. Air Min(km³/h),Mín.aire(km³/h),تدفق أدنى(كم³/ساعة)
+Lang_Control_Set,控制参数,Control Set,параметр,Kiểm Tham số,Param. Contr.,Parám.ctrl.,معاملات ت
+Lang_Tswitch,温控开关,T.Switch,Кон.Темп.,Nhiệt tắc,Régul.T,Interr.ctrl.T,مفتاح ح
+Lang_Area_Exh,分区调速,Area Exh.,Регу. ско.,Quận Biến tốc,Régl. Vit. Zone,Ajuste por zona,تعديل س م
+Lang_Var_Heat,变频加热,Var. Heat,Регу. Отоп.,Biến tần Sưởi ấm,Chauff. Fréq.,Calef.frec.,تسخين ت
+Lang_Var_TSwitch,变频温控,Var. T.Switch,Кон. темп.,Nhiệt biến tần,Contr. Fréq.T,Ctrl.frec.T,تحكم ت
+Lang_HumCtrl,湿度控制,Hum Ctrl,влаж. Конт.,Kiểm Độ ẩm,Contr. Hum.,Ctrl.hum.,تحكم ر
+Lang_CO2Ctrl,CO2控制,CO2 Ctrl,CO2 Конт.,Kiểm CO2,Contr. CO2,Ctrl.CO2,تحكم CO2
+Lang_NH3Ctrl,NH3控制,NH3 Ctrl,NH3 Конт.,Kiểm NH3,Contr. NH3,Ctrl.NH3,تحكم NH3
+Lang_TargetPPM,目标浓度:,Target PPM:,Уставка:,Mục tiêu Giá:,Conc. Cible:,Conc. Obj:,تركيز الهدف:
+Lang_Halarm,高报警值:,High Alarm:,высокий:,Số Báo.Cao:,Val. Ala. Haute:,Ala alta:,إنذار عالي:
+Lang_Delay,延时,Delay,Ожидание,Delay,Délai,Bajar,تأخير
+Lang_DropOff,回差,Down,Сниж.,Lệch,Giảm,Diferencial,فرق العودة
+Lang_Below_HeatT,低于加热温度开启,Below Heat Temp,"Ниже, чем нагрев на",Dưới nhiệt độ mở,Act. Sous Temp. Chauff.,Act. calef. bajo temp.,فتح تحت درجة حرارة التدفئة
+Lang_TunnelT_S,纵向温度简化:,Tunnel Temp Simplify:,Туннель Упростить:,Nhiệt dọc giản:,Simplif. Temp. Long.:,Simplif. temp. long.,تبسيط حرارة طولية:
+Lang_LTChange,精细降温曲线:,Temp Slowly Change:,График охлаждения:,Đường cong mát:,Courbe Refroid. Précise:,Curva refrig. detall.,منحنى تبريد دقيق:
+Lang_Begin_Day,开始日龄:,Begin Day:,Дата начала:,Bắt đầu Ngày:,Âge Déb.:,Inicio días,يوم البداية:
+Lang_Finish_Day,结束日龄:,Finish Day:,Дата окончания:,Kết thúc Ngày:,Âge Fin:,Fin días,نهاية العمر:
+Lang_Days,天,Days,Возраст,Ngày,Jours,Días,أيام
+Lang_TCurve,温度查看,T.Curve,График тепл.,Xem nhiệt độ,Visu. Temp.,Visual.T,عرض درجة الحرارة
+Lang_LowT_SP_Offset,低温静压偏差(℃):,Low T SP Offset(℃):,Холодно.Макс. SP(℃):,Nhiệt Thấp SP Lệch(℃):,Écart SP BT(℃):,Desv. SP bajaT(℃):,انحراف ض.ث.ت (℃)
+Lang_HighT_SP_Offset,高温静压偏差(℃):,High T SP Offset(℃):,Жара Макс. SP(℃):,Nhiệt cao SP Lệch(℃):,Écart SP HT(℃):,Desv. SP altaT(℃):, انحراف ض.ث.ع (℃)
+Lang_Time_Single_Ctrl,单次调整时间/S,Time of Single Ctrl/S:,регулировать Время/S:,Điều chỉnh đơn/S:,Durée Ajust. Uniq./S:,Tiempo ajuste único/S:,زمن التحكم الفردي/S:
+Lang_Control_Interval,调整间隔时间(S):,Control Interval(S):,регулировать Интервал/S:,Khoảng điều chỉnh(S):,Interv. Ajust.(S):,Intervalo ajuste(S):,فترة التحكم (S):
+Lang_LowTemp_Target,低温静压:,L Temp Target:,Низ. трев.:,Nhiệt Thấp SP:,SP BT:,SP baja temp.:,هدف منخفض:
+Lang_HighTemp_Target,高温静压:,H Temp Target:,Выс. трев.:,Nhiệt cao SP:,SP HT:,SP alta temp.:,هدف مرتفع:
+Lang_Transition,过渡区:,Transition:,Переход зона:,Vùng quá mức:,Zone Trans.:,Zona transic.:,منطقة انتقالية:
+Lang_LA_NP,低压报警:,LA SP:,Низ. трев.:,Báo.SP cao:,Ala. BP:,Ala bajapres.:,ضغط منخفض:
+Lang_HA_NP,高压报警:,HA SP:,Выс. трев.:,Báo.SP Thấp:,Ala. HP:,Ala altapres.:, تنبيه ضغط عالٍ:
+Lang_Minimum_Weight,最小计量重量(kg):,Min Weight(kg):,Мин. Измерять вес(kg):,Đo tối thiểu(kg):,Poids Min Mes.(kg):,Peso mín. medible (kg):,الوزن الأدنى(كجم):
+Lang_Daily_Average,每日平均,Daily Average,среднем в день,Trung bình ngày,Moy. Quot.,Prom. Diario,المتوسط اليومي
+Lang_Animal_quantity,动物数量,Number Set,Набор чисел,Số Động vật,Nom Animaux,Cant. anim.,عدد ح
+Lang_Add_Death_Num,添加死亡量:,Add Death Num:,Добав. сумму смерти:,Số người chết:,Ajout Mort.:,Añadir muertes:,إضافة وفيات:
+Lang_Add_Animal_Num,动物添加量:,Add Animal Num:,Дополнения к животн:,Thêm Động vật:,Qté Animaux Ajoutés:,Cant.anim.añadidos:,إضافة حيوانات:
+Lang_Animal_Stock,动物存栏量:,Animal Stock:,Поголовье животных:,sống sót Động vật:,Qté Animaux Stock:,Cant.anim.granja:,حجم الحيوان :
+Lang_Total_Num,动物总量:,Total Num:,Общ. кол-во жив.:,Tổng số Động vật:,Total Animaux:,Total anim.:,إجمالي حيوانات:
+Lang_Password,密码:,Password:,Пароль:,Mật khẩu:,MDP:,Contras.:,كلمة م:
+Lang_DevTpye_Clear,版本限制清除成功!,DevTpye Clear Successfully!,Ограничение версии успешно устранено!,Xóa giới hạn phiên bản thành công!,Suppr. Limit. Vers. Réussie!,Límite vers. eliminado exitos.!,إزالة القيود بنجاح !
+Lang_SysTime,系统时间,SysTime,Сист. Время,Hệ thống Thời,Heure Syst.,Hora sistema,نظام الوقت
+Lang_oC_float,%.1f℃,%.1f℃,%.1f℃,%.1f℃,%.1f℃,%.1f℃,%.1f℃
+Lang_Exh_Area,%s区调速,Exh.-%s,регу.-%s,Biến.%s,Exh.-%s,Exh.-%s,تسريع%s
+Lang_Temp_Diff,温度偏差,Temp Diff.,откл. Темп.,Độ lệch nhiệt.,Écart Temp.,Desv.temp.,انحراف ح
+Lang_Frequency,开启频率,Frequency,частота,Tần số mở,Fréq. Ouvert.,Freq.apert.,تشغيل التردد
+Lang_Environment,环境信息,Environment,сред,Môi trường,Infos Env.,Info.ambient.,معلومات ب
+Lang_ABCVoltage,相电压,Voltage,напряжение,Điện áp,Tens. Phase,Volt.fase,جهد الطور
+Lang_ABCCurrent,相电流,Current,текущий,Hiện tại,Cour. Phase,Corr.fase,المرحلة الحالية
+Lang_Enable_Fan_Current,启用风机电流检测,Enable Fan Current,Вкл. высокий тока,Phát hiện hiện tại,Act. Détec. Cour. Vent.,Act.detecc.corr.vent.,تمكين الكشف عن تيار المروحة
+Lang_Max_Diff_I,电流最大差值:,Max Diff:,Макс. откл.:,Tối đa Khác biệt:,Diff. Max Cour.:,Máx. dif. corr.,فرق التيار:
+Lang_CT_Ratio,CT变比:,CT Ratio:,CT :,CT :,Rapp. CT:,Relac. CT,نسبة CT:
+Lang_StaFAN,定速,Sta.,Пост.,Định.,Sta.,Sta.,ثاب
+Lang_Exh,调速,Exh.,Регу.,Biến.,Exh.,Exh.,سرعة
+Lang_Water,水线,Water,Вода,N.Dòng,Eau,Agua,خط الماء
+Lang_JDQ_NUM,继电器%d:,RLY%d:,Реле%d:,Rơ le%d,Relais%d:,Relé %d:,ترحيل %d:
+Lang_Fan_Model,风机型号(寸):,Fan Model(inch):,Модели вент.:,Thông số:,Mod. Vent.:,Modelo vent. (pulg.):,طراز (بوصة):
+Lang_Feed_Bin,当前料塔,Feed Bin,материала,Tháp hiện tại,Silo Actuel,Silo act.,الصومعة الحالية
+Lang_Feed_Bins_ADJ,料塔标定,F.Bins ADJ,Кали.Башня,Đánh dấu,Étal. Silo,Calib. silo,معايرة
+Lang_zero_calibrate,零点标定,zero cal.,Калиб. Нуля,Điểm zero,Calib. Zéro,Calib. punto cero,معايرة صفر
+Lang_weight_calibrate,量程标定,weight cal.,Калиб. диапазо.,Phạm vi định,Calib. Échelle,Calib. rango,معايرة النطاق
+Lang_Feed_Bin_Tips1,提示:请空载稳定后点击零点标定!,Tips:don't place anything!,"Пожалуйста, нажмите нулевую калиб. после того, как холостой ход станет стабильным!",Mẹo: Vui lòng nhấn vào 0 điểm sau khi tải ổn định!,Astuce : Calib. Zéro Après Stab.!,Nota: Calib. punto cero post estabiliz. vacío!,نصيحة: الرجاء النقر فوق معايرة نقطة الصفر بعد تثبيت عدم التحميل!
+Lang_Feed_Bin_Tips2,提示:请加载重物输入重量后点击量程标定!,Tips:place a known weight and enter the weight!,"Пожалуйста, загрузите вес и введите его, затем нажмите калиб. диапазона!",Mẹo: Vui lòng tải trọng nặng sau khi nhập trọng lượng nhấp vào đánh dấu phạm vi!,Astuce : Calib. Portée Après Chargem. Poids!,Nota: Calib. rango tras cargar peso e ingresar!,"نصيحة: برجاء تحميل الوزن، وإدخال الوزن ثم النقر فوق معايرة النطاق!"
+Lang_Signal,信号输入,Signal,Вход сигнала,Tín hiệu,Entrée Signal,Entrada señal,إدخال الإشارة
+Lang_Production,生产数据,Consumption,Произв. Данные,Sản xuất,Donn. Prod.,Datos prod.,بيانات إ
+Lang_DAC_overview,模拟量功能总览,Analog function overview,Общий обзор функций реле,Mô phỏng Tổng quan năng,Aperçu Fonct. Analog.,Visión func. simulac.,نظرة عامة على الوظائف التناظرية
+Lang_Open_Delay,开启延时,Open Delay,Вкл. Задерж.,Mở delay,Délai Act.,Retardo apert.,تأخير تشغيل
+Lang_Close_Delay,关闭延时,Close Delay,Откл. Задерж.,Tắt delay,Délai Désact.,Retardo cierre,تأخير الإغلاق:
+Lang_Light_PCT,光照强度,Light PCT,частота,Độ sáng,Intens. Lum.,Intens. lumín.,شدة الضوء
+Lang_Heat_WorkT,暖风机启动水温/℃:,Heating Work Temp/℃:,Рабочая темп. Нагрева/℃:,Sưởi Chạy Nhiệt/℃:,Temp. Eau Chauff./℃:,Temp. inicio calef./℃:,درجة حرارة التسخين/℃:
+Lang_JDQ_Overview,继电器功能总览,Relay function overview,Общий обзор функций реле,Rơ le Tổng quan năng,Aperçu Fonct. Relais,Visión gen. func. relé,نظرة عامة على وظائف التتابع
+Lang_JDQ_Overview_Tips,红色字体为当前设置模式!,Red font for current setting mode!,Текущий режим настройки красным цветом!,Phông đỏ đặt chế độ hiện tại!,En rouge pour le mode de réglage actuel!,Texto rojo indica modo config. actual!,الخط الأحمر هو وضع الإعداد الحالي!
+Lang_Function,功能,Function,Функция,năng,Fonct.,Func.,وظيفة
+Lang_UART,串口,COM,Порт,COM,COM,COM,COM
+Lang_Egg_Pulse,计蛋脉冲:,Egg Pulse:,яиц пульс:,Trứng Xung:,Impuls. Compt. Œufs :,Pulso conteo huevos,نبض عد البيض:
+Lang_Real_Time,实时数据,Real-Time,реаль.время,Số hiện tại,Données TR,Datos real,فوري
+Lang_UseWater,用水量,Water,Водомер,Nước,Cons. Eau,Cant.agua,ماء
+Lang_Remain_Feed,余料,Remain Feed,Остаток,Lại ăn,Mat. Restant,Alim.Restante,العلف المتبقى 
+Lang_Each_Animal,单只历史数据,Each Animal,История Каждый,Một Lịch sử,Donn. Hist. Unité,Hist.por animal,كل حيوان
+Lang_En_Calibrate,启用校准,En-Calibrate,Вкл.кали.,Bật chỉnh,Act. Calib.,Act. calib.,تمكين المعايرة
+Lang_Stop_Ventilate,校准暂停通风,Stop Ventilate,Гуань вент.,Dừng Quạt,Calib. Suspend Vent.,Calib. pausa vent.,معايرة وقفة التهوية
+Lang_Min_Move,最小调节(%):,Min Move(%):,Мин. регу.(%):,Thiểu định(%):,Régl. Min(%):,Ajuste mín.(%):,أدنى تعديل (%):
+Lang_Stop_Fan_MaxMove,校准关闭最大开度(%):,"Stop Fan,Max Move(%):",Вык.вент. Мак.регу.(%):,"Tắt Quạt,chuyển đa(%):",Ferm. Max Calib.(%):,Cierre máx. apert. al calib.(%):,معايرة إغلاق أقصى زاوية (%):
+Lang_Alarm_Test,报警测试,Alarm Test,Тест. сигн.,Kiểm Báo.,Test Alarme,Prueba Ala,اختبار الإنذار
+Lang_EnAlarm_Test,启用报警测试,En-Alarm Test,Вкл.Тест.сигн.,Bật Kiểm Báo.,Act.Test Ala,Act.prueba Ala,تمكين اختبار التنبيه
+Lang_Disconnect_Alarm,断开报警,Disconnect Alarm,Оснастка Авари,Phá Báo động,Désact. Ala,Desconex. Ala,افصل التنبيه
+Lang_Import_Select,导入选择,Import Select,Выбор импорта,Nhập khẩu,Choix Import.,Elecc. import.,اختيار الاستيراد
+Lang_Curt_Setting,风窗参数:,Curt Setting:,Настройки Тунне. :,Cài Cửa sổ:,Param.Baffle:,Parám.Curt,إعداد مختصر:
+Lang_Import,导入,Import,Импорт,Nhập khẩu,Importer,Importar,يستورد
+Lang_Relay_Test,继电器测试,Relay Test,тест. реле,Kiểm Rơ le,Test Relais,Prueba relé,اختبار التتابع
+Lang_Analog_Test,模拟量测试,Analog Test,Аналоговое тест.,Kiểm Mô phỏng,Test Analog.,Prueba simulac.,اختبار التناظرية
+Lang_Comm_Set,通信设置,Comm Set,Связь,Bản tin,Config. Comm.,Config. com.,إعدادات الاتصال
+Lang_Built_in,内置,Built-in,Встроенный,Nội thất,Intégré,Integrado,مدمج
+Lang_Seneor_Range,传感器量程,Seneor Range,Диапазон датчика,Phạm vi.Cảm,Portée Capteur,Rango sensor,نطاق مستشعر
+Lang_Clear_Record,清除记录,Clear Record,Чистые записи,Xóa hồ sơ,Effac. Enreg.,Borrar reg.,تاريخ واضح
+Lang_GroupId,当前群号,Group Id,Номер группы,Số nhóm,No Groupe Act.,Núm. Grupo,رقم المجموعة الحالي
+Lang_DayAge_Setting,动物日龄,Day-Age,Животные Дни,Động vật Ngày,Âge Jours Anim.,Edad anim.,عمر ح
+Lang_Day_Age,设置日龄:,Day-Age:,Возраст:,Cài Ngày:,Déf. Âge Jours :,Edad días:,تحديد العمر:
+Lang_Reset,重置,Reset,Сброс,Đặt lại,Réinit.,Restablecer,إعادة ضبط
+Lang_New,新群,New,Новый,Mới,Nouv. ,Nuevo,مجموعة جديدة
+Lang_Hour,小时,Hour,Часы,Giờ,Heure,Hora,ساعة
+Lang_WorkMode,工作模式:,Mode:,Режим:,Chế độ:,Mode Travail:,Modo trabajo:,وضع:
+Lang_Refer_To,参照温度:,Refer To:,См.:,Tham.:,Temp. Réf.:,Temp. ref.:,حرارة مرجعية:
+Lang_High_Open,高温开启,High Open,Высокое Отк.,Nhiệt caoBật,Act. HT,Act. altaT:,حرارة ع
+Lang_Low_Open,低温开启,Low Open,Низкий Отк.,Nhiệt ThấpBật,Act. BT,Act. bajaT:,حرارة م
+Lang_EC_IDF,节能引风机,EC IDF,Энерго. Тяга,EC Quạt,EC IDF,EC IDF,مروحة سحب
+Lang_Para_Manager,参数管理,Param M.,Упра. Пара.,Số Quản,Gestion Param.,Gest. parám.,إدارة المعلمات
+Lang_Style,风格,Style,Стиль,Cách.,Style,Estilo,أسلوب
+Lang_Home_Style,主页风格:,Home Style:,Домой.Стиль:,Cách chính:,Style Accueil:,Estilo Home,نمط الصفحة الرئيسية:
+Lang_UsedDays,已试用时间:%.1f天,Device Used Time:%.1f Day,Испытано %.1f День,Thời gian dùng thử:%.1f ngày,Essai:%.1f Jour,Tiempo prueba transcurrido: %.1f días,الوقت التجريبي: %.1f يوم
+Lang_Program_Selection,程序选择,Program Selection,Выбор программы,Chọn chương,Sélect. Prog.,Selecc. programa,اختيار البرنامج
+Lang_Register,启用注册,Register,Зарегист.,Đăng ký,Act. Enreg.,Act. registro,تسجيل
+Lang_Pig_Version,养猪版本,Pig Version,Осно. верс.,Nuôi lợn,Vers. Porcine,Vers. porcicult.,إصدار خنازير
+Lang_Trial_Time,试用时间(天):,Trial Time(Day):,Испытательный срок:,Thời gian dùng thử:,Essai (Jour):,Prueba(días):,وقت المحاكمة (أيام):
+Lang_SET_Successfully,设置成功!,SET Successfully!,Установка прошла успешно!,Thiết lập thành công!,Config. Réussie!,Config. exitosa!,تم الإعداد بنجاح!
+Lang_CSA,横截面积(m²):,CSA(m²):,CSA(m²):,CSA(m²):,Surface (m²):,CSA(m²):,مساحة عرضية (م²):
+Lang_Testing,正在测试,Testing,Испытания,Đang kiểm,Test en Cours,Prueba,اختبارات
+Lang_Mock_Test,手动测试,Mock Test,Ручное тест,Nhân tạo Kiểm,Test Manuel,Prueba manual,اختبار ي
+Lang_Rest_S,恢复出厂成功!,Factory restore succeeded!,Заводское восстановление успешно!,Khôi phục xuất xưởng thành công!,Réinit. Usine Réussie!,Restablec. fábrica exitoso!,تمت إعادة ضبط المصنع بنجاح!
+Lang_Start_up_Num,启动次数,Start-up,Запуск,Bắt đầu,Démarrage,Inicio,بدء عدد
+Lang_Off_Hum,停止湿度,Off Hum,Гуа. Влаж.,Độ ẩm dừng,Hum. Arrêt,Hum. Parada,وقف الرطوبة
+Lang_Off_Diff,停止偏差,Off Diff.,Гуа.Сниж.,Dừng lệch,Écart Arrêt,Desv. parada,وقف الانحراف
+Lang_On_Hum,启动湿度,On Hum,Отк. Влаж.,Độ ẩm Chạy,Hum. Démarr,Hum. Inicio,ابدأ بالرطوبة
+Lang_Inc_Hum,加湿,Inc Hum.,Увлажне.,Tạo ẩm,Humidif.,Humidif.,الترطيب
+Lang_Dec_Temp,降温,Dec Temp.,Охлажде.,Hạ nhiệt,Refroid.,Refrig.,تبريد
+Lang_Delay_Time,延时时间,Delay Time,Отло. моме.,Thời trễ,Tps Retard,Tiempo retardo,تأخير الوقت
+Lang_Type,类型,Type,Тип,Loại,Type,Tipo,نوع .
+Lang_Cycle_Switch,周期开关,Cycle Switch,Цикли. перекл.,Công tắc lặp,Ouvrir Cyclique,Interr.cíclico,فترة التبديل
+Lang_On_Time_Switch,准点开关,On Time Switch,Перек. врем. вклю.,Công tắc Thời,Ouvrir Ponctuel,Interr.puntual,توقيت التبديل
+Lang_On_Time_Delay,准点开延时关,On Time Delay,Откл. с заде. по врем.,Mở Thời-Tắt Trì,Ponctuel-retardée,Puntual Retard.,تأخير الوقت قبالة
+Lang_Tips_OpenCloseTime,提示:请点击打开或者关闭得到开启时间!,Tip: Please click open or close for running time!,"Совет: Нажмите, чтобы открыть или закрыть, чтобы узнать время!",Mẹo: Vui lòng nhấp vào Mở hoặc Đóng để có được thời gian mở!,Astuce : Clic Ouvert./Ferm. pour Tps Act.!,Nota: Clic para obtener tiempo apert.!,نصيحة: الرجاء النقر فوق أو إيقاف تشغيله للحصول على وقت الافتتاح!
+Lang_MoveTime_Closing,关闭时动作/S:,MoveTime Closing/S:,Время дейс. Закр./S:,Hành động khi đóng/S:,Action Ferm./S:,Acción cerrar/S:,الإجراء عند الإغلاق/S:
+Lang_StopTime_Closing,关闭时停止/S:,StopTime Closing/S:,Время оста. Закр./S:,Dừng khi đóng/S:,Arrêt Ferm./S:,Parada cerrar/S:,التوقف عند الإغلاق/S:
+Lang_Stop,停止,Stop,Ост.,Dừng,Arrêt,Parar,قف
+Lang_Current_state,当前状态,Current state,Текущее состояние,Trạng thái hiện,État Actuel,Estado act.,الحالة الحالية
+Lang_voltage,电压,voltage,Напр.,Điện áp,Tension,Voltaje,الجهد االكهربى
+Lang_Indoor,室内,Indoor,Внутри,Nội thất,Intérieur,Interior,داخلي
+Lang_Outdoor,室外,Outdoor,Вне.,Ngoài trời,Extérieur,Exterior,في الخارج
+Lang_ADJ,校准,ADJ,Калиб.,chỉnh,Calib.,Calib.,معايرة
+Lang_PgDown,下一页, Pg Down,Сле. стр.,Trang sau,Pg Suiv.,Pág. sig.,الصفحة ت
+Lang_PgUp,上一页,Pg Up,Пре. стр.,Trang trên,Pg Préc.,Pág. ant.,الصفحة س
+Lang_Tips13,设备将重启!,Device will restart!,Устройство перезагрузится!,Thiết bị sẽ khởi động lại!,Redémarr. Appareil!,Disposit. se reiniciará!,سيتم إعادة تشغيل الجهاز!
+Lang_Tips14,打卡成功!,Clock in successfully!,Успех пробивания!,Nhấn thẻ thành công!,Pointage Réussi!,Fichaje exitoso!,تم تسجيل الدخول بنجاح!
+Lang_factoryparm,出厂参数,factory parm,Заводские параметры,Thông số nhà máy,Param. Usine,Parám. fábrica,معلمات المصنع
+Lang_springparm,春季参数,spring parm,весна параметры,Thông số mùa xuân,Param. Printemps,Parám. primavera,معلمات الربيع
+Lang_summerparm,夏季参数,summer parm,лето параметры,Thông số mùa hè,Param. Été,Parám. verano,معلمات الصيف
+Lang_autumnparm,秋季参数,autumn parm,осень параметры,Thông số mùa thu,Param. Automne,Parám. otoño,معلمات الخريف
+Lang_winterparm,冬季参数,winter parm,зима параметры,Thông số mùa đông,Param. Hiver,Parám. invierno,معلمات الشتاء
+Lang_Current_Run,当前运行,Current Run,Текущая Запуск,Đang chạy,Fonct. Actuel,Operac. act.,قيد التشغيل
+Lang_save_time,保存时间,save time,Время Хране.,Thời gian lưu,Tps Sauveg.,Tiempo guardado,توفير الوقت
+Lang_Open_C,开度控制,Degree Ctrl,Кон. отк.,Kiểm soát độ mở,Contr. Ouvert.,Ctrl. apert.,التحكم بالفتح
+Lang_Begin,开始,Begin,начала,Bắt đầu,Ouvrir,Inicio,يبدأ
+Lang_Start,启动,Start,Откр,Chạy,Dém.,Inicio,.بدء
+Lang_AlaT,报警温度,Temp Ala,тревога,Báo.Nhiệt,Temp. Ala.,Temp. Ala,درجة حرارة التنبيه
+Lang_High_WPress,高水压报警,High W.Press,высок Давление воды,cao Áp lực,Hpression.Eau,Alta pres,إنذار لارتفاع ضغط الماء
+Lang_Low_WPress,低水压报警,Low W.Press,низк Давление воды,thấp Áp lực,Bpression.Eau,Baja pres,إنذار انخفاض ضغط المياه
+Lang_Fan_Time,风机时长,Fan Time,Вент.Время,Quạt Giờ,Vent.Durée,Durac. vent.,مدة المروحة
+Lang_Manage_Set,管理设置,Manage Set,Управление,Quản lý cài đặt,Gestion,Config. gest.,اعدادات المشرف
+Lang_H2S_Control,H2S控制,H2S Control,H2S Контроль,H2S Hỗ trợ,H2S Contrôle,Ctrl. H2S,السيطرة على H2S
+Lang_Adjust_UnitTemp,调整基准:,Adjust UnitTemp:,Исходная точка:,Hiệu chuẩn:,Origine:,Ajuste ref.,أساس التعديل:
+Lang_Max_TempOffset,最大幅度:,Max TempOffset:,Макс.Масштабы:,Biên độ tối đa:,Max Amplitude:,Amplit. máx.,السعة القصوى:
+Lang_Cross_Fan,横向风机,Cross Fan,Перекрес.Вент.,Ngang Quạt,Cross Vent,Vent. lateral,مروحة متقاطعة
+Lang_CurtPad,幕帘,Curt Pad,Затмение,Rèm Mở,Occultants,Cortina,ستارة
+Lang_Once_Time,单次时间,Once Time,Один Время,Thời gian trễ,Une Time,Tiempo único,مرة واحدة
+Lang_Once_Temp,单次温度,Once Temp,Один Темп.,Nhiệt độ đơn,Une Temp.,Temp.única,درجة حرارة واحدة
+Lang_High_AlaDiff,最高偏差,High Ala-Diff.:,высок Сниж.:,Cao  Chênh.:,Haute Écart:,Máx.desv.,أعلى الانحراف
+Lang_Low_AlaDiff,最低偏差,Low Ala-Diff.:,низк Сниж.:,Thấp Chênh:,Faible Écart:,Mín.desv.,أدنى انحراف
+Lang_Stop_Calibrate,停止校准,Stop Calibrate,Останов.Калибровка,Ngừng hiệu chuẩn,Arrêter Calibration,Parar calib.,إيقاف المعايرة
+Lang_Calibrating,正在校准,Calibrating,Калибровка,Đang hiệu chỉnh,Calibration,Calibrando,معايرة
+Lang_Now_used,用时,Now used,Использование,Thời gian sử dụng,Utilisation,Tiempo usado,تكلفة الوقت
+Lang_Calibrated,完成校准,Calibrated,Скорректировано,Chuẩn bị,Calibré,Calib. ,معايرة كاملة
+Lang_InsideCage,笼内,Inside cage,Внутри клетки,Trong lồng,l’in. cage,Interior jaula,داخل القفص
+Lang_ZoneCtrl,分区控制:,Zone Control:,Управление разделами:,Kiểm soát phân vùng:,Contrôle zonage:,Control zonificación:,التحكم في التقسيم:
+Lang_Zone,分区,Zone,Разделы,vực,Zonage,División,المنطقه
+Lang_Select,选择,Select,Выбор,Chọn,Sélection,Selección,يختار
+Lang_Backlight_Off,关闭背光,Backlight Off,Подсветка Гуань,Đèn nền tắt,Backlight Off,Backlight Off,أطفئ الإضاءة الخلفية
+Lang_Restart,重启设备,Restart,Перезапустить,Đặt lại,Restart,Reinicio,أعد تشغيل الجهاز
+Lang_Temp_Control,温度控制,Temp Control,Конт.тепл,Kiểm soát nhiệt,Temp Control,Ctrl. temp.,التحكم في درجة الحرارة
+Lang_Temp_Time,温时控制,Temp & Time,тепл & Время,Thời & Nhiệt,Temp & Time,Temp & Time,التحكم في درجة الحرارة
+Lang_RotateFan_ID,轮转风机序号,Rotate Fan ID,Ротация ID,Xoay ID,Rotate ID,Rotac. ID,الرقم التسلسلي للمروحة الدوارة
+Lang_Total_Time,行程时间,Total Time,Время в пути,Tổng thời gian,Temps de voyage,Tiempo recorrido,جدولة الوقت
+Lang_Tips_100Open,请调节至100%后点击开始!,Please open to 100% then click Start!,Настройка до 100% после нажатия,Vui lòng mở đến 100% và nhấp vào Bắt đầu!,S'il vous plaît ajuster à 100% cliquez sur démarrer!,Ajuste al 100% y luego inicie!,الرجاء التعديل إلى 100% والنقر فوق ابدأ!
+Lang_Band,区间,Band,Интервал,Khoảng,Intervalle,Intervalo,فاصلة
+Lang_Flowers,花卉温室,Flowers,Цветы,Hoa,Fleurs,flores,الدفيئة زهرة
+Lang_Wpress,水压,W.Press,Давление воды,Áp.Liên lạc,Pression.Eau,Pres. agua,ضغط المياه
+Lang_Low_Alarm,低报警值:,Low Alarm:,Низкий:,thấp Lỗi:,Val. Ala. Faible:,Valor Ala bajo:,قيمة إنذار منخفضة:
+Lang_Growth,生长状态,Growth,Развитие,Phát triển,Croissance,Crecim.,حالة النمو
+Lang_Cross_FanAbb,横向,Cross,Перек.,Ngang,Cross,Lateral,أفقي
+Lang_TimerAbb,定时,Time,Тайм.,Giây,Minut.,Tiempo,توقيت
+Lang_CurtPadAbb,幕帘,C.Pad,Затмение,Rèm Mở,Ombrage,Cortina,ستارة
+Lang_Curtain,进风窗,Curtain, Входное окно ,Cửa sổ,Fenêtre,Entrada,نافذة مدخل الهواء
+Lang_AdjDegree,调节开度,Degree,Открытость,Điều chỉnh độ mở,Ajust l'ouverture,Ajuste apert.,ضبط الافتتاح
+Lang_DataSaveEr,数据保存失败,Data save failed,Ошибка сохранения данных ,Lỗi lưu dữ liệu,La sauvegarde des données a échoué,Fallo guardado,فشل حفظ البيانات
+Lang_HeatRec_Setting,热回收设置,HeatRec Set,Настр.тепл.,Cài đặt nhiệt.,Régl. chaleur.,Rec. calor,إعدادات استعادة الحرارة
+Lang_HeatRec_Preheat,预热,Preheat,Преднагр.,Phục hồi.,Préchauffage.,Precalent.,سخن
+Lang_HeatRec_VAC,定压设置,Sta.Vac Set,Установ.давл.,Cài áp.,Régl. press.,Conf. pres. const.,ضبط الضغط المستمر
+Lang_HeatRec_VAC_Ctrl,定压控制,Sta.Vac Ctrl,Контр.давл.,Kiểm áp.,Contr. press.,Ctrl pres. const.,التحكم في الضغط المستمر
+Lang_HeatRec_VAC_SecureF,安全频率,Safe Fre.,Безоп.част.,Tần số.,Fréq. sécu.,Freq. de seg.,التردد الآمن
+Lang_HeatRec_Valve,旁通阀,HeatRec.Valve,Обмен.Клапан,Trao Việt,Échange.Valve,Válv. Bypass,صمام الالتفافية
+Lang_HeatRec_InFan,进气,In.Air,Вну.Воз.,Trong.khí,In.Air,Adm. Aire,ه.د.
+Lang_HeatRec_OutFan,排气,Out.Air,Вы.Воз.,Ra.khí,Out.Air,Esc. Aire,العادم
+Lang_HeatRec,热回收,HeatRec,Настр.тепл.,Cài đặt nhiệt.,Régl. chaleur.,Rec. calor,استرجاع الحرارة
+Lang_Max_Heat,最大加热,Max Heat T,Нагрев.Макс. Темп.,Nhiệt tối đa,Temp. Max Chauff.,Máx. calent.,أقصى قدر من التدفئة
+Lang_Ver_Type,版本类型,Ver Type,Тип версии,Loại phiên,Type Ver,Tipo Ver,نوع الإصدار
+Lang_LiFeng,利丰,LiFeng,LiFeng,LiFeng,LiFeng,LiFeng,لي وفونغ
+Lang_AA,AA+,AA+,AA+,AA+,AA+,AA+,AA+
+Lang_Ross308,罗斯308,Ross.308,Ross.308,Ross.308,Ross.308,Ross.308,روس 308
+Lang_Kebao,科宝,Kebao,Kebao,Kebao,Kebao,Kebao,كيباو
+Lang_Sunner,圣泽901,Sunner,Sunner,Sunner,Sunner,Sunner,شينغزي 901
+Lang_JINGP,京粉,JING-P,JING-P,JING-P,JING-P,JING-P,مسحوق بكين
+Lang_JINGW,京白,JING-W,JING-W,JING-W,JING-W,JING-W,جينجباي
+Lang_JINGR,京红,JING-R,JING-R,JING-R,JING-R,JING-R,جينغهونغ
+Lang_HaiLanB,海兰褐,HaiLan-B,HaiLan-B,HaiLan-B,HaiLan-B,HaiLan-B,هيلان براون
+Lang_Nong,农大,Nong,Nong,Nong,Nong,Nong,الجامعة الزراعية
+Lang_LomanP,罗曼粉,Loman-P,Loman-P,Loman-P,Loman-P,Loman-P,Loman-P
+Lang_LomanB,罗曼褐,Loman-B,Loman-B,Loman-B,Loman-B,Loman-B,Loman-B
+Lang_LomanG,罗曼灰,Loman-G,Loman-G,Loman-G,Loman-G,Loman-G,Loman-G
+Lang_Golden,大午金凤,Golden,Golden,Golden,Golden,Golden,ذهبى
+Lang_WindowADJTips1,提示:全开后请点击停止!,Tip: Click stop after full open!,Советы: После полного включения точка остановиться!,"Mẹo: Sau khi mở tất cả, điểm dừng","Astuce: lorsque tout est allumé, arrêtez - vous!","Consejo: después de abrir todo, haga clic para parar",نصيحة: الرجاء النقر للإيقاف بعد الفتح بالكامل!
+Lang_WindowADJTips2,提示:请点击开始校准!,Tip: Click begin calibration!,Советы: Нажмите для начала!,Mẹo: Click To Start,Astuce: cliquez sur démarrer!,Consejo: haga clic para comenzar,نصيحة: الرجاء النقر لبدء المعايرة!
+Lang_WindowADJTips3,提示:全关后请点击结束完成校准!,Tip: Please click Finish to complete the calibration!,"Советы: После полного закрытия, нажмите конец!","Mẹo: Sau khi tắt tất cả, nhấp vào Kết thúc","Astuce: lorsque tout est éteint, appuyez sur fin!","Consejo: después de cerrar, haga clic en el final","نصيحة: الرجاء النقر فوق ""إنهاء"" لإكمال المعايرة بعد إيقاف تشغيلها تمامًا!"
+Lang_Finish,结束,Finish,Конец,Kết thúc,La fin,Fin,ينهي
+Lang_Time_Ctr,时间控制,Time Ctr,Конт. врем.,Kiểm thời,Cont. temps,Cont. tiempo,التحكم بالوقت
+Lang_Position_Ctr,位置控制,Position Ctr,Конт. мест.,Kiểm vị trí,Cont. position,Cont. posición,التحكم في الموقف
+Lang_H_Total,累计用量,H.Total,Всего исполь.,Sử dụng tích,Q.cumulée,Cantidad acumulada,الاستخدام التراكمي
+Lang_T_Total,当天用量,T.Total,Коли.день,Sử dụng Hôm nay,Q.Aujourd'hui,Dosis día,الجرعة لليوم
+Lang_dayago,前%d天用量,%d day ago,%d Количество,Sử dụng %d Ngày,Q.%d jours,Dosis del día anterior,الاستخدام خلال الأيام الـ %d السابقة
+Lang_Residue,剩余量,Residue,Остаток,Phần còn,La marge,Margen,الكمية المتبقية
+Lang_isolation,隔离,isolation,Изоляция,Cách ly,isolement,Cuarentena,عزل
+Lang_WaterOut,漏水报警,Leak Alarm,Сигн. о протеч.,Cảnh báo rò rỉ,Alarme de fuite,Alarma de fuga,إنذار تسرب
+Lang_WaterL_ALA,缺水报警,Shortage-W Ala,Нет Вода аварии,Thiếu nước,Ala Manq. Eau,Ala falta agua,إنذار نقص
+Lang_FANSYS,风机系统,Fan System,Вент. Системы,Hệ thống quạt,Système Vent,Sistema Vent,نظام المروحة
+Lang_Line,列,Column,Колонна,Cột,Colonne,Columna,قائمة
+Lang_Storey,层,Floor,Этаж,Tầng,Étage,Piso,طبقة
+Lang_W_line_Comm,水线采集%d,Water Collectors,ватерлиния Коллектор,Nước Dòng Số bộ sưu,Ligne Eau Collecteur,Línea agua Recolect.,مجمع المياه
+Lang_Left,左,L,Л,T,G,I,غادر
+Lang_Right,右,R,П,P,D,D,يمين
+Lang_Temp_ADJ,调整温度,Temp ADJ,Темп.Калиб.,Nhiệt chỉnh,Temp.Calib.,Temp.Calib.,ضبط درجة الحرارة
+Lang_Interval_Fan,风机间隔时间(S):,Fan Interval(S):,Вент Интервал(S):,Quạt Khoảng(S):,Vent Interv.(S):,Vent Interv.(S):,وقت الفاصل الزمني للمروحة (S):
+Lang_Delay_Min,延迟(分):,Delay(min):,задержки(мин):,Thời gian trễ(phút):,Délai(min):,Retardo(min):,تأخير (دقيقة):
+Lang_Inlet_Zone,小窗分区,Inlet Zone,Прит.Разделы,Cửa vực,Inlet Zonage,Inlet División,قسم نافذة صغير
+Lang_Inlet_Select,小窗选择,Inlet Select,Прит.Выбор,Cửa Chọn,Inlet Sélect.,Inlet Selecc.,اختيار نافذة صغيرة
+Lang_On_Diff,启动偏差:,On Diff.,Отк.Сниж.,Mở Dừng,On Arrêt,Abrir parada,انحراف بدء التشغيل:
+Lang_Start_Lv,开始级别,Start Lv.,начала Слой,Bắt đầu Lớp.,Ouvrir Lv.,Inicio Nivel,مستوى البداية
+Lang_Stop_Lv,停止级别,Stop Lv.,Ост.Слой,Dừng Lớp.,Arrêt Lv.,Parar Nivel,مستوى التوقف
+Lang_Temp_Dis_Check,选定温度没有全部启用\r\n请检查!,"Selected temp are not enabled, please check!",Не все выбранные темп.\r\n включены!,"Nhiệt độ đã chọn không được KH, \r\nvui lòng kiểm tra!","Temp. sélectionnées non activées,\r\n vérifiez s'il vous plaît!","Temp. seleccionadas no están activadas,\r\n¡por favor revise!",لم يتم تمكين كافة درجات الحرارة المحددة\r\nالرجاء التحقق!
+Lang_Fan_Detection,风机检测,Fan Detection,Вент.Обнаружение,Quạt Phát hiện,Vent.Détection,Ventil.Detección,كشف المروحة
+Lang_Offset_Current,偏差电流:,Offset:,Смещение:,Bù Dắp:,Décalage:,Desplazamiento:,الانحراف الحالي:
+Lang_Ammeter_Addr,电表地址:,Address:,Адрес:,Địa chỉ:,Adresse:,Direcc.:,عنوان العداد:
+Lang_Back_Wall,后山墙,Back wall,Задняя стена,Tường sau,Mur arrière,Pared trasera,الجدار الخلفي
+Lang_Left_Side_Wall,左侧墙,Left Side Wall,Левая стена,Tường bên trái,Mur gauche,Pared izquierda,الجدار الأيسر
+Lang_Right_Side_Wall,右侧墙,Right Side Wall,Правая стена,Tường bên phải,Mur droite,Pared derecha,الجدار الأيمن
+Lang_Total_of_Tier,总层数:,Total of Tier:,Общ. кол-во эт.,Tổng số tầng: ,Nom total d’étages:,Núm total de pisos:,إجمالي الطوابق:
+Lang_Num_each_Tier,每层数量:,Num. each Tier:,Количество на этаже:,Số lượng mỗi tầng:,Quantité par étage:,Cantidad por piso:,الكمية لكل طبقة:
+Lang_Fans_Dis_Check,选定电机没有全部启用\r\n请检查!,"Selected fans are not enabled, please check!",Не все выбранные вентиляторы\r\n включены!,"Quạt độ đã chọn không được KH, \r\nvui lòng kiểm tra!","Vent. sélectionnées non activées,\r\n vérifiez s'il vous plaît!","Ventil. seleccionadas no están activadas,\r\n¡por favor revise!",لم يتم تمكين كافة المحركات المحددة\r\nالرجاء التحقق!
+Lang_Dev_Addr,设备地址,Address,Адрес,Địa chỉ,Adresse,Direcc.,عنوان الجهاز
+Lang_Exh_Fan,调速风机,Exh.Fan,Регу.Вент.,Biến.Quạt,Exh.Vent.,Exh.Ventil.,مروحة تنظيم السرعة
+Lang_Water_Flow_ALA,水流量报警,Water flow alarm,Сигнализация воды,Lỗi lưu lượng,Ala. débit,Ala. caudal,إنذار تدفق الماء
+Lang_Max_Flow,最大流量(L/Min):,Max Overflow(L/Min):,Мак. расход(L/Min):,Lưu lượng tối đa(L/Min):,Débit maximal(L/Min):,Caudal máximo(L/Min):, أقصى تدفق (ل/د):
+Lang_Min_Flow,最小流量(L/Min):,Min Overflow(L/Min):,Мин. расход(L/Min):,Lưu lượng tối thiểu(L/Min):,Débit minimal(L/Min):,Caudal mínimo(L/Min):,أدنى تدفق (ل/د):
+Lang_Detection_Cycle,检测周期(Min):,Detection cycle(Min):,Период обнаружения(Min):,Chu kỳ phát hiện(Min):,Cycle de détection(Min):,Ciclo de detección(Min):,فترة الكشف (دقيقة):
+Lang_Collecters,采集器,Collectors,Коллектор,Số bộ sưu,Collecteur,Recolect.,جامع
+Lang_TestMode,测试模式:,Test Mode:,Тест.Режим:,Chế độ kiểm tra,Test Mode:,Prueba Modo trabajo:,وضع الاختبار:
+Lang_Degree_NP_C,静压开度控制,S.P. Degree Ctrl,Кон. отк. Стат. дав.,SP Độ mở Kiểm,Contr. SP Degré,Ctrl.SP Apert.,التحكم في فتح الضغط الثابت
+Lang_Priority_SP_CL,静压优先控制,SP Priority Ctrl,SP Приоритет Конт.,SP Ưu tiên Kiểm,Contr. SP Priorité,Ctrl.SP Prioridad,التحكم في أولوية الضغط الثابت
+Lang_Curt_Select,小窗选择,Curt Select,Тунне.Выбор,Cửa sổ Chọn,Baffle Sélect.,Curt Selecc.,اختيار نافذة صغيرة
+Lang_Front_Wall,前山墙,Front Wall,Передний торец,Tường trước,Mur avant,Pared delantera,الجدار الأمامي
+Lang_Num,数量:,Num.:,Числ.:,Số:,Nbre:,Núm.:,كمية:
+Lang_Inlet_Dis_Check,选定风窗没有全部启用\r\n请检查!,"Selected Inlet are not enabled, please check!",Не все выбранные Тунне.\r\n включены!,"Cửa sổ độ đã chọn không được KH, \r\nvui lòng kiểm tra!","Baffle sélectionnées non activées,\r\n vérifiez s'il vous plaît!","Curt seleccionadas no están activadas,\r\n¡por favor revise!",لم يتم تمكين كافة الإطارات المحددة\r\nالرجاء التحقق!
+Lang_Cool_Dis_Check,选定湿帘没有全部启用\r\n请检查!,"Selected Cool are not enabled, please check!",Не все выбранные Мокр\r\n включены!,"Rèướt độ đã chọn không được KH, \r\nvui lòng kiểm tra!","Cool sélectionnées non activées,\r\n vérifiez s'il vous plaît!","Húmedo seleccionadas no están activadas,\r\n¡por favor revise!",لم يتم تمكين كافة الستائر المبللة المحددة\r\nالرجاء التحقق!
+Lang_JDQ_On,断开,Open,Отк.,Mở,Ouv.,Abrir,قطع الاتصال
+Lang_JDQ_Off,吸合,Close,Гуа.,Đóng,Ferm.,Cerrar,غلق
+Lang_Save_param_S,保存参数成功!,Save param succeeded!,Успешное сохранение параметров!,Lưu tham số thành công!,Param enregistrés avec succès!,Parám guardados exitosamente!,تم حفظ المعلمات بنجاح!
+Lang_Save_param_F,保存参数失败!,Save param failed!,Не удалось сохранить параметры!,Lưu tham số thất bại!,Échec de l’enregistrement des paramètres!,Error al guardar los parámetros!,فشل في حفظ المعلمات!
+Lang_Import_param_S,导入参数成功!,Import Param Succeeded!,Импорт параметров прошел успешно!,Tham số nhập thành công!,Paramètres importés avec succès!,Parámetros importados exitosamente!,تم استيراد المعلمات بنجاح!
+Lang_Import_param_F,导入参数失败!,Import param failed!,Сбой параметров импорта!,Thất bại khi nhập tham số!,Échec de l’importation des paramètres!,Error al importar los parámetros!,فشل استيراد المعلمات!
+Lang_Config,配置,Config,конф.,Cấu hình,Paramètres,Configuración,إعدادات
+Lang_File_Failed,打开文件失败!,Failed to open file!,Не удалось открыть файл!,Không thể mở tệp!,Échec de l’ouverture du fichier! ,No se pudo abrir el archivo!,فشل في فتح الملف!
+Lang_Sound_Touch,触摸声音:,Sound Touch:,Звук при прикосновении:,Âm thanh chạm:,Son du toucher:,Sonido táctil:,صوت اللمس:
+Lang_Versions,版本信息,Versions,Версия,Phiên bản,Version,Versión,معلومات الإصدار
+Lang_System_Set,系统设置,System Set,Системные настройки,Cài đặt hệ thống,Param du système,Config del sistema,اعدادات النظام
+Lang_WaterL,缺水,Shortage-W,Нет Вода,Báo động,Manq. Eau,Falta Agua,نقص في المياه
+Lang_PriorityCtrl,优先控制,Priority,Приоритет,Ưu tiên,Priorité,Prioritario,الأولوية
+Lang_WeightSet,称重管理,Weight Set,Упр. взвешив.,QL cân,Gest. Pesée,Gest. Peso,إدار. الوزن
+Lang_TotalWeight,总重量,TotWt,Общий в.,TL tổng,Poids total,Peso total,وزن كامل
+Lang_AverageWeight,均重,AvgWt,Средний в.,TL trung bình,Poids moy.,Peso prom.,وزن متوس.
+Lang_GroupNum,数量,Qty.,Кол-во,SL,Qté.,Cantidad,كمية
+Lang_GroupNumAuto,自动更新数量,Auto Qty. Update,Авт. обнов. кол-ва,Cập nhật SL tự động,Mise à jour auto. qté.,Act. cant. auto.,تحديث كمية تلق.
+Lang_Peel,去皮,Peel,Тара,Bỏ tara,Tara,Tara,تارة
+Lang_ADJWeight,校准重量,ADJ Weight,Калибровка,Hiệu chuẩn,Calibration,Calibración,معايرة الوزن
+Lang_REMIND11,确认进行校准,ADJ Confirm,Подтв. Калибровку,Xác nhận hiệu chuẩn,Confirmer calib.,Confirmar calib.,تأكيد المعايرة
+Lang_REMIND12,确认进行去皮,Peel Confirm,Подтв. Тару,Xác nhận bỏ tara,Confirmer tara,Confirmar tara,تأكيد التارة
+Lang_Peel_Sucess,去皮成功,Peel Sucessful,Тара успешна,Bỏ tara thành công,Tara réussie,Tara exitosa,نجاح التارة
+Lang_Peel_Failed,去皮失败,Peel Failed,Тара неуспешна,Bỏ tara thất bại,Tara échouée,Tara fallida,فشل التارة
+Lang_WeightOffline,称重离线,Weight Offline,Взвешивание офлайн,Cân ngoại tuyến,Pesage hors ligne,Pesaje sin conexión,وزن خارج اتصال
+Lang_MinFreq,最小频率,Min Freq,Мин. Частота,Tần số tối thiểu,Fréq. min.,Frec. mín.,تردد أدنى
+Lang_NC_Run,常闭,NC,НЗ,Đóng,NC,NC,قريب
+Lang_NO_Run,常开,NO,НО,Mở,NO,NO,فتح .
+Lang_INVAC_ERR ,进气静压故障,In.Air SP ERR,Вну.Воз. SP Сбой,Trong.khí SP Lỗi,In.Air SP ERR,Adm. Aire Falla SP,مدخل الهواء عطل ض
+Lang_INVAC_H,进气高压报警,In.Air SP HA,Вну.Воз. высок SP,Trong.khí SP cao,In.Air SP HA,Adm. Aire Alta SP,ضغط مرتفع مدخل الهواء
+Lang_INVAC_L,进气低压报警,In.Air SP LA,Вну.Воз. низк SP,Trong.khí SP Thấp,In.Air SP BA,Adm. Aire Baja SP,ضغط الدخول منخفض
+Lang_OUTVAC_ERR,排气静压故障,Out.Air SP Err,Вы.Воз. SP Сбой,Ra.khí SP Lỗi,Out.Air SP ERR,Esc. Aire Falla SP,العادم عطل ض
+Lang_OUTVAC_H,排气高压报警,Out.Air SP HA,Вы.Воз. высок SP,Ra.khí SP cao,Out.Air SP HA,Esc. Aire Alta SP,ضغط مرتفع العادم
+Lang_OUTVAC_L,排气低压报警,Out.Air SP LA,Вы.Воз. низк SP,Ra.khí SP Thấp,Out.Air SP BA,Esc. Aire Baja SP,ضغط العادم منخفض
+Lang_Heatrec_eff,热回收效率,HeatRec EFF,Настр.тепл. EFF,Cài đặt nhiệt. EFF,Régl. chaleur. EFF,Rec. calor EFF,EFF استرجاع الحرارة
+Lang_Fan_Err_Alarm,风机故障报警,Fan Err Alarm,Ошибка вент.,Lỗi quạt,Erreur ventilateur,Error ventilador,خطأ المروحة
+Lang_Change_Address,修改地址,Change Address,Сменить адрес,Đổi địa chỉ,Changer adresse,Cambiar dirección,تغيير العنوان
+Lang_Read_Address,读取地址,Get Address,Получить адрес,Lấy địa chỉ,Obtenir adresse,Obtener dirección,الحصول على العنوان
+Lang_Read_Fail,读取失败,Failed,Ошибка,Lỗi,Échec,Fallo,فشل
+Lang_Read_Success,读取成功,Success,Успех,Thành công,Succès,Éxito,نجاح
+Lang_Fan_Num,风机数量,Fan Num,Кол-во вент.,Số quạt,Nb ventil.,Núm. ventil.,عدد المراوح
+Lang_Heat_ERR,加热故障,Heat Error,Ошибка нагрева,Lỗi sưởi,Erreur chauffe,Error calor,خطأ تسخين
+Lang_Heat_Alarm_Time,加热超时报警,Heat Overtime,Перегрев,Quá thời gian,Surchauffe,Exceso tiempo,تجاوز وقت
+Lang_Time_Min,min,min,мин,p,min,min,د
+Lang_Time_Sec,s,s,с,gy,s,s,ث

@@ -1,0 +1,4 @@
+interface:
+  display_name: "嵌入式交付文档"
+  short_description: "依据仓库事实生成五份交付文档，并整理可审核的 PR 标题与说明"
+  default_prompt: "Use $embedded-release-delivery to generate or update five delivery documents and prepare PR copy from repository evidence."
